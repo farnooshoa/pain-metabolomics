@@ -1,0 +1,5 @@
+target_A,age_oldVsYoung,group_PHNvsHZHL,pain_HighVsLow,severity_SevereVsOther
+age_oldVsYoung,30,30,30,30
+group_PHNvsHZHL,30,30,30,30
+pain_HighVsLow,30,30,30,30
+severity_SevereVsOther,30,30,30,30

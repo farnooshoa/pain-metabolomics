@@ -1,0 +1,31 @@
+enzyme_id,enzyme_name,enzyme_score,n_reactions,single_rxn_id,equation
+ec:3.5.3.2,guanidinoacetase,2.0359531870299746e-06,1,R00775,
+ec:3.5.1.74,chenodeoxycholoyltaurine hydrolase,2.002644155606732e-06,1,R03977,Taurochenodeoxycholate + H2O <=> Chenodeoxycholate + Taurine
+ec:1.13.11.65,carotenoid isomerooxygenase,1.956411176560559e-06,1,R10192,
+ec:2.4.1.276,zeaxanthin glucosyltransferase,1.956411176560559e-06,1,R07574,
+ec:1.3.98.1,dihydroorotate dehydrogenase (fumarate),1.954280690190161e-06,1,R01867,
+ec:3.5.3.3,creatinase,1.951164653428017e-06,1,R01566,
+ec:2.1.1.5,betaine---homocysteine S-methyltransferase,1.9412560644421544e-06,1,R02821,
+ec:6.3.2.1,pantoate---beta-alanine ligase (AMP-forming),1.909347224867856e-06,1,R02473,
+ec:3.5.1.22,pantothenase,1.909347224867856e-06,1,R02474,
+ec:1.1.1.98,(R)-2-hydroxy-fatty-acid dehydrogenase,1.8988677113460469e-06,1,R03021,(R)-2-Hydroxystearate + NAD+ <=> 2-Oxooctadecanoic acid + NADH + H+
+ec:1.1.1.66,omega-hydroxydecanoate dehydrogenase,1.8839989327896336e-06,1,R03886,
+ec:3.4.13.5,Xaa-methyl-His dipeptidase,1.4766967376493116e-06,1,R03288,beta-Alanyl-N(pi)-methyl-L-histidine + H2O <=> beta-Alanine + N(pi)-Methyl-L-histidine
+ec:2.4.2.15,guanosine phosphorylase,1.4516297898816893e-06,1,R02147,Guanosine + Orthophosphate <=> Guanine + alpha-D-Ribose 1-phosphate
+ec:4.1.2.5,L-threonine aldolase,1.4456466838091217e-06,1,R00751,L-Threonine <=> Glycine + Acetaldehyde
+ec:1.14.14.54,phenylacetate 2-hydroxylase,1.4188466739603095e-06,1,R05487,
+ec:4.1.3.1,isocitrate lyase,1.414729860080738e-06,1,R00479,
+ec:5.2.1.1,maleate isomerase,1.4055055179599015e-06,1,R01087,
+ec:3.5.4.3,guanine deaminase,1.390263785625706e-06,1,R01676,
+ec:1.5.3.1,sarcosine oxidase (formaldehyde-forming),1.388946891381077e-06,1,R00610,
+ec:1.5.8.3,sarcosine dehydrogenase,1.388946891381077e-06,1,R00611,
+ec:2.1.1.20,glycine N-methyltransferase,1.388946891381077e-06,1,R00367,S-Adenosyl-L-methionine + Glycine <=> S-Adenosyl-L-homocysteine + Sarcosine
+ec:2.6.1.64,glutamine---phenylpyruvate transaminase,1.383090790296954e-06,1,R01375,
+ec:3.7.1.2,fumarylacetoacetase,1.3801683100283656e-06,1,R01364,
+ec:2.6.1.73,methionine---glyoxylate transaminase,1.3737215506835146e-06,1,R00652,
+ec:6.3.2.44,pantoate---beta-alanine ligase (ADP-forming),1.3675435934110855e-06,1,R10821,
+ec:2.6.1.28,tryptophan---phenylpyruvate transaminase,1.3674423211286018e-06,1,R01376,
+ec:3.2.2.7,adenosine nucleosidase,1.3655817599504835e-06,1,R01245,Adenosine + H2O <=> Adenine + D-Ribose
+ec:2.3.1.188,omega-hydroxypalmitate O-feruloyl transferase,1.3650109769421773e-06,1,R09106,
+ec:3.5.2.9,5-oxoprolinase (ATP-hydrolysing),1.3603520628146194e-06,1,R00251,
+ec:3.5.3.7,guanidinobutyrase,1.3602198743686025e-06,1,R01990,

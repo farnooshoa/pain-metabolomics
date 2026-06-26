@@ -1,0 +1,663 @@
+2026-04-16 10:49:41,622 - INFO - Loaded Excel file: starting_template.csv
+2026-04-16 10:49:41,622 - INFO - Raw data shape: (48, 1602)
+2026-04-16 10:49:41,623 - INFO - Filtered samples: 36 (High: 26, Low: 10)
+2026-04-16 10:49:41,624 - INFO - Groups found: Counter({'HZ_HL': 24, 'PHN': 12})
+2026-04-16 10:49:41,626 - INFO - Excluding pain score column from features: 'Pain Score'
+2026-04-16 10:49:41,863 - INFO - Identified 1592 metabolite columns
+2026-04-16 10:49:42,150 - INFO - Excluded 268 xenobiotic metabolites, 1324 endogenous remaining
+2026-04-16 10:49:42,150 - INFO - Excluded xenobiotics (first 10): ['gluconate', 'phytanate', 'salicylate', 'cotinine', 'caffeine', 'methyl indole-3-acetate', 'fluoxetine', '4-acetamidophenol', 'naproxen', 'ibuprofen']
+2026-04-16 10:49:42,150 - INFO - Excluded 305 unidentified X- metabolites, 1019 identified endogenous remaining
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 3 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:49:42,163 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:49:43,748 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:49:44,485 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:49:45,440 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:49:46,264 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:49:47,074 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:49:48,051 - INFO - n=12 rep=1/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 3 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:49:48,057 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:49:48,859 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:49:49,746 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:49:50,714 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:49:51,846 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:49:52,982 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:49:54,132 - INFO - n=12 rep=2/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 3 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:49:54,138 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:49:55,116 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:49:56,095 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:49:57,209 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:49:58,580 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:49:59,632 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:00,569 - INFO - n=12 rep=3/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 3 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:50:00,575 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:01,331 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:02,442 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:03,469 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:04,778 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:05,936 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:07,290 - INFO - n=12 rep=4/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 3 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:50:07,298 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:08,436 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:09,429 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:10,554 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:11,879 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:13,286 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:14,698 - INFO - n=12 rep=5/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 3 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:50:14,706 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:15,809 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:16,964 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:18,183 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:19,601 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:20,893 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:22,206 - INFO - n=12 rep=6/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 3 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:50:22,212 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:23,333 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:24,420 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:25,387 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:26,540 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:27,761 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:29,098 - INFO - n=12 rep=7/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 3 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:50:29,104 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:30,044 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:31,000 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:31,964 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:33,127 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:34,094 - INFO - Graph: 12 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:35,630 - INFO - n=12 rep=8/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 5 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:50:35,636 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:36,610 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:37,968 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:39,320 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:40,490 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:41,656 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:42,845 - INFO - n=18 rep=1/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 5 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:50:42,851 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:43,822 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:44,988 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:46,153 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:47,320 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:48,482 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:49,768 - INFO - n=18 rep=2/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 5 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:50:49,776 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:50,864 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:52,034 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:53,210 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:54,386 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:55,558 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:56,724 - INFO - n=18 rep=3/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 5 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:50:56,730 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:50:57,712 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:50:58,888 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:00,063 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:01,222 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:02,377 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:03,465 - INFO - n=18 rep=4/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 5 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:51:03,473 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:51:04,621 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:05,884 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:07,068 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:08,257 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:09,449 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:10,630 - INFO - n=18 rep=5/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 5 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:51:10,636 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:51:11,631 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:12,818 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:14,753 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:15,830 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:16,862 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:17,887 - INFO - n=18 rep=6/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 5 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:51:17,893 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:51:18,849 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:20,009 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:21,154 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:22,306 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:23,281 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:24,994 - INFO - n=18 rep=7/8 AUC=nan
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/model_selection/_split.py:811: UserWarning: The least populated class in y has only 5 members, which is less than n_splits=6.
+  warnings.warn(
+2026-04-16 10:51:25,000 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+/home/ryu11/.conda/envs/flashtalk/lib/python3.10/site-packages/sklearn/metrics/_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+2026-04-16 10:51:25,959 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:26,922 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:27,886 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:29,055 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:30,217 - INFO - Graph: 18 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:31,393 - INFO - n=18 rep=8/8 AUC=nan
+2026-04-16 10:51:31,400 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:32,589 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:33,775 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:34,771 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:35,759 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:36,951 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:38,860 - INFO - n=24 rep=1/8 AUC=0.514
+2026-04-16 10:51:38,866 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:40,021 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:40,986 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:42,138 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:43,287 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:44,239 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:45,752 - INFO - n=24 rep=2/8 AUC=0.431
+2026-04-16 10:51:45,758 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:47,684 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:48,861 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:50,026 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:51,173 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:52,337 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:53,476 - INFO - n=24 rep=3/8 AUC=0.806
+2026-04-16 10:51:53,482 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:54,642 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:55,803 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:57,165 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:58,149 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:51:59,313 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:00,453 - INFO - n=24 rep=4/8 AUC=0.639
+2026-04-16 10:52:00,459 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:01,629 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:03,367 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:04,555 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:05,716 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:06,867 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:08,023 - INFO - n=24 rep=5/8 AUC=0.722
+2026-04-16 10:52:08,028 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:09,345 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:10,530 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:11,704 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:12,880 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:14,062 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:15,229 - INFO - n=24 rep=6/8 AUC=0.722
+2026-04-16 10:52:15,235 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:16,204 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:17,349 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:18,694 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:19,849 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:21,404 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:23,163 - INFO - n=24 rep=7/8 AUC=0.639
+2026-04-16 10:52:23,169 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:24,342 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:25,502 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:26,661 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:27,996 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:30,027 - INFO - Graph: 24 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:31,384 - INFO - n=24 rep=8/8 AUC=0.903
+2026-04-16 10:52:31,393 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:32,559 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:33,732 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:34,904 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:36,047 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:37,372 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:38,566 - INFO - n=30 rep=1/8 AUC=0.722
+2026-04-16 10:52:38,574 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:40,603 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:42,699 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:44,277 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:45,661 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:47,046 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:48,412 - INFO - n=30 rep=2/8 AUC=0.806
+2026-04-16 10:52:48,420 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:49,795 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:52,081 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:53,265 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:54,448 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:55,825 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:56,997 - INFO - n=30 rep=3/8 AUC=0.833
+2026-04-16 10:52:57,003 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:58,080 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:52:59,144 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:00,202 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:01,383 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:03,319 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:04,672 - INFO - n=30 rep=4/8 AUC=0.736
+2026-04-16 10:53:04,678 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:05,844 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:07,112 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:08,489 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:09,866 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:11,230 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:12,398 - INFO - n=30 rep=5/8 AUC=0.847
+2026-04-16 10:53:12,405 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:13,577 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:14,741 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:16,676 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:18,248 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:19,439 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:20,625 - INFO - n=30 rep=6/8 AUC=0.722
+2026-04-16 10:53:20,631 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:21,823 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:23,011 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:24,398 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:25,975 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:27,560 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:28,735 - INFO - n=30 rep=7/8 AUC=0.639
+2026-04-16 10:53:28,741 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:30,653 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:32,598 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:33,590 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:34,978 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:36,145 - INFO - Graph: 30 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:37,322 - INFO - n=30 rep=8/8 AUC=0.708
+2026-04-16 10:53:37,328 - INFO - Graph: 36 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:38,509 - INFO - Graph: 36 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:39,705 - INFO - Graph: 36 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:40,895 - INFO - Graph: 36 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:42,089 - INFO - Graph: 36 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:43,365 - INFO - Graph: 36 samples, 1019 metabolites, 966 enzymes
+2026-04-16 10:53:44,513 - INFO - n=36 rep=1/8 AUC=0.821
+2026-04-16 10:53:44,525 - INFO - Summary:
+2026-04-16 10:53:44,527 - INFO -     n  auc_mean   auc_std  n_reps
+0  12       NaN       NaN       0
+1  18       NaN       NaN       0
+2  24  0.671875  0.151953       8
+3  30  0.751736  0.070990       8
+4  36  0.820833       NaN       1

@@ -1,0 +1,967 @@
+enzyme_id,enzyme_name,enzyme_score,score_std,supporting_metabolites,reactions,pathways,evidence_counts,selection_frequency
+ec:2.4.2.1,purine-nucleoside phosphorylase,5.849215443128953e-05,3.785678182705925e-05,guanine; adenine; adenosine; nicotinamide; inosine,R01561: Adenosine + Orthophosphate <=> Adenine + alpha-D-Ribose 1-phosphate; R02557: Deoxyadenosine + Orthophosphate <=> Adenine + 2-Deoxy-D-ribose 1-phosphate; R02748: Deoxyinosine + Orthophosphate <=> Hypoxanthine + 2-Deoxy-D-ribose 1-phosphate,path:map02010; path:map04080; path:map04977,9,6
+ec:3.2.2.1,purine nucleosidase,5.30789809507639e-05,3.4027388265045445e-05,guanine; adenine; adenosine; inosine; guanosine,R01245: Adenosine + H2O <=> Adenine + D-Ribose; R01770: Inosine + H2O <=> Hypoxanthine + D-Ribose; R02143: Xanthosine + H2O <=> Xanthine + D-Ribose,path:map02010; path:map04080; path:map01065,8,6
+ec:3.5.1.24,choloylglycine hydrolase,5.1825882364331366e-05,3.222822388957652e-05,taurodeoxycholate; chenodeoxycholate; glycodeoxycholate; taurocholate; glycochenodeoxycholate,R04487: Taurodeoxycholate + H2O <=> Deoxycholic acid + Taurine; R02797: Taurocholate + H2O <=> Cholic acid + Taurine; R03977: Taurochenodeoxycholate + H2O <=> Chenodeoxycholate + Taurine,path:map02010; path:map04080; path:map00430,10,6
+ec:3.1.3.5,5'-nucleotidase,4.964329760309232e-05,3.158072678403608e-05,adenosine; 2'-deoxyuridine; inosine; phosphate; uridine,R01126: IMP + H2O <=> Inosine + Orthophosphate; R02102: dUMP + H2O <=> Deoxyuridine + Orthophosphate; R02719: Xanthosine 5'-phosphate + H2O <=> Xanthosine + Orthophosphate,path:map02010; path:map04080; path:map01065,8,6
+ec:2.8.2.14,bile-salt sulfotransferase,4.3976175993773415e-05,2.844711418152237e-05,lithocholate sulfate (1); taurolithocholate 3-sulfate; lithocholic acid sulfate (2); glycolithocholate; cholesterol,"R03987: 3'-Phosphoadenylyl sulfate + Taurolithocholate <=> Adenosine 3',5'-bisphosphate + Taurolithocholate sulfate; R08977: Cholesterol + 3'-Phosphoadenylyl sulfate <=> Cholesterol sulfate + Adenosine 3',5'-bisphosphate; R07287: 3'-Phosphoadenylyl sulfate + Glycolithocholate <=> Adenosine 3',5'-bisphosphate + Sulfoglycolithocholate",path:map00996; path:map04977; path:map05217,8,6
+ec:1.2.1.3,aldehyde dehydrogenase (NAD+),3.611974376734112e-05,2.2122597772167265e-05,4-imidazoleacetate; ethylmalonate; 4-acetamidobutanoate; indoleacetate; glycerate,R00904: 3-Aminopropanal + NAD+ + H2O <=> beta-Alanine + NADH + H+; R01752: D-Glyceraldehyde + NAD+ + H2O <=> D-Glycerate + NADH + H+; R04065: Imidazole-4-acetaldehyde + NAD+ + H2O <=> Imidazole-4-acetate + NADH + H+,path:map00997; path:map00630; path:map01200,8,6
+ec:2.6.1.1,aspartate transaminase,3.309766713855396e-05,2.1122554133454622e-05,4-hydroxyphenylpyruvate; glutamate; alpha-ketoglutarate; tyrosine; cysteine sulfinic acid,R00694: L-Phenylalanine + 2-Oxoglutarate <=> Phenylpyruvate + L-Glutamate; R02619: 3-Sulfino-L-alanine + 2-Oxoglutarate <=> 3-Sulfinylpyruvate + L-Glutamate; R00734: L-Tyrosine + 2-Oxoglutarate <=> 3-(4-Hydroxyphenyl)pyruvate + L-Glutamate,path:map00360; path:map04068; path:map01070,6,6
+ec:3.1.6.2,steryl-sulfatase,3.091589868853581e-05,2.089475863666771e-05,androsterone sulfate; cholesterol; epiandrosterone sulfate; pregnenolone sulfate; cholesterol sulfate,R03404: Dehydroepiandrosterone sulfate + H2O <=> Dehydroepiandrosterone + Sulfate; R08941: Cholesterol + Sulfate <=> Cholesterol sulfate + H2O; R08942: Pregnenolone + Sulfate <=> 3beta-Hydroxypregn-5-en-20-one sulfate + H2O,path:map00996; path:map04977; path:map05217,5,6
+ec:2.8.2.2,alcohol sulfotransferase,3.091589868853581e-05,2.089475863666771e-05,androsterone sulfate; cholesterol; epiandrosterone sulfate; pregnenolone sulfate; cholesterol sulfate,"R08977: Cholesterol + 3'-Phosphoadenylyl sulfate <=> Cholesterol sulfate + Adenosine 3',5'-bisphosphate; R08978: Pregnenolone + 3'-Phosphoadenylyl sulfate <=> 3beta-Hydroxypregn-5-en-20-one sulfate + Adenosine 3',5'-bisphosphate; R03405: 3'-Phosphoadenylyl sulfate + Dehydroepiandrosterone <=> Adenosine 3',5'-bisphosphate + Dehydroepiandrosterone sulfate",path:map00996; path:map04977; path:map05217,5,6
+ec:1.2.3.1,aldehyde oxidase,2.994424567867659e-05,1.7291278924234788e-05,ethylmalonate; pyridoxal; gentisate; 1-methylnicotinamide; N1-methyl-2-pyridone-5-carboxamide,"R01709: Pyridoxal + Oxygen + H2O <=> 4-Pyridoxate + Hydrogen peroxide; R03871: Methylmalonate + Hydrogen peroxide <=> (S)-Methylmalonate semialdehyde + Oxygen + H2O; R02657: 2,5-Dihydroxybenzoate + Hydrogen peroxide <=> Gentisate aldehyde + Oxygen + H2O",path:map00380; path:map00362; path:map01120,7,6
+ec:3.1.3.6,3'-nucleotidase,2.7757300191347256e-05,1.8053505452641447e-05,cytidine; adenosine; uridine; guanosine,R02370: 3'-CMP + H2O <=> Cytidine + Orthophosphate; R01562: 3'-AMP + H2O <=> Adenosine + Orthophosphate; R02148: Guanosine 3'-phosphate + H2O <=> Guanosine + Orthophosphate,path:map04923; path:map00670; path:map02010,4,6
+ec:1.17.3.2,xanthine oxidase,2.7694454998715834e-05,1.8524499151340223e-05,hydantoin-5-propionate; adenine; urate; hypoxanthine; xanthine,"R01769: Hypoxanthine + Oxygen + H2O <=> Xanthine + Hydrogen peroxide; R07978: Theobromine + H2O + Oxygen <=> 3,7-Dimethyluric acid + Hydrogen peroxide; R07942: 1-Methylxanthine + H2O + Oxygen <=> 1-Methyluric acid + Hydrogen peroxide",path:map00340; path:map01120; path:map00230,5,6
+ec:1.4.3.2,L-amino-acid oxidase,2.7307872833286954e-05,1.831360732889957e-05,tryptophan; methionine; 4-hydroxyphenylpyruvate; tyrosine; phenylpyruvate,R00648: L-Methionine + H2O + Oxygen <=> 4-Methylthio-2-oxobutanoic acid + Ammonia + Hydrogen peroxide; R00677: L-Tryptophan + H2O + Oxygen <=> Indolepyruvate + Ammonia + Hydrogen peroxide; R00729: L-Tyrosine + H2O + Oxygen <=> 3-(4-Hydroxyphenyl)pyruvate + Ammonia + Hydrogen peroxide,path:map00997; path:map00999; path:map00360,5,6
+ec:2.3.1.65,bile acid-CoA:amino acid N-acyltransferase,2.719676196908997e-05,1.7629987449412158e-05,taurocholate; glycochenodeoxycholate; glycocholate; taurochenodeoxycholate; taurine,R03718: Choloyl-CoA + Glycine <=> CoA + Glycocholate; R08744: Chenodeoxycholoyl-CoA + Glycine <=> Glycochenodeoxycholate + CoA; R03720: Choloyl-CoA + Taurine <=> CoA + Taurocholate,path:map02010; path:map04080; path:map00430,5,6
+ec:2.4.2.2,pyrimidine-nucleoside phosphorylase,2.6823582764968376e-05,1.785282082687913e-05,uracil; cytosine; 2'-deoxyuridine; uridine; cytidine,R02296: Cytidine + Orthophosphate <=> Cytosine + alpha-D-Ribose 1-phosphate; R01876: Uridine + Orthophosphate <=> Uracil + alpha-D-Ribose 1-phosphate; R02484: Deoxyuridine + Orthophosphate <=> Uracil + 2-Deoxy-D-ribose 1-phosphate,path:map00770; path:map02010; path:map00240,5,6
+ec:4.1.1.15,glutamate decarboxylase,2.607912277471741e-05,1.669518100533039e-05,taurine; glutamate; hypotaurine; cysteine sulfinic acid; beta-alanine,R00489: L-Aspartate <=> beta-Alanine + CO2; R01682: L-Cysteate <=> Taurine + CO2; R02466: 3-Sulfino-L-alanine <=> Hypotaurine + CO2,path:map02010; path:map04720; path:map00630,5,6
+ec:1.17.1.4,xanthine dehydrogenase,2.350238784326017e-05,1.6079547524724943e-05,adenine; xanthine; urate; hypoxanthine,R01768: Hypoxanthine + NAD+ + H2O <=> Xanthine + NADH + H+; R02103: Xanthine + NAD+ + H2O <=> Urate + NADH + H+; R12987: Adenine + NAD+ + H2O <=> 8-Hydroxyadenine + NADH + H+,path:map01120; path:map00230; path:map01100,4,6
+ec:2.4.2.4,thymidine phosphorylase,2.269838451855204e-05,1.4950726564761893e-05,guanine; 2'-deoxyuridine; uracil; hypoxanthine,R02748: Deoxyinosine + Orthophosphate <=> Hypoxanthine + 2-Deoxy-D-ribose 1-phosphate; R02484: Deoxyuridine + Orthophosphate <=> Uracil + 2-Deoxy-D-ribose 1-phosphate; R01969: Deoxyguanosine + Orthophosphate <=> Guanine + 2-Deoxy-D-ribose 1-phosphate,path:map00770; path:map02010; path:map00230,4,6
+ec:3.4.13.20,beta-Ala-His dipeptidase,2.230774355517804e-05,1.4379402199919885e-05,1-methylhistidine; imidazole propionate; 3-methylhistidine; beta-alanine,R03288: beta-Alanyl-N(pi)-methyl-L-histidine + H2O <=> beta-Alanine + N(pi)-Methyl-L-histidine; R01166: Carnosine + H2O <=> beta-Alanine + L-Histidine; R01992: Homocarnosine + H2O <=> 4-Aminobutanoate + L-Histidine,path:map02010; path:map00470; path:map00640,4,6
+ec:6.3.2.11,carnosine synthase,2.230774355517804e-05,1.4379402199919885e-05,1-methylhistidine; imidazole propionate; 3-methylhistidine; beta-alanine,R00910: ATP + L-Lysine + beta-Alanine <=> ADP + Orthophosphate + beta-Alanyl-L-lysine; R03286: ATP + N(pi)-Methyl-L-histidine + beta-Alanine <=> ADP + Orthophosphate + beta-Alanyl-N(pi)-methyl-L-histidine; R01164: ATP + L-Histidine + beta-Alanine <=> ADP + Orthophosphate + Carnosine,path:map02010; path:map00470; path:map00640,4,6
+ec:1.3.1.3,Delta4-3-oxosteroid 5beta-reductase,2.1975361224094136e-05,1.4653567311651148e-05,4-cholesten-3-one; cortisol; corticosterone; cortisone,"R02609: 5beta-Cholestan-3-one + NADP+ <=> Cholest-4-en-3-one + NADPH + H+; R02841: Dihydrocortisol + NADP+ <=> Cortisol + NADPH + H+; R02893: 17alpha,21-Dihydroxy-5beta-pregnane-3,11,20-trione + NADP+ <=> Cortisone + NADPH + H+",path:map04923; path:map04960; path:map01120,4,6
+ec:3.2.2.8,ribosylpyrimidine nucleosidase,2.1787044397904044e-05,1.4259756854094142e-05,cytidine; uridine; uracil; cytosine,R01080: Uridine + H2O <=> Uracil + D-Ribose; R02137: Cytidine + H2O <=> Cytosine + D-Ribose,path:map00770; path:map02010; path:map00240,4,6
+ec:2.1.4.1,glycine amidinotransferase,2.1227787195711087e-05,1.393185163244276e-05,glycine; 4-guanidinobutanoate; guanidinoacetate; taurine,R01989: L-Arginine + 4-Aminobutanoate <=> L-Ornithine + 4-Guanidinobutanoate; R01686: Taurine + L-Arginine <=> Taurocyamine + L-Ornithine; R00565: L-Arginine + Glycine <=> L-Ornithine + Guanidinoacetate,path:map02010; path:map00630; path:map01200,4,6
+ec:2.5.1.48,cystathionine gamma-synthase,2.082410537086396e-05,1.2469539578922176e-05,cystathionine; alpha-ketobutyrate; O-acetylhomoserine; succinate,R03217: O-Acetyl-L-homoserine + L-Cysteine <=> L-Cystathionine + Acetate; R00999: O-Succinyl-L-homoserine + H2O <=> 2-Oxobutanoate + Succinate + Ammonia; R01288: O-Succinyl-L-homoserine + Hydrogen sulfide <=> L-Homocysteine + Succinate,path:map00360; path:map00630; path:map01200,4,6
+ec:1.14.99.64,zeaxanthin 4-ketolase,2.042754578756876e-05,1.3379960241241182e-05,carotene diol (3); carotene diol (2); carotene diol (1); beta-cryptoxanthin,R07571: Zeaxanthin + 2 Reduced acceptor + 2 Oxygen <=> Adonixanthin + 2 Acceptor + 3 H2O; R07565: beta-Cryptoxanthin + 2 Reduced acceptor + 2 Oxygen <=> 3-Hydroxyechinenone + 2 Acceptor + 3 H2O,path:map00999; path:map01100; path:map01110,4,6
+ec:1.14.15.24,beta-carotene 3-hydroxylase,2.042754578756876e-05,1.3379960241241182e-05,carotene diol (3); carotene diol (2); carotene diol (1); beta-cryptoxanthin,R07558: beta-Carotene + 2 Reduced ferredoxin + H+ + Oxygen <=> beta-Cryptoxanthin + 2 Oxidized ferredoxin + H2O; R09747: beta-Carotene + 4 Reduced ferredoxin + 2 H+ + 2 Oxygen <=> Zeaxanthin + 4 Oxidized ferredoxin + 2 H2O; R07559: beta-Cryptoxanthin + 2 Reduced ferredoxin + H+ + Oxygen <=> Zeaxanthin + 2 Oxidized ferredoxin + H2O,path:map00999; path:map01100; path:map01110,4,6
+ec:2.4.2.8,hypoxanthine phosphoribosyltransferase,2.031088598786125e-05,1.38037874956121e-05,guanine; xanthine; hypoxanthine,R01229: GMP + Diphosphate <=> Guanine + 5-Phospho-alpha-D-ribose 1-diphosphate; R02142: Xanthosine 5'-phosphate + Diphosphate <=> Xanthine + 5-Phospho-alpha-D-ribose 1-diphosphate; R01132: IMP + Diphosphate <=> Hypoxanthine + 5-Phospho-alpha-D-ribose 1-diphosphate,path:map01120; path:map00230; path:map01100,3,6
+ec:1.4.3.4,monoamine oxidase,2.00647287688744e-05,1.2492764506592549e-05,1-methylhistamine; serotonin; N-acetylputrescine,R04674: N-Methylhistamine + H2O + Oxygen <=> Methylimidazole acetaldehyde + Ammonia + Hydrogen peroxide; R02908: Serotonin + H2O + Oxygen <=> 5-Hydroxyindoleacetaldehyde + Ammonia + Hydrogen peroxide; R04025: N-Acetylputrescine + H2O + Oxygen <=> N4-Acetylaminobutanal + Ammonia + Hydrogen peroxide,path:map00380; path:map05207; path:map00340,3,6
+ec:2.6.1.42,branched-chain-amino-acid transaminase,1.9361820909712267e-05,1.3742143509236902e-05,3-methyl-2-oxobutyrate; alpha-ketobutyrate; 4-methyl-2-oxopentanoate,R10991: (S)-2-Aminobutanoate + 2-Oxoglutarate <=> 2-Oxobutanoate + L-Glutamate; R01090: L-Leucine + 2-Oxoglutarate <=> 4-Methyl-2-oxopentanoate + L-Glutamate; R01214: L-Valine + 2-Oxoglutarate <=> 3-Methyl-2-oxobutanoic acid + L-Glutamate,path:map00770; path:map01230; path:map01240,3,6
+ec:2.3.1.14,glutamine N-phenylacetyltransferase,1.929793417324073e-05,1.1791423270399242e-05,N-acetylglutamine; phenylacetylglutamate; N-acetylglutamate; phenylacetylglutamine,R04776: L-Glutamate + 4-Hydroxyphenylacetyl-CoA <=> CoA + 4-Hydroxyphenylacetylglutamic acid; R02576: Phenylacetyl-CoA + L-Glutamine <=> CoA + Phenylacetylglutamine,path:map00360; path:map00350,4,6
+ec:4.1.2.48,low-specificity L-threonine aldolase,1.910941009226588e-05,1.1170102414868984e-05,glycine; allo-threonine; threonine,R00751: L-Threonine <=> Glycine + Acetaldehyde; R06171: L-Allothreonine <=> Glycine + Acetaldehyde,path:map02010; path:map00630; path:map01200,3,6
+ec:2.1.1.162,glycine/sarcosine/dimethylglycine N-methyltransferase,1.900787700714928e-05,1.1263379236668245e-05,glycine; dimethylglycine; sarcosine; betaine,"R07243: S-Adenosyl-L-methionine + Sarcosine <=> S-Adenosyl-L-homocysteine + N,N-Dimethylglycine; R07244: S-Adenosyl-L-methionine + N,N-Dimethylglycine <=> S-Adenosyl-L-homocysteine + Betaine; R00367: S-Adenosyl-L-methionine + Glycine <=> S-Adenosyl-L-homocysteine + Sarcosine",path:map02010; path:map00630; path:map01200,4,6
+ec:4.3.1.19,threonine ammonia-lyase,1.833450737742042e-05,1.2165265332154886e-05,alpha-ketobutyrate; serine; threonine,R00220: L-Serine <=> Pyruvate + Ammonia; R00996: L-Threonine <=> 2-Oxobutanoate + Ammonia,path:map02010; path:map00630; path:map01200,3,6
+ec:1.2.1.5,aldehyde dehydrogenase [NAD(P)+],1.8056587277718123e-05,1.1379982652762722e-05,phenylacetate; beta-alanine; 1-methyl-4-imidazoleacetate; 4-hydroxyphenylacetate,R00904: 3-Aminopropanal + NAD+ + H2O <=> beta-Alanine + NADH + H+; R02697: 4-Hydroxyphenylacetaldehyde + NADP+ + H2O <=> 4-Hydroxyphenylacetate + NADPH + H+; R02695: 4-Hydroxyphenylacetaldehyde + NAD+ + H2O <=> 4-Hydroxyphenylacetate + NADH + H+,path:map00770; path:map00360; path:map01120,4,6
+ec:3.1.4.3,phospholipase C,1.784025527969431e-05,1.2272472128529328e-05,phosphoethanolamine; choline phosphate; glycerol 3-phosphate,"R01312: Phosphatidylcholine + H2O <=> 1,2-Diacyl-sn-glycerol + Choline phosphate; R02027: Phosphatidylglycerol + H2O <=> 1,2-Diacyl-sn-glycerol + sn-Glycerol 3-phosphate; R07381: O-1-Alk-1-enyl-2-acyl-sn-glycero-3-phosphoethanolamine + H2O <=> 1-Alkenyl-2-acylglycerol + Ethanolamine phosphate",path:map02010; path:map05231; path:map00552,3,6
+ec:3.2.1.22,alpha-galactosidase,1.7744076431860998e-05,1.0430435699153526e-05,sucrose; myo-inositol; mannose; glycerol,R06142: Epimelibiose + H2O <=> D-Mannose + D-Galactose; R06093: Galactinol + H2O <=> myo-Inositol + D-Galactose; R01329: Epimelibiose + H2O <=> D-Mannose + D-Galactose,path:map02010; path:map00040; path:map00521,4,6
+ec:1.14.14.80,long-chain fatty acid omega-monooxygenase,1.7522265515641635e-05,1.122641405632381e-05,2-hydroxypalmitate; 16-hydroxypalmitate; 2-hydroxyoleate,R09451: Hexadecanoic acid + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 16-Hydroxypalmitate + [Oxidized NADPH---hemoprotein reductase] + H2O; R09452: (9Z)-Octadecenoic acid + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 18-Hydroxyoleate + [Oxidized NADPH---hemoprotein reductase] + H2O,path:map01100; path:map00073,3,6
+ec:3.5.4.5,cytidine deaminase,1.7471280110563216e-05,1.1940722384177168e-05,2'-deoxyuridine; cytidine; uridine,R02485: Deoxycytidine + H2O <=> Deoxyuridine + Ammonia; R01878: Cytidine + H2O <=> Uridine + Ammonia,path:map00240; path:map02010; path:map01232,3,6
+ec:4.1.1.29,sulfinoalanine decarboxylase,1.7125678969117816e-05,1.1245651582187314e-05,cysteine sulfinic acid; hypotaurine; taurine,R02466: 3-Sulfino-L-alanine <=> Hypotaurine + CO2; R01682: L-Cysteate <=> Taurine + CO2,path:map02010; path:map04080; path:map00430,3,6
+ec:1.13.11.27,4-hydroxyphenylpyruvate dioxygenase,1.7091734421419587e-05,1.1165851132396534e-05,2-hydroxyphenylacetate; 4-hydroxyphenylpyruvate; phenylpyruvate,R02521: 3-(4-Hydroxyphenyl)pyruvate + Oxygen <=> Homogentisate + CO2; R01372: Phenylpyruvate + Oxygen <=> 2-Hydroxyphenylacetate + CO2,path:map00360; path:map00470; path:map01063,3,6
+ec:3.1.3.75,phosphoethanolamine/phosphocholine phosphatase,1.6995163489661214e-05,1.1077734703862768e-05,phosphoethanolamine; choline; choline phosphate,R06870: Ethanolamine phosphate + H2O <=> Ethanolamine + Orthophosphate; R06871: Choline phosphate + H2O <=> Choline + Orthophosphate,path:map00670; path:map02010; path:map04981,3,6
+ec:2.4.2.15,guanosine phosphorylase,1.692965584844643e-05,1.0608277311184118e-05,guanine; guanosine,R02147: Guanosine + Orthophosphate <=> Guanine + alpha-D-Ribose 1-phosphate,path:map01100; path:map00230; path:map01232,2,6
+ec:2.7.1.73,inosine kinase,1.6603547263302384e-05,1.0067061625065872e-05,guanosine; inosine,R01228: ATP + Guanosine <=> ADP + GMP; R01131: ATP + Inosine <=> ADP + IMP,path:map01100; path:map00230; path:map01232,2,6
+ec:1.1.1.146,11beta-hydroxysteroid dehydrogenase,1.6592212998205838e-05,1.1002174638606393e-05,cortisol; corticosterone; cortisone,R02836: Cortisol + NADP+ <=> Cortisone + NADPH + H+; R03848: Corticosterone + NADP+ <=> 11-Dehydrocorticosterone + NADPH + H+,path:map04923; path:map04960; path:map07225,3,6
+ec:3.1.3.4,phosphatidate phosphatase,1.6587734205325144e-05,1.054290879730376e-05,sphinganine; sphingosine 1-phosphate; sphingosine,R06520: Sphinganine 1-phosphate + H2O <=> Sphinganine + Orthophosphate; R06521: Sphingosine 1-phosphate + H2O <=> Sphingosine + Orthophosphate,path:map05152; path:map04666; path:map04217,3,6
+ec:2.7.1.91,sphingosine kinase,1.6587734205325144e-05,1.054290879730376e-05,sphinganine; sphingosine 1-phosphate; sphingosine,R01926: Sphingosine + ATP <=> Sphingosine 1-phosphate + ADP; R02976: ATP + Sphinganine <=> ADP + Sphinganine 1-phosphate,path:map05152; path:map04666; path:map04217,3,6
+ec:1.1.1.98,(R)-2-hydroxy-fatty-acid dehydrogenase,1.6584316451492336e-05,1.038828126151224e-05,9-hydroxystearate; 2-hydroxystearate; 3-hydroxystearate,R03021: (R)-2-Hydroxystearate + NAD+ <=> 2-Oxooctadecanoic acid + NADH + H+,,3,6
+ec:4.1.1.28,aromatic-L-amino-acid decarboxylase,1.6021529722746185e-05,1.0468827019185826e-05,tryptophan; serotonin; tyrosine,R00736: L-Tyrosine <=> Tyramine + CO2; R00685: L-Tryptophan <=> Tryptamine + CO2; R02701: 5-Hydroxy-L-tryptophan <=> Serotonin + CO2,path:map00997; path:map00999; path:map00360,3,6
+ec:1.1.1.145,3beta-hydroxy-Delta5-steroid dehydrogenase,1.5999141347597882e-05,1.03898560231281e-05,4-cholesten-3-one; cortisol; cholesterol,"R09920: Cholesterol + NAD+ <=> Cholest-4-en-3-one + NADH + H+; R02840: Cortisol + H+ + NADH <=> 11beta,17alpha,21-Trihydroxypregnenolone + NAD+",path:map04960; path:map04080; path:map00996,3,6
+ec:5.3.3.1,steroid Delta-isomerase,1.5999141347597882e-05,1.03898560231281e-05,4-cholesten-3-one; cortisol; cholesterol,"R09920: Cholesterol + NAD+ <=> Cholest-4-en-3-one + NADH + H+; R02840: Cortisol + H+ + NADH <=> 11beta,17alpha,21-Trihydroxypregnenolone + NAD+",path:map04960; path:map04080; path:map00996,3,6
+ec:2.6.1.9,histidinol-phosphate transaminase,1.592080416148473e-05,1.011835011913647e-05,tyrosine; 4-hydroxyphenylpyruvate; phenylpyruvate,R00694: L-Phenylalanine + 2-Oxoglutarate <=> Phenylpyruvate + L-Glutamate; R00734: L-Tyrosine + 2-Oxoglutarate <=> 3-(4-Hydroxyphenyl)pyruvate + L-Glutamate,path:map00997; path:map00999; path:map00360,3,6
+ec:2.6.1.5,tyrosine transaminase,1.592080416148473e-05,1.011835011913647e-05,tyrosine; 4-hydroxyphenylpyruvate; phenylpyruvate,R00694: L-Phenylalanine + 2-Oxoglutarate <=> Phenylpyruvate + L-Glutamate; R00734: L-Tyrosine + 2-Oxoglutarate <=> 3-(4-Hydroxyphenyl)pyruvate + L-Glutamate,path:map00997; path:map00999; path:map00360,3,6
+ec:2.6.1.57,aromatic-amino-acid transaminase,1.592080416148473e-05,1.011835011913647e-05,tyrosine; 4-hydroxyphenylpyruvate; phenylpyruvate,R00694: L-Phenylalanine + 2-Oxoglutarate <=> Phenylpyruvate + L-Glutamate; R00734: L-Tyrosine + 2-Oxoglutarate <=> 3-(4-Hydroxyphenyl)pyruvate + L-Glutamate,path:map00997; path:map00999; path:map00360,3,6
+ec:3.2.2.3,uridine nucleosidase,1.575126778929286e-05,1.073132792117134e-05,nicotinamide; uridine; uracil,R01080: Uridine + H2O <=> Uracil + D-Ribose; rn:R01273,path:map00770; path:map02010; path:map01240,3,6
+ec:1.1.1.66,omega-hydroxydecanoate dehydrogenase,1.556961569840918e-05,9.888692902642207e-06,3-hydroxydecanoate; 2-hydroxydecanoate; 5-hydroxydecanoate,rn:R03886,,3,6
+ec:3.5.1.4,amidase,1.550320614941034e-05,1.0275950011750108e-05,phenylacetate; indoleacetate; 4-guanidinobutanoate,rn:R03180; rn:R05590; rn:R02540,path:map00380; path:map00360; path:map01120,3,6
+ec:2.4.2.3,uridine phosphorylase,1.5374632675831574e-05,1.0500892112379672e-05,2'-deoxyuridine; uridine; uracil,R01876: Uridine + Orthophosphate <=> Uracil + alpha-D-Ribose 1-phosphate; R02484: Deoxyuridine + Orthophosphate <=> Uracil + 2-Deoxy-D-ribose 1-phosphate,path:map00770; path:map02010; path:map00240,3,6
+ec:2.1.1.5,betaine---homocysteine S-methyltransferase,1.5348180383846396e-05,1.0187206223681645e-05,dimethylglycine; methionine; betaine,rn:R02821,path:map00999; path:map02010; path:map04981,3,6
+ec:2.4.2.57,AMP phosphorylase,1.533963148742821e-05,1.0021290302755248e-05,adenine; cytosine; uracil,rn:R10838; rn:R10837; rn:R10836,path:map00770; path:map00230; path:map01100,3,6
+ec:1.2.1.88,L-glutamate gamma-semialdehyde dehydrogenase,1.5320035429457456e-05,1.012997822496125e-05,glutamate; 4-hydroxyglutamate; S-1-pyrroline-5-carboxylate,rn:R05051; rn:R00245; rn:R00707,path:map02010; path:map04720; path:map00630,3,6
+ec:3.5.1.74,chenodeoxycholoyltaurine hydrolase,1.52677969017181e-05,1.0061586170104945e-05,taurochenodeoxycholate; chenodeoxycholate; taurine,R03977: Taurochenodeoxycholate + H2O <=> Chenodeoxycholate + Taurine,path:map02010; path:map04080; path:map00430,3,6
+ec:3.5.4.4,adenosine deaminase,1.5191551717454433e-05,9.931266702049502e-06,adenosine; inosine,rn:R01560,path:map04923; path:map00670; path:map02010,2,6
+ec:3.5.3.2,guanidinoacetase,1.5137858399642463e-05,9.187200623206706e-06,glycine; urea; guanidinoacetate,rn:R00775,path:map02010; path:map00630; path:map01200,3,6
+ec:3.5.5.1,nitrilase,1.510660129178521e-05,9.460513128310503e-06,phenylacetate; alanine; indoleacetate,rn:R03542; rn:R03093; rn:R05591,path:map00460; path:map00360; path:map00380,3,6
+ec:3.5.4.3,guanine deaminase,1.510016989877446e-05,1.0374747515952064e-05,guanine; xanthine,rn:R01676,path:map01120; path:map00230; path:map01100,2,6
+ec:2.4.2.22,xanthine phosphoribosyltransferase,1.510016989877446e-05,1.0374747515952064e-05,guanine; xanthine,R01229: GMP + Diphosphate <=> Guanine + 5-Phospho-alpha-D-ribose 1-diphosphate; R02142: Xanthosine 5'-phosphate + Diphosphate <=> Xanthine + 5-Phospho-alpha-D-ribose 1-diphosphate,path:map01120; path:map00230; path:map01100,2,6
+ec:1.13.11.65,carotenoid isomerooxygenase,1.4721433389803412e-05,9.521984516081024e-06,carotene diol (3); carotene diol (2); carotene diol (1),rn:R10192,path:map00999; path:map01100; path:map01110,3,6
+ec:2.4.1.276,zeaxanthin glucosyltransferase,1.4721433389803412e-05,9.521984516081024e-06,carotene diol (3); carotene diol (2); carotene diol (1),rn:R07574,path:map00999; path:map01100; path:map01110,3,6
+ec:1.14.15.21,zeaxanthin epoxidase,1.4721433389803412e-05,9.521984516081024e-06,carotene diol (3); carotene diol (2); carotene diol (1),rn:R06946; rn:R10070,path:map00999; path:map01100; path:map01110,3,6
+ec:1.23.5.1,violaxanthin de-epoxidase,1.4721433389803412e-05,9.521984516081024e-06,carotene diol (3); carotene diol (2); carotene diol (1),rn:R07179; rn:R10055,path:map00999; path:map01100; path:map01110,3,6
+ec:1.13.11.84,crocetin dialdehyde synthase,1.4721433389803412e-05,9.521984516081024e-06,carotene diol (3); carotene diol (2); carotene diol (1),rn:R10843; rn:R09603,path:map00999; path:map01100; path:map01110,3,6
+ec:2.8.3.25,bile acid CoA-transferase,1.4084848349159038e-05,8.392778728244584e-06,cholate; lithocholate; deoxycholate,rn:R11539; rn:R07295,path:map01100; path:map00121; path:map04976,3,6
+ec:3.1.4.2,glycerophosphocholine phosphodiesterase,1.4003483793937482e-05,9.19124203791668e-06,choline; glycerol 3-phosphate; glycerophosphoethanolamine,rn:R01030; rn:R01470,path:map00565; path:map00670; path:map02010,3,6
+ec:3.1.4.46,glycerophosphodiester phosphodiesterase,1.4003483793937482e-05,9.19124203791668e-06,choline; glycerol 3-phosphate; glycerophosphoethanolamine,rn:R01030; rn:R01470; rn:R00857,path:map00565; path:map00670; path:map02010,3,6
+ec:2.1.1.156,glycine/sarcosine N-methyltransferase,1.3673222083697552e-05,8.019784255403551e-06,glycine; dimethylglycine; sarcosine,"R07243: S-Adenosyl-L-methionine + Sarcosine <=> S-Adenosyl-L-homocysteine + N,N-Dimethylglycine; rn:R10060; R00367: S-Adenosyl-L-methionine + Glycine <=> S-Adenosyl-L-homocysteine + Sarcosine",path:map02010; path:map00630; path:map01200,3,6
+ec:2.1.1.157,sarcosine/dimethylglycine N-methyltransferase,1.3617262707895152e-05,7.901725728470762e-06,dimethylglycine; sarcosine; betaine,"R07243: S-Adenosyl-L-methionine + Sarcosine <=> S-Adenosyl-L-homocysteine + N,N-Dimethylglycine; R07244: S-Adenosyl-L-methionine + N,N-Dimethylglycine <=> S-Adenosyl-L-homocysteine + Betaine; rn:R10061",path:map00670; path:map02010; path:map04981,3,6
+ec:1.1.1.85,3-isopropylmalate dehydrogenase,1.3537435852879188e-05,9.654990075448802e-06,alpha-ketobutyrate; 4-methyl-2-oxopentanoate,rn:R00994; rn:R10052; rn:R01652,path:map01230; path:map00640; path:map00280,2,6
+ec:3.4.13.5,Xaa-methyl-His dipeptidase,1.3531386995430311e-05,9.161429663388945e-06,1-methylhistidine; 3-methylhistidine,R03288: beta-Alanyl-N(pi)-methyl-L-histidine + H2O <=> beta-Alanine + N(pi)-Methyl-L-histidine,path:map01100; path:map00340,2,6
+ec:3.2.2.2,inosine nucleosidase,1.3446986355541e-05,8.551731400836068e-06,inosine; hypoxanthine,R01770: Inosine + H2O <=> Hypoxanthine + D-Ribose,path:map01100; path:map00230; path:map01232,2,6
+ec:3.5.3.3,creatinase,1.3443700184250416e-05,7.392398105692845e-06,urea; sarcosine; creatine,rn:R01566,path:map00670; path:map02010; path:map00330,3,6
+ec:3.5.1.95,N-malonylurea hydrolase,1.3347875030173294e-05,7.888502500262151e-06,ethylmalonate; urea; malonate,rn:R10778; rn:R07629,path:map02010; path:map00330; path:map01120,3,6
+ec:6.3.2.1,pantoate---beta-alanine ligase (AMP-forming),1.296822820865982e-05,7.703163206519534e-06,pantothenate; pantoate; beta-alanine,rn:R02473,path:map00770; path:map01240; path:map04080,3,6
+ec:3.5.1.22,pantothenase,1.296822820865982e-05,7.703163206519534e-06,pantothenate; pantoate; beta-alanine,rn:R02474,path:map00770; path:map01240; path:map04080,3,6
+ec:3.2.2.7,adenosine nucleosidase,1.294261028402326e-05,8.886070346815617e-06,adenine; adenosine,R01245: Adenosine + H2O <=> Adenine + D-Ribose,path:map04923; path:map00670; path:map02010,2,6
+ec:3.2.1.20,alpha-glucosidase,1.2936449112297164e-05,7.428910400345825e-06,maltose; sucrose; glucose,rn:R00801; rn:R00028; rn:R00802,path:map02010; path:map00074; path:map00521,3,6
+ec:1.1.1.42,isocitrate dehydrogenase (NADP+),1.2929054264048376e-05,8.725308958467493e-06,alpha-ketoglutarate; isocitrate,rn:R01899; rn:R00268; rn:R00267,path:map00997; path:map00630; path:map00040,2,6
+ec:2.1.1.103,phosphoethanolamine N-methyltransferase,1.2692247042221405e-05,8.480320490255247e-06,phosphoethanolamine; choline phosphate,rn:R02037; rn:R06869,path:map05231; path:map00552; path:map00564,2,6
+ec:2.3.1.54,formate C-acetyltransferase,1.2609182934699128e-05,9.482897526373594e-06,alpha-ketobutyrate; pyruvate,rn:R06987; rn:R00212,path:map00997; path:map00360; path:map00900,2,6
+ec:2.2.1.6,acetolactate synthase,1.2609182934699128e-05,9.482897526373594e-06,alpha-ketobutyrate; pyruvate,rn:R04673; rn:R00006; rn:R08648,path:map00997; path:map00360; path:map00900,2,6
+ec:4.1.2.27,sphinganine-1-phosphate aldolase,1.2602739307546698e-05,8.458963417853654e-06,phosphoethanolamine; sphingosine 1-phosphate,rn:R02464; rn:R06516,path:map05152; path:map04666; path:map04080,2,6
+ec:2.6.1.28,tryptophan---phenylpyruvate transaminase,1.2476505875879071e-05,8.429781902671633e-06,tryptophan; phenylpyruvate,rn:R01376,path:map00997; path:map00999; path:map00360,2,6
+ec:1.2.7.7,3-methyl-2-oxobutanoate dehydrogenase (ferredoxin),1.245232846665124e-05,8.757616075295462e-06,3-methyl-2-oxobutyrate; 4-methyl-2-oxopentanoate,rn:R08566; rn:R07160,path:map00770; path:map01230; path:map01240,2,6
+ec:1.2.4.4,3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring),1.245232846665124e-05,8.757616075295462e-06,3-methyl-2-oxobutyrate; 4-methyl-2-oxopentanoate,rn:R01702; rn:R07599; rn:R07601,path:map00770; path:map01230; path:map01240,2,6
+ec:1.2.1.25,branched-chain alpha-keto acid dehydrogenase system,1.245232846665124e-05,8.757616075295462e-06,3-methyl-2-oxobutyrate; 4-methyl-2-oxopentanoate,rn:R01651; rn:R01210,path:map00770; path:map01230; path:map01240,2,6
+ec:2.6.1.6,leucine transaminase,1.245232846665124e-05,8.757616075295462e-06,3-methyl-2-oxobutyrate; 4-methyl-2-oxopentanoate,R01090: L-Leucine + 2-Oxoglutarate <=> 4-Methyl-2-oxopentanoate + L-Glutamate; R01214: L-Valine + 2-Oxoglutarate <=> 3-Methyl-2-oxobutanoic acid + L-Glutamate,path:map00770; path:map01230; path:map01240,2,6
+ec:1.4.1.9,leucine dehydrogenase,1.245232846665124e-05,8.757616075295462e-06,3-methyl-2-oxobutyrate; 4-methyl-2-oxopentanoate,rn:R01434; rn:R01088,path:map00770; path:map01230; path:map01240,2,6
+ec:2.7.1.48,uridine/cytidine kinase,1.243474174349888e-05,8.334901620204719e-06,cytidine; uridine,rn:R00964; rn:R00968; rn:R00513,path:map00240; path:map02010; path:map01232,2,6
+ec:2.7.1.213,cytidine kinase,1.243474174349888e-05,8.334901620204719e-06,cytidine; uridine,rn:R00964; rn:R00513,path:map00240; path:map02010; path:map01232,2,6
+ec:4.2.1.3,aconitate hydratase,1.235187299846822e-05,8.316015832504868e-06,isocitrate; citrate,rn:R01900; rn:R01324; rn:R01325,path:map00630; path:map01200; path:map01070,2,6
+ec:4.1.2.5,L-threonine aldolase,1.2350106614276012e-05,7.602907092144867e-06,glycine; threonine,R00751: L-Threonine <=> Glycine + Acetaldehyde,path:map02010; path:map00630; path:map01200,2,6
+ec:4.4.1.11,methionine gamma-lyase,1.2336899882009966e-05,9.212705850306954e-06,alpha-ketobutyrate; methionine,rn:R04770; rn:R00654,path:map00999; path:map04981; path:map00470,2,6
+ec:1.14.11.48,xanthine dioxygenase,1.2304342921150344e-05,8.60092954809185e-06,xanthine; urate,rn:R10920,path:map01120; path:map00230; path:map00232,2,6
+ec:1.1.1.2,alcohol dehydrogenase (NADP+),1.2090053153223687e-05,6.2980956864639e-06,glycerol; glucuronate; gulonate*,rn:R01481; rn:R01041,path:map04923; path:map02010; path:map00040,3,6
+ec:1.3.98.1,dihydroorotate dehydrogenase (fumarate),1.2058507159735092e-05,6.573878191740863e-06,orotate; fumarate; dihydroorotate,rn:R01867,path:map00360; path:map01200; path:map00650,3,6
+ec:4.1.3.1,isocitrate lyase,1.1950118653796048e-05,7.325814583215758e-06,isocitrate; succinate,rn:R00479,path:map00360; path:map00630; path:map01200,2,6
+ec:1.13.11.52,"indoleamine 2,3-dioxygenase",1.176090812164045e-05,8.038578779555188e-06,tryptophan; serotonin,rn:R00678; rn:R02909,path:map00997; path:map00999; path:map04080,2,6
+ec:2.4.1.48,heteroglycan alpha-mannosyltransferase,1.16666959714129e-05,7.114008372237865e-06,12-HETE; 15-HETE,rn:R03769; rn:R03768,,2,6
+ec:5.3.2.1,phenylpyruvate tautomerase,1.1660182560378991e-05,7.663690408381677e-06,4-hydroxyphenylpyruvate; phenylpyruvate,rn:R03342; rn:R01378,path:map00360; path:map01230; path:map01240,2,6
+ec:1.1.1.237,hydroxyphenylpyruvate reductase,1.1660182560378991e-05,7.663690408381677e-06,4-hydroxyphenylpyruvate; phenylpyruvate,rn:R03337; rn:R01370; rn:R03339,path:map00360; path:map01230; path:map01240,2,6
+ec:1.4.1.20,phenylalanine dehydrogenase,1.1660182560378991e-05,7.663690408381677e-06,4-hydroxyphenylpyruvate; phenylpyruvate,rn:R09830; rn:R00688,path:map00360; path:map01230; path:map01240,2,6
+ec:1.1.1.110,aromatic 2-oxoacid reductase,1.1660182560378991e-05,7.663690408381677e-06,4-hydroxyphenylpyruvate; phenylpyruvate,rn:R03337; rn:R01370,path:map00360; path:map01230; path:map01240,2,6
+ec:2.6.1.58,phenylalanine(histidine) transaminase,1.1660182560378991e-05,7.663690408381677e-06,4-hydroxyphenylpyruvate; phenylpyruvate,rn:R09254; rn:R00692,path:map00360; path:map01230; path:map01240,2,6
+ec:3.5.4.15,guanosine deaminase,1.1589214412425178e-05,6.290544175130405e-06,guanosine; xanthosine,rn:R02145,path:map02010; path:map00230; path:map01100,2,6
+ec:2.6.1.21,D-amino-acid transaminase,1.1511781332882066e-05,7.250527239422445e-06,2-oxoarginine*; phenylpyruvate,rn:R01582; rn:R02924,path:map00360; path:map01230; path:map00330,2,6
+ec:1.14.11.3,pyrimidine-deoxynucleoside 2'-dioxygenase,1.148588146502892e-05,8.143661862944832e-06,2'-deoxyuridine; uridine,rn:R01879,path:map00240; path:map02010; path:map01232,2,6
+ec:1.14.14.54,phenylacetate 2-hydroxylase,1.1431873255293195e-05,7.602279627351704e-06,phenylacetate; 2-hydroxyphenylacetate,rn:R05487,path:map01100; path:map00360; path:map00643,2,6
+ec:3.5.1.135,N4-acetylcytidine amidohydrolase,1.136507391836455e-05,7.0098283748487855e-06,N4-acetylcytidine; cytidine,rn:R12635,path:map00240; path:map02010; path:map01232,2,6
+ec:3.5.2.9,5-oxoprolinase (ATP-hydrolysing),1.1332042031972764e-05,7.33520656471018e-06,glutamate; 5-oxoproline,rn:R00251,path:map02010; path:map04720; path:map00630,2,6
+ec:3.1.4.13,serine-ethanolaminephosphate phosphodiesterase,1.1250592432298378e-05,7.605633108428522e-06,phosphoethanolamine; serine,rn:R02817,path:map02010; path:map00630; path:map01200,2,6
+ec:2.3.1.188,omega-hydroxypalmitate O-feruloyl transferase,1.1248493565180206e-05,7.590225865078337e-06,2-hydroxypalmitate; 16-hydroxypalmitate,rn:R09106,path:map01100; path:map00073,2,6
+ec:2.1.1.2,guanidinoacetate N-methyltransferase,1.1218321532274138e-05,7.085702370925085e-06,guanidinoacetate; creatine,rn:R01883,path:map00260; path:map01100; path:map00330,2,6
+ec:3.5.4.2,adenine deaminase,1.1198044922109828e-05,7.516365665460929e-06,adenine; hypoxanthine,rn:R01244,path:map00230; path:map01100; path:map00908,2,6
+ec:1.3.1.22,3-oxo-5alpha-steroid 4-dehydrogenase (NADP+),1.1135704077855962e-05,7.659688597009839e-06,4-cholesten-3-one; cortisone,rn:R02610; rn:R02892,path:map04960; path:map01120; path:map07225,2,6
+ec:2.7.9.2,"pyruvate, water dikinase",1.1090941854287584e-05,7.969625021709882e-06,phosphate; pyruvate,rn:R00199,path:map00997; path:map02010; path:map00360,2,6
+ec:2.3.2.2,gamma-glutamyltransferase,1.088760754645354e-05,7.169344391065955e-06,cysteinylglycine; taurine,rn:R01687; rn:R03916,path:map02010; path:map04080; path:map00430,2,6
+ec:1.1.3.6,cholesterol oxidase,1.088732667458116e-05,7.14670502857144e-06,4-cholesten-3-one; cholesterol,rn:R01459,path:map00996; path:map04977; path:map05217,2,6
+ec:3.1.4.38,glycerophosphocholine cholinephosphodiesterase,1.0860040355054055e-05,6.868055403829214e-06,glycerol; choline phosphate,rn:R02591,path:map04923; path:map02010; path:map00040,2,6
+ec:1.14.15.4,steroid 11beta-monooxygenase,1.0839657146238171e-05,7.025413502287162e-06,corticosterone; cortisol,rn:R02843; rn:R03851; rn:R03262,path:map04923; path:map04960; path:map04927,2,6
+ec:1.14.14.16,steroid 21-monooxygenase,1.0839657146238171e-05,7.025413502287162e-06,corticosterone; cortisol,rn:R03849; rn:R02838,path:map04923; path:map04960; path:map04927,2,6
+ec:2.5.1.6,methionine adenosyltransferase,1.0818658801598424e-05,7.65679711451689e-06,methionine; phosphate,rn:R00177,path:map00999; path:map02010; path:map04981,2,6
+ec:2.6.1.73,methionine---glyoxylate transaminase,1.0818021738203074e-05,7.3433130099262175e-06,glycine; methionine,rn:R00652,path:map00999; path:map02010; path:map00630,2,6
+ec:2.3.1.299,sphingoid base N-stearoyltransferase,1.0770064710739304e-05,6.845493942131742e-06,sphinganine; sphingosine,rn:R01496; rn:R06517,path:map04217; path:map04382; path:map01100,2,6
+ec:2.3.1.24,sphingosine N-acyltransferase,1.0770064710739304e-05,6.845493942131742e-06,sphinganine; sphingosine,rn:R01496; rn:R06517,path:map04217; path:map04382; path:map01100,2,6
+ec:2.3.1.291,sphingoid base N-palmitoyltransferase,1.0770064710739304e-05,6.845493942131742e-06,sphinganine; sphingosine,rn:R01496; rn:R06517,path:map04217; path:map04382; path:map01100,2,6
+ec:2.3.1.297,very-long-chain ceramide synthase,1.0770064710739304e-05,6.845493942131742e-06,sphinganine; sphingosine,rn:R01496; rn:R06517,path:map04217; path:map04382; path:map01100,2,6
+ec:2.3.1.298,ultra-long-chain ceramide synthase,1.0770064710739304e-05,6.845493942131742e-06,sphinganine; sphingosine,rn:R01496; rn:R06517,path:map04217; path:map04382; path:map01100,2,6
+ec:3.5.1.23,ceramidase,1.0770064710739304e-05,6.845493942131742e-06,sphinganine; sphingosine,rn:R01494; rn:R06518; rn:R01493,path:map04217; path:map04382; path:map01100,2,6
+ec:1.2.1.29,aryl-aldehyde dehydrogenase,1.0638659516276012e-05,6.809560097580175e-06,gentisate; 4-hydroxyphenylacetate,R02695: 4-Hydroxyphenylacetaldehyde + NAD+ + H2O <=> 4-Hydroxyphenylacetate + NADH + H+; rn:R02655,path:map00360; path:map00362; path:map01120,2,6
+ec:1.2.1.39,phenylacetaldehyde dehydrogenase,1.0595869637647976e-05,7.051070489183243e-06,phenylacetate; 4-hydroxyphenylacetate,R02695: 4-Hydroxyphenylacetaldehyde + NAD+ + H2O <=> 4-Hydroxyphenylacetate + NADH + H+; R02536: Phenylacetaldehyde + NAD+ + H2O <=> Phenylacetic acid + NADH + H+,path:map00360; path:map01120; path:map01220,2,6
+ec:2.8.2.34,glycochenodeoxycholate sulfotransferase,1.0580774956270198e-05,6.1723633926071445e-06,glycochenodeoxycholate 3-sulfate; glycochenodeoxycholate,rn:R07289,path:map04979; path:map00121; path:map04976,2,6
+ec:2.6.1.64,glutamine---phenylpyruvate transaminase,1.0489126746305294e-05,6.400952875262028e-06,alpha-ketoglutaramate*; phenylpyruvate,rn:R01375,path:map00360; path:map01230; path:map00470,2,6
+ec:1.14.14.57,taurochenodeoxycholate 6alpha-hydroxylase,1.0486658205603329e-05,6.692007192472746e-06,taurochenodeoxycholate; lithocholate,rn:R07206; rn:R07205,path:map04979; path:map00121; path:map04976,2,6
+ec:2.6.1.4,glycine transaminase,1.0483633514149878e-05,6.802116912866039e-06,glycine; alpha-ketoglutarate,rn:R00372,path:map00997; path:map02010; path:map00630,2,6
+ec:2.6.1.44,alanine---glyoxylate transaminase,1.0483633514149878e-05,6.802116912866039e-06,glycine; alpha-ketoglutarate,rn:R00369; rn:R00372,path:map00997; path:map02010; path:map00630,2,6
+ec:3.1.1.76,poly(3-hydroxyoctanoate) depolymerase,1.048321969283483e-05,6.79251053997392e-06,8-hydroxyoctanoate; 2-hydroxyoctanoate,rn:R05796,,2,6
+ec:1.4.7.1,glutamate synthase (ferredoxin),1.0465031279805917e-05,6.892536850538628e-06,glutamate; alpha-ketoglutarate,rn:R00021; rn:R00256,path:map00997; path:map02010; path:map04720,2,6
+ec:1.4.1.4,glutamate dehydrogenase (NADP+),1.0465031279805917e-05,6.892536850538628e-06,glutamate; alpha-ketoglutarate,rn:R00248,path:map00997; path:map02010; path:map04720,2,6
+ec:2.6.1.2,alanine transaminase,1.0465031279805917e-05,6.892536850538628e-06,glutamate; alpha-ketoglutarate,rn:R00258,path:map00997; path:map02010; path:map04720,2,6
+ec:1.4.1.13,glutamate synthase (NADPH),1.0465031279805917e-05,6.892536850538628e-06,glutamate; alpha-ketoglutarate,rn:R00248; rn:R00256; rn:R00114,path:map00997; path:map02010; path:map04720,2,6
+ec:1.4.1.2,glutamate dehydrogenase,1.0465031279805917e-05,6.892536850538628e-06,glutamate; alpha-ketoglutarate,rn:R00243,path:map00997; path:map02010; path:map04720,2,6
+ec:1.4.1.3,glutamate dehydrogenase [NAD(P)+],1.0465031279805917e-05,6.892536850538628e-06,glutamate; alpha-ketoglutarate,rn:R00248; rn:R00243,path:map00997; path:map02010; path:map04720,2,6
+ec:1.4.3.11,L-glutamate oxidase,1.0465031279805917e-05,6.892536850538628e-06,glutamate; alpha-ketoglutarate,rn:R00250,path:map00997; path:map02010; path:map04720,2,6
+ec:1.4.1.14,glutamate synthase (NADH),1.0465031279805917e-05,6.892536850538628e-06,glutamate; alpha-ketoglutarate,rn:R00093; rn:R00243; rn:R00256,path:map00997; path:map02010; path:map04720,2,6
+ec:4.2.1.20,tryptophan synthase,1.0425183852190792e-05,7.12812284818312e-06,tryptophan; serine,rn:R00674; rn:R02722,path:map00997; path:map00999; path:map02010,2,6
+ec:4.2.1.122,tryptophan synthase (indole-salvaging),1.0425183852190792e-05,7.12812284818312e-06,tryptophan; serine,rn:R00674,path:map00997; path:map00999; path:map02010,2,6
+ec:1.4.3.3,D-amino-acid oxidase,1.0385550989110406e-05,6.422493970712186e-06,glycine; 2-oxoarginine*,rn:R00366; rn:R02923,path:map02010; path:map00630; path:map01200,2,6
+ec:3.5.2.10,creatininase,1.028122299058366e-05,6.596250527117377e-06,creatinine; creatine,rn:R01884,path:map01100; path:map00260; path:map00330,2,6
+ec:2.1.1.1,nicotinamide N-methyltransferase,1.026202529200468e-05,6.74715094246593e-06,1-methylnicotinamide; nicotinamide,rn:R01269,path:map01240; path:map04977; path:map01100,2,6
+ec:2.7.1.32,choline kinase,1.0210093676700352e-05,6.3499197001018674e-06,choline; choline phosphate,rn:R01021,path:map00670; path:map02010; path:map04981,2,6
+ec:2.5.1.49,O-acetylhomoserine aminocarboxypropyltransferase,1.019190397705248e-05,6.914617263688168e-06,O-acetylhomoserine; methionine,rn:R00651; rn:R01287,path:map00999; path:map04981; path:map00470,2,6
+ec:2.7.1.30,glycerol kinase,1.0100871363266418e-05,6.916606346069182e-06,glycerol; glycerol 3-phosphate,rn:R00847,path:map04923; path:map02010; path:map00040,2,6
+ec:2.7.1.142,glycerol-3-phosphate---glucose phosphotransferase,1.0100871363266418e-05,6.916606346069182e-06,glycerol; glycerol 3-phosphate,rn:R00850,path:map04923; path:map02010; path:map00040,2,6
+ec:3.1.3.21,glycerol-1-phosphatase,1.0100871363266418e-05,6.916606346069182e-06,glycerol; glycerol 3-phosphate,rn:R00841; rn:R07298,path:map04923; path:map02010; path:map00040,2,6
+ec:1.1.1.38,malate dehydrogenase (oxaloacetate-decarboxylating),1.0099245374670724e-05,6.723326131373398e-06,malate; pyruvate,rn:R00214,path:map00997; path:map00360; path:map00900,2,6
+ec:1.1.1.39,malate dehydrogenase (decarboxylating),1.0099245374670724e-05,6.723326131373398e-06,malate; pyruvate,rn:R00214,path:map00997; path:map00360; path:map00900,2,6
+ec:5.2.1.1,maleate isomerase,9.995867298162082e-06,5.923408023113313e-06,maleate; fumarate,rn:R01087,path:map00360; path:map01200; path:map00650,2,6
+ec:4.3.1.3,histidine ammonia-lyase,9.941458507282877e-06,6.188082598395315e-06,imidazole propionate; trans-urocanate,rn:R01168,path:map02010; path:map01230; path:map00340,2,6
+ec:1.14.13.251,glycine betaine monooxygenase,9.920772944897455e-06,6.133604616436438e-06,dimethylglycine; betaine,rn:R13016,path:map00670; path:map02010; path:map04981,2,6
+ec:2.1.1.376,glycine betaine---corrinoid protein Co-methyltransferase,9.920772944897455e-06,6.133604616436438e-06,dimethylglycine; betaine,rn:R12787,path:map00670; path:map02010; path:map04981,2,6
+ec:2.1.1.161,dimethylglycine N-methyltransferase,9.920772944897455e-06,6.133604616436438e-06,dimethylglycine; betaine,"R07244: S-Adenosyl-L-methionine + N,N-Dimethylglycine <=> S-Adenosyl-L-homocysteine + Betaine",path:map00670; path:map02010; path:map04981,2,6
+ec:2.6.1.45,serine---glyoxylate transaminase,9.856136918591652e-06,6.303993290450846e-06,glycine; serine,rn:R00588,path:map02010; path:map00630; path:map01200,2,6
+ec:3.5.1.21,N-acetyl-beta-alanine deacetylase,9.848684507881505e-06,5.633893971781089e-06,beta-alanine; N-acetyl-beta-alanine,rn:R00909,path:map00770; path:map01240; path:map04080,2,6
+ec:3.5.3.24,N1-aminopropylagmatine ureohydrolase,9.812077301349726e-06,6.0732911986119165e-06,urea; spermidine,rn:R10347,path:map02010; path:map00330; path:map01120,2,6
+ec:1.1.99.2,L-2-hydroxyglutarate dehydrogenase,9.759212461525226e-06,6.483888887620404e-06,alpha-ketoglutarate; 2-hydroxyglutarate,rn:R03534; rn:R00298,path:map00997; path:map00630; path:map00040,2,6
+ec:1.2.3.13,4-hydroxyphenylpyruvate oxidase,9.738886160748569e-06,6.3596287905984445e-06,4-hydroxyphenylpyruvate; 4-hydroxyphenylacetate,rn:R00042,path:map00360; path:map01063; path:map00130,2,6
+ec:6.3.1.17,beta-citrylglutamate synthase,9.695521495385864e-06,6.143043705816181e-06,citrate; beta-citrylglutamate,rn:R10677,path:map00630; path:map01200; path:map01070,2,6
+ec:1.8.4.4,glutathione---cystine transhydrogenase,9.678758643839726e-06,5.4218889786025735e-06,cystine; cysteine,rn:R01109,,2,6
+ec:1.1.3.17,choline oxidase,9.63757137089154e-06,5.908714976821865e-06,choline; betaine,rn:R08212; rn:R01022; rn:R08211,path:map00670; path:map02010; path:map04981,2,6
+ec:2.4.1.17,glucuronosyltransferase,9.596963200131885e-06,5.752564002682052e-06,androsterone glucuronide; glucuronate,rn:R02478; rn:R08615,path:map00040; path:map01240; path:map01100,2,6
+ec:3.4.13.4,Xaa-Arg dipeptidase,9.544836006222416e-06,5.51985273065008e-06,arginine; beta-alanine,rn:R03935; rn:R00911,path:map00770; path:map01240; path:map04080,2,6
+ec:3.7.1.2,fumarylacetoacetase,9.536483320792911e-06,5.747292324163511e-06,fumarate; acetoacetate,rn:R01364,path:map00360; path:map01200; path:map00650,2,6
+ec:4.2.1.22,cystathionine beta-synthase,9.501555404393494e-06,5.536369016604808e-06,cystathionine; serine,rn:R00891; rn:R01290; rn:R01289,path:map02010; path:map00630; path:map01200,2,6
+ec:2.6.1.103,"(S)-3,5-dihydroxyphenylglycine transaminase",9.403959518458936e-06,5.918867836882432e-06,tyrosine; 4-hydroxyphenylpyruvate,rn:R06626,path:map00997; path:map00999; path:map00360,2,6
+ec:6.3.2.44,pantoate---beta-alanine ligase (ADP-forming),9.386796467970396e-06,5.664571520397685e-06,pantothenate; pantoate,rn:R10821,path:map00770; path:map01240; path:map04977,2,6
+ec:1.14.14.18,heme oxygenase (biliverdin-producing),9.361949628844607e-06,6.075606681001536e-06,biliverdin; heme,rn:R00311,path:map02010; path:map00860; path:map01240,2,6
+ec:1.14.15.20,"heme oxygenase (biliverdin-producing, ferredoxin)",9.361949628844607e-06,6.075606681001536e-06,biliverdin; heme,rn:R11579,path:map02010; path:map00860; path:map01240,2,6
+ec:3.2.2.10,pyrimidine-5'-nucleotide nucleosidase,9.352302654405162e-06,5.957386908473698e-06,cytosine; uracil,rn:R00510; rn:R12955,path:map00770; path:map00240; path:map01100,2,6
+ec:3.5.4.1,cytosine deaminase,9.352302654405162e-06,5.957386908473698e-06,cytosine; uracil,rn:R00974,path:map00770; path:map00240; path:map01100,2,6
+ec:2.8.3.5,3-oxoacid CoA-transferase,9.276398268749832e-06,5.372926039015322e-06,acetoacetate; succinate,rn:R00410,path:map00360; path:map00630; path:map01200,2,6
+ec:3.1.6.1,arylsulfatase (type I),9.18663984824488e-06,5.675546956811498e-06,phenol sulfate; estrone 3-sulfate,rn:R01243; rn:R03980,path:map01100; path:map04976; path:map00140,2,6
+ec:1.4.3.22,diamine oxidase,9.147404840243108e-06,5.812849525428991e-06,1-methylhistamine,R04674: N-Methylhistamine + H2O + Oxygen <=> Methylimidazole acetaldehyde + Ammonia + Hydrogen peroxide,path:map01100; path:map00340,1,6
+ec:2.1.1.8,histamine N-methyltransferase,9.147404840243108e-06,5.812849525428991e-06,1-methylhistamine,rn:R02155,path:map01100; path:map00340,1,6
+ec:3.5.3.7,guanidinobutyrase,9.117423776797448e-06,5.51663806032565e-06,urea; 4-guanidinobutanoate,rn:R01990,path:map02010; path:map00330; path:map01120,2,6
+ec:1.11.1.8,iodide peroxidase,9.091353510820577e-06,5.539438131053284e-06,tyrosine; thyroxine,rn:R03208; rn:R03539,path:map00997; path:map00999; path:map00360,2,6
+ec:1.5.8.3,sarcosine dehydrogenase,9.08710406225183e-06,5.195289140460035e-06,glycine; sarcosine,rn:R00611,path:map02010; path:map00630; path:map01200,2,6
+ec:1.4.3.19,glycine oxidase,9.08710406225183e-06,5.195289140460035e-06,glycine; sarcosine,rn:R05862; rn:R00366,path:map02010; path:map00630; path:map01200,2,6
+ec:2.1.1.20,glycine N-methyltransferase,9.08710406225183e-06,5.195289140460035e-06,glycine; sarcosine,R00367: S-Adenosyl-L-methionine + Glycine <=> S-Adenosyl-L-homocysteine + Sarcosine,path:map02010; path:map00630; path:map01200,2,6
+ec:1.5.3.1,sarcosine oxidase (formaldehyde-forming),9.08710406225183e-06,5.195289140460035e-06,glycine; sarcosine,rn:R00610,path:map02010; path:map00630; path:map01200,2,6
+ec:3.5.1.3,omega-amidase,9.065301318175244e-06,5.597647449372978e-06,alpha-ketoglutarate; alpha-ketoglutaramate*,rn:R00269,path:map00997; path:map00630; path:map00040,2,6
+ec:3.5.1.111,2-oxoglutaramate amidase,9.065301318175244e-06,5.597647449372978e-06,alpha-ketoglutarate; alpha-ketoglutaramate*,rn:R00269,path:map00997; path:map00630; path:map00040,2,6
+ec:3.5.1.31,formylmethionine deformylase,8.973806530530586e-06,5.626706815044149e-06,N-formylmethionine; methionine,rn:R00653,path:map00999; path:map04981; path:map00470,2,6
+ec:1.14.11.10,pyrimidine-deoxynucleoside 1'-dioxygenase,8.92528957786699e-06,5.998688102255207e-06,2'-deoxyuridine; uracil,rn:R02486,path:map00770; path:map02010; path:map00240,2,6
+ec:2.6.1.55,taurine---2-oxoglutarate transaminase,8.83006974932751e-06,5.661712081006151e-06,beta-alanine; taurine,rn:R01684; rn:R00908,path:map00770; path:map02010; path:map01240,2,6
+ec:2.4.1.99,sucrose:sucrose fructosyltransferase,8.787109861282434e-06,5.155208478063245e-06,sucrose; glucose,rn:R00015,path:map02010; path:map00074; path:map00521,2,6
+ec:1.14.14.139,"5beta-cholestane-3alpha,7alpha-diol 12alpha-hydroxylase",8.776543048657946e-06,5.295901354122554e-06,chenodeoxycholate; cholate,rn:R12550,path:map01100; path:map00121; path:map04976,2,6
+ec:3.1.2.27,choloyl-CoA hydrolase,8.776543048657946e-06,5.295901354122554e-06,chenodeoxycholate; cholate,rn:R03974; rn:R07296,path:map01100; path:map00121; path:map04976,2,6
+ec:6.2.1.7,cholate---CoA ligase,8.776543048657946e-06,5.295901354122554e-06,chenodeoxycholate; cholate,rn:R08743; rn:R02794,path:map01100; path:map00121; path:map04976,2,6
+ec:3.4.13.18,cytosol nonspecific dipeptidase,8.776356559747724e-06,5.239896702688331e-06,imidazole propionate; beta-alanine,R01166: Carnosine + H2O <=> beta-Alanine + L-Histidine; R01992: Homocarnosine + H2O <=> 4-Aminobutanoate + L-Histidine,path:map02010; path:map00470; path:map00640,2,6
+ec:4.2.1.2,fumarate hydratase,8.773723539719123e-06,4.840578584437585e-06,malate; fumarate,rn:R01082,path:map00360; path:map00630; path:map01200,2,6
+ec:2.7.1.1,hexokinase,8.746910111267405e-06,5.2244957068160985e-06,glucose; mannose,rn:R01327; rn:R00299; rn:R01330,path:map02010; path:map00074; path:map00521,2,6
+ec:2.4.2.29,tRNA-guanosine34 preQ1 transglycosylase,8.562378851598264e-06,5.672261406679323e-06,guanine,rn:R10209,path:map01100; path:map00230; path:map01232,1,6
+ec:2.4.2.64,tRNA-guanosine34 queuine transglycosylase,8.562378851598264e-06,5.672261406679323e-06,guanine,rn:R03789,path:map01100; path:map00230; path:map01232,1,6
+ec:2.8.3.22,succinyl-CoA---L-malate CoA-transferase,8.513638487676041e-06,4.468212498691979e-06,malate; succinate,rn:R00406,path:map00360; path:map00630; path:map01200,2,6
+ec:1.3.1.6,fumarate reductase (NADH),8.48825226132992e-06,4.5990269639722354e-06,fumarate; succinate,rn:R00402,path:map00360; path:map01200; path:map00630,2,6
+ec:1.1.1.172,2-oxoadipate reductase,8.472814936667127e-06,4.8934010791865495e-06,3-hydroxyadipate; 2-hydroxyadipate,rn:R01932,,2,6
+ec:3.1.3.74,pyridoxal phosphatase,8.450798606131193e-06,4.884891882922986e-06,pyridoxal; phosphate,rn:R00173,path:map02010; path:map02020; path:map02024,2,6
+ec:3.1.4.44,glycerophosphoinositol glycerophosphodiesterase,8.425497002387531e-06,5.080974175459494e-06,myo-inositol; glycerol 3-phosphate,rn:R01193,path:map02010; path:map01120; path:map05231,2,6
+ec:2.3.1.226,carboxymethylproline synthase,8.402822278264972e-06,5.306592223812349e-06,S-1-pyrroline-5-carboxylate; N-methylproline,rn:R10485,path:map01230; path:map00330; path:map00332,2,6
+ec:2.6.1.7,kynurenine---oxoglutarate transaminase,8.312450580579244e-06,4.705937768573546e-06,kynurenate; xanthurenate,rn:R03445; rn:R03954; rn:R12688,path:map01100; path:map00380,2,6
+ec:2.6.1.63,kynurenine---glyoxylate transaminase,8.312450580579244e-06,4.705937768573546e-06,kynurenate; xanthurenate,rn:R03445; rn:R03954; rn:R12692,path:map01100; path:map00380,2,6
+ec:3.5.2.1,barbiturase,8.299672962365553e-06,4.589444193757305e-06,ethylmalonate; urea,rn:R03870,path:map02010; path:map00330; path:map01120,2,6
+ec:1.5.3.10,dimethylglycine oxidase,8.282607784443418e-06,4.645451783878543e-06,dimethylglycine; sarcosine,rn:R01564,path:map00670; path:map04981; path:map00330,2,6
+ec:1.5.7.3,"N,N-dimethylglycine/sarcosine dehydrogenase (ferredoxin)",8.282607784443418e-06,4.645451783878543e-06,dimethylglycine; sarcosine,rn:R13028; rn:R13029,path:map00670; path:map04981; path:map00330,2,6
+ec:1.5.8.4,dimethylglycine dehydrogenase,8.282607784443418e-06,4.645451783878543e-06,dimethylglycine; sarcosine,rn:R01565,path:map00670; path:map04981; path:map00330,2,6
+ec:3.1.3.99,IMP-specific 5'-nucleotidase,8.236270266454221e-06,5.12401376137451e-06,inosine,R01126: IMP + H2O <=> Inosine + Orthophosphate,path:map01100; path:map00230; path:map01232,1,6
+ec:1.1.3.28,nucleoside oxidase,8.236270266454221e-06,5.12401376137451e-06,inosine,rn:R00055; rn:R05821,path:map01100; path:map00230; path:map01232,1,6
+ec:3.13.1.9,S-inosyl-L-homocysteine hydrolase,8.236270266454221e-06,5.12401376137451e-06,inosine,rn:R12588,path:map01100; path:map00230; path:map01232,1,6
+ec:3.5.1.6,beta-ureidopropionase,8.099769745297948e-06,4.803210741550495e-06,3-ureidopropionate; beta-alanine,rn:R00905,path:map00770; path:map01240; path:map04080,2,6
+ec:3.5.3.14,amidinoaspartase,8.086934250113227e-06,4.450158483786243e-06,guanidinosuccinate; urea,rn:R00777,path:map02010; path:map00330; path:map01120,2,6
+ec:2.4.1.82,galactinol---sucrose galactosyltransferase,8.054450910498572e-06,4.342993095829703e-06,sucrose; myo-inositol,rn:R06071; rn:R02411,path:map02010; path:map04973; path:map01120,2,6
+ec:3.1.1.93,mycophenolic acid acyl-glucuronide esterase,7.848128263910925e-06,4.059954678009655e-06,glucuronate; phenol glucuronide,rn:R10134,path:map00040; path:map01240; path:map01100,2,6
+ec:1.1.1.41,isocitrate dehydrogenase (NAD+),7.836035049152629e-06,5.401777124877589e-06,isocitrate,rn:R00709,path:map00630; path:map01200; path:map01070,1,6
+ec:1.1.1.286,isocitrate---homoisocitrate dehydrogenase,7.836035049152629e-06,5.401777124877589e-06,isocitrate,rn:R00709,path:map00630; path:map01200; path:map01070,1,6
+ec:2.3.1.126,isocitrate O-dihydroxycinnamoyltransferase,7.836035049152629e-06,5.401777124877589e-06,isocitrate,rn:R01946,path:map00630; path:map01200; path:map01070,1,6
+ec:3.5.3.17,guanidinopropionase,7.71949823537288e-06,4.211685462726062e-06,urea; beta-alanine,rn:R00913,path:map00770; path:map02010; path:map00330,2,6
+ec:1.3.5.2,dihydroorotate dehydrogenase (quinone),7.684338503048594e-06,4.11530636315338e-06,orotate; dihydroorotate,rn:R01868,path:map00240; path:map01100; path:map01240,2,6
+ec:1.3.1.15,dihydroorotate dehydrogenase (NADP+),7.684338503048594e-06,4.11530636315338e-06,orotate; dihydroorotate,rn:R01866,path:map00240; path:map01100; path:map01240,2,6
+ec:1.3.1.14,dihydroorotate dehydrogenase (NAD+),7.684338503048594e-06,4.11530636315338e-06,orotate; dihydroorotate,rn:R01869,path:map00240; path:map01100; path:map01240,2,6
+ec:2.4.2.10,orotate phosphoribosyltransferase,7.539800032855115e-06,4.018423902357072e-06,orotidine; orotate,rn:R01870,path:map00240; path:map01100; path:map01240,2,6
+ec:1.13.99.1,inositol oxygenase,7.480155057316498e-06,3.6023589221705152e-06,myo-inositol; glucuronate,rn:R01184,path:map02010; path:map00040; path:map01120,2,6
+ec:3.5.1.99,fatty acid amide hydrolase,7.4406325645876625e-06,2.7342524103602564e-06,oleamide,rn:R09537,,1,6
+ec:1.1.1.19,glucuronate reductase,7.137190027430172e-06,3.507311694270796e-06,glucuronate; gulonate*,rn:R01481,path:map00040; path:map01240; path:map01100,2,6
+ec:5.4.99.62,D-ribose pyranase,6.9901988109378045e-06,4.592379725995729e-06,ribose,rn:R08247,,1,6
+ec:6.2.1.70,L-threonine---[L-threonyl-carrier protein] ligase,6.959492315021879e-06,4.264305110990766e-06,threonine,rn:R12772; rn:R12774,path:map02010; path:map00860; path:map01230,1,6
+ec:6.1.1.3,threonine---tRNA ligase,6.959492315021879e-06,4.264305110990766e-06,threonine,rn:R03663,path:map02010; path:map00860; path:map01230,1,6
+ec:4.2.3.1,threonine synthase,6.959492315021879e-06,4.264305110990766e-06,threonine,rn:R01466,path:map02010; path:map00860; path:map01230,1,6
+ec:2.2.1.8,fluorothreonine transaldolase,6.959492315021879e-06,4.264305110990766e-06,threonine,rn:R07247,path:map02010; path:map00860; path:map01230,1,6
+ec:1.1.1.103,L-threonine 3-dehydrogenase,6.959492315021879e-06,4.264305110990766e-06,threonine,rn:R01465,path:map02010; path:map00860; path:map01230,1,6
+ec:5.1.1.6,threonine racemase,6.959492315021879e-06,4.264305110990766e-06,threonine,rn:R01467,path:map02010; path:map00860; path:map01230,1,6
+ec:2.7.7.87,L-threonylcarbamoyladenylate synthase,6.959492315021879e-06,4.264305110990766e-06,threonine,rn:R10463,path:map02010; path:map00860; path:map01230,1,6
+ec:2.7.1.177,L-threonine kinase,6.959492315021879e-06,4.264305110990766e-06,threonine,rn:R06531,path:map02010; path:map00860; path:map01230,1,6
+ec:2.7.1.114,AMP---thymidine kinase,6.955281451000214e-06,4.815617584508011e-06,adenosine,rn:R01571,path:map04923; path:map00670; path:map02010,1,6
+ec:2.7.1.20,adenosine kinase,6.955281451000214e-06,4.815617584508011e-06,adenosine,rn:R00185,path:map04923; path:map00670; path:map02010,1,6
+ec:3.13.2.3,(R)-S-adenosyl-L-methionine hydrolase (adenosine-forming),6.955281451000214e-06,4.815617584508011e-06,adenosine,rn:R12098,path:map04923; path:map00670; path:map02010,1,6
+ec:1.1.3.39,nucleoside oxidase (H2O2-forming),6.955281451000214e-06,4.815617584508011e-06,adenosine,rn:R05695; rn:R05696,path:map04923; path:map00670; path:map02010,1,6
+ec:3.13.2.1,adenosylhomocysteinase,6.955281451000214e-06,4.815617584508011e-06,adenosine,rn:R00192,path:map04923; path:map00670; path:map02010,1,6
+ec:2.5.1.153,adenosine tuberculosinyltransferase,6.955281451000214e-06,4.815617584508011e-06,adenosine,rn:R12669,path:map04923; path:map00670; path:map02010,1,6
+ec:4.1.1.42,carnitine decarboxylase,6.912929393772712e-06,4.587038675626077e-06,carnitine,rn:R02398,path:map01100; path:map00310; path:map02010,1,6
+ec:1.1.1.108,carnitine 3-dehydrogenase,6.912929393772712e-06,4.587038675626077e-06,carnitine,rn:R02395,path:map01100; path:map00310; path:map02010,1,6
+ec:1.14.11.1,gamma-butyrobetaine dioxygenase,6.912929393772712e-06,4.587038675626077e-06,carnitine,rn:R02397,path:map01100; path:map00310; path:map02010,1,6
+ec:2.3.1.7,carnitine O-acetyltransferase,6.912929393772712e-06,4.587038675626077e-06,carnitine,rn:R02396,path:map01100; path:map00310; path:map02010,1,6
+ec:4.4.1.2,homocysteine desulfhydrase,6.909492443061025e-06,5.110466760593586e-06,alpha-ketobutyrate,rn:R01283,path:map01230; path:map00640; path:map00660,1,6
+ec:1.2.7.1,pyruvate synthase (ferredoxin),6.909492443061025e-06,5.110466760593586e-06,alpha-ketobutyrate,rn:R01199,path:map01230; path:map00640; path:map00660,1,6
+ec:4.4.1.1,cystathionine gamma-lyase,6.909492443061025e-06,5.110466760593586e-06,alpha-ketobutyrate,rn:R04930; rn:R01001; rn:R04770,path:map01230; path:map00640; path:map00660,1,6
+ec:3.5.99.7,1-aminocyclopropane-1-carboxylate deaminase,6.909492443061025e-06,5.110466760593586e-06,alpha-ketobutyrate,rn:R00997,path:map01230; path:map00640; path:map00660,1,6
+ec:1.1.1.27,L-lactate dehydrogenase,6.909492443061025e-06,5.110466760593586e-06,alpha-ketobutyrate,rn:R01000,path:map01230; path:map00640; path:map00660,1,6
+ec:4.1.1.112,oxaloacetate decarboxylase,6.909492443061025e-06,5.110466760593586e-06,alpha-ketobutyrate,rn:R00995,path:map01230; path:map00640; path:map00660,1,6
+ec:2.3.3.6,2-ethylmalate synthase,6.909492443061025e-06,5.110466760593586e-06,alpha-ketobutyrate,rn:R00998,path:map01230; path:map00640; path:map00660,1,6
+ec:1.2.3.8,pyridoxal oxidase,6.840725868841099e-06,3.505769838549311e-06,pyridoxal; pyridoxate,R01709: Pyridoxal + Oxygen + H2O <=> 4-Pyridoxate + Hydrogen peroxide,path:map01120; path:map01240; path:map04977,2,6
+ec:6.3.4.8,imidazoleacetate---phosphoribosyldiphosphate ligase,6.795110731709065e-06,4.495642314291767e-06,4-imidazoleacetate,rn:R04068,path:map01100; path:map00340,1,6
+ec:1.14.13.5,imidazoleacetate 4-monooxygenase,6.795110731709065e-06,4.495642314291767e-06,4-imidazoleacetate,rn:R04066,path:map01100; path:map00340,1,6
+ec:4.2.3.2,ethanolamine-phosphate phospho-lyase,6.7850698129608604e-06,4.737796079425469e-06,phosphoethanolamine,rn:R00748,path:map00564; path:map01100; path:map04071,1,6
+ec:3.1.4.62,phosphatidylethanolamine phospholipase C,6.7850698129608604e-06,4.737796079425469e-06,phosphoethanolamine,"R02052: Phosphatidylethanolamine + H2O <=> 1,2-Diacyl-sn-glycerol + Ethanolamine phosphate",path:map00564; path:map01100; path:map04071,1,6
+ec:2.7.1.82,ethanolamine kinase,6.7850698129608604e-06,4.737796079425469e-06,phosphoethanolamine,rn:R01468,path:map00564; path:map01100; path:map04071,1,6
+ec:2.7.7.14,ethanolamine-phosphate cytidylyltransferase,6.7850698129608604e-06,4.737796079425469e-06,phosphoethanolamine,rn:R02038,path:map00564; path:map01100; path:map04071,1,6
+ec:1.1.1.381,3-hydroxy acid dehydrogenase,6.759303477989867e-06,3.5945091819224606e-06,allo-threonine,rn:R10852; rn:R10851,path:map00260; path:map01100,1,6
+ec:4.1.2.49,L-allo-threonine aldolase,6.759303477989867e-06,3.5945091819224606e-06,allo-threonine,R06171: L-Allothreonine <=> Glycine + Acetaldehyde,path:map00260; path:map01100,1,6
+ec:4.1.1.12,aspartate 4-decarboxylase,6.711831697263309e-06,4.192627965807621e-06,cysteine sulfinic acid,rn:R00863,path:map00270; path:map01100; path:map00430,1,6
+ec:1.13.11.20,cysteine dioxygenase,6.711831697263309e-06,4.192627965807621e-06,cysteine sulfinic acid,rn:R00893,path:map00270; path:map01100; path:map00430,1,6
+ec:3.1.1.25,"1,4-lactonase",6.699525386038102e-06,3.4379624840251973e-06,galactonate; gulonate*,rn:R03034; rn:R02933,path:map00040; path:map01120; path:map01240,2,6
+ec:2.6.1.67,2-aminohexanoate transaminase,6.6279434098181634e-06,4.644446680900254e-06,4-methyl-2-oxopentanoate,R01090: L-Leucine + 2-Oxoglutarate <=> 4-Methyl-2-oxopentanoate + L-Glutamate,path:map01230; path:map00785; path:map00280,1,6
+ec:2.3.1.328,branched-chain 2-oxoacid:malonyl-[acyl-carrier protein] acyltransferase,6.6279434098181634e-06,4.644446680900254e-06,4-methyl-2-oxopentanoate,rn:R13437,path:map01230; path:map00785; path:map00280,1,6
+ec:1.14.13.128,7-methylxanthine demethylase,6.537791047176198e-06,4.742759144474255e-06,xanthine,rn:R07966; rn:R07965,path:map01120; path:map00230; path:map00232,1,6
+ec:1.14.13.179,methylxanthine N3-demethylase,6.537791047176198e-06,4.742759144474255e-06,xanthine,rn:R07961; rn:R07939; rn:R07962,path:map01120; path:map00230; path:map00232,1,6
+ec:1.14.13.178,methylxanthine N1-demethylase,6.537791047176198e-06,4.742759144474255e-06,xanthine,rn:R07956; rn:R07974; rn:R07955,path:map01120; path:map00230; path:map00232,1,6
+ec:2.1.1.281,phenylpyruvate C3-methyltransferase,6.516844643025795e-06,4.209394765040761e-06,phenylpyruvate,rn:R10431,path:map00360; path:map01230; path:map00470,1,6
+ec:4.2.1.51,prephenate dehydratase,6.516844643025795e-06,4.209394765040761e-06,phenylpyruvate,rn:R01373,path:map00360; path:map01230; path:map00470,1,6
+ec:4.1.1.43,phenylpyruvate decarboxylase,6.516844643025795e-06,4.209394765040761e-06,phenylpyruvate,rn:R01377,path:map00360; path:map01230; path:map00470,1,6
+ec:4.2.1.91,arogenate dehydratase,6.516844643025795e-06,4.209394765040761e-06,phenylpyruvate,rn:R01373,path:map00360; path:map01230; path:map00470,1,6
+ec:1.4.5.1,D-amino acid dehydrogenase (quinone),6.516844643025795e-06,4.209394765040761e-06,phenylpyruvate,rn:R01374,path:map00360; path:map01230; path:map00470,1,6
+ec:2.6.1.70,aspartate---phenylpyruvate transaminase,6.516844643025795e-06,4.209394765040761e-06,phenylpyruvate,rn:R00695,path:map00360; path:map01230; path:map00470,1,6
+ec:1.97.1.15,2-(all-trans-polyprenyl)phenol 6-hydroxylase (prephenate),6.516844643025795e-06,4.209394765040761e-06,phenylpyruvate,rn:R13439,path:map00360; path:map01230; path:map00470,1,6
+ec:2.1.4.3,L-arginine:L-lysine amidinotransferase,6.369659039534775e-06,4.582743355978854e-06,homoarginine,rn:R12506,,1,6
+ec:1.14.14.29,25/26-hydroxycholesterol 7alpha-hydroxylase,6.300844353630459e-06,3.8110748764470807e-06,3beta-hydroxy-5-cholestenoate,rn:R08727,path:map00120,1,6
+ec:1.11.2.3,plant seed peroxygenase,6.273771950461428e-06,3.731997025544605e-06,2-hydroxyoleate,rn:R09463,path:map00073,1,6
+ec:2.8.3.24,(R)-2-hydroxy-4-methylpentanoate CoA-transferase,6.155823287383198e-06,4.237855457305753e-06,alpha-hydroxyisocaproate,rn:R11462,,1,6
+ec:2.1.1.123,[cytochrome-c]-methionine S-methyltransferase,6.072531077000249e-06,4.225563543222424e-06,S-methylmethionine,rn:R04717,,1,6
+ec:1.14.13.172,salicylate 5-hydroxylase,6.043111272880642e-06,3.955196977755414e-06,gentisate,rn:R07709; rn:R07710,path:map00362; path:map01120; path:map00626,1,6
+ec:1.13.11.4,"gentisate 1,2-dioxygenase",6.043111272880642e-06,3.955196977755414e-06,gentisate,rn:R02656,path:map00362; path:map01120; path:map00626,1,6
+ec:1.14.13.24,3-hydroxybenzoate 6-monooxygenase,6.043111272880642e-06,3.955196977755414e-06,gentisate,rn:R02589,path:map00362; path:map01120; path:map00626,1,6
+ec:4.1.1.62,gentisate decarboxylase,6.043111272880642e-06,3.955196977755414e-06,gentisate,rn:R02489,path:map00362; path:map01120; path:map00626,1,6
+ec:6.2.1.30,phenylacetate---CoA ligase,6.000321394252608e-06,4.107753659601142e-06,phenylacetate,rn:R02539,path:map01100; path:map00360; path:map00643,1,6
+ec:4.1.1.119,phenylacetate decarboxylase,6.000321394252608e-06,4.107753659601142e-06,phenylacetate,rn:R12504,path:map01100; path:map00360; path:map00643,1,6
+ec:3.5.1.11,penicillin amidase,6.000321394252608e-06,4.107753659601142e-06,phenylacetate,rn:R04103,path:map01100; path:map00360; path:map00643,1,6
+ec:3.2.2.9,adenosylhomocysteine nucleosidase,5.987328833023048e-06,4.085989725947639e-06,adenine,rn:R12621; rn:R00194; rn:R01401,path:map00230; path:map01100; path:map00908,1,6
+ec:2.4.2.28,S-methyl-5'-thioadenosine phosphorylase,5.987328833023048e-06,4.085989725947639e-06,adenine,rn:R01402,path:map00230; path:map01100; path:map00908,1,6
+ec:2.7.8.37,alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase,5.987328833023048e-06,4.085989725947639e-06,adenine,rn:R10185,path:map00230; path:map01100; path:map00908,1,6
+ec:1.5.99.12,cytokinin dehydrogenase,5.987328833023048e-06,4.085989725947639e-06,adenine,rn:R05708,path:map00230; path:map01100; path:map00908,1,6
+ec:3.2.2.16,methylthioadenosine nucleosidase,5.987328833023048e-06,4.085989725947639e-06,adenine,rn:R01401,path:map00230; path:map01100; path:map00908,1,6
+ec:2.4.2.52,triphosphoribosyl-dephospho-CoA synthase,5.987328833023048e-06,4.085989725947639e-06,adenine,rn:R09675,path:map00230; path:map01100; path:map00908,1,6
+ec:2.4.2.7,adenine phosphoribosyltransferase,5.987328833023048e-06,4.085989725947639e-06,adenine,rn:R00190,path:map00230; path:map01100; path:map00908,1,6
+ec:3.2.2.4,AMP nucleosidase,5.987328833023048e-06,4.085989725947639e-06,adenine,rn:R00182,path:map00230; path:map01100; path:map00908,1,6
+ec:3.2.2.30,aminodeoxyfutalosine nucleosidase,5.987328833023048e-06,4.085989725947639e-06,adenine,rn:R10668,path:map00230; path:map01100; path:map00908,1,6
+ec:2.4.99.17,S-adenosylmethionine:tRNA ribosyltransferase-isomerase,5.987328833023048e-06,4.085989725947639e-06,adenine,rn:R10220,path:map00230; path:map01100; path:map00908,1,6
+ec:3.1.3.91,7-methylguanosine nucleotidase,5.985398645534296e-06,3.8070154464195393e-06,cytidine,R00511: CMP + H2O <=> Cytidine + Orthophosphate,path:map00240; path:map02010; path:map01232,1,6
+ec:1.13.11.23,"2,3-dihydroxyindole 2,3-dioxygenase",5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R00983,path:map00997; path:map00999; path:map00996,1,6
+ec:4.1.1.24,aminobenzoate decarboxylase,5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R00990,path:map00997; path:map00999; path:map00996,1,6
+ec:3.7.1.13,"2-hydroxy-6-oxo-6-(2-aminophenyl)hexa-2,4-dienoate hydrolase",5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R05365,path:map00997; path:map00999; path:map00996,1,6
+ec:1.14.13.35,anthranilate 3-monooxygenase (deaminating),5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R00980,path:map00997; path:map00999; path:map00996,1,6
+ec:3.7.1.3,kynureninase,5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R00987,path:map00997; path:map00999; path:map00996,1,6
+ec:2.1.1.111,anthranilate N-methyltransferase,5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R00984,path:map00997; path:map00999; path:map00996,1,6
+ec:6.2.1.32,anthranilate---CoA ligase,5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R00982,path:map00997; path:map00999; path:map00996,1,6
+ec:3.5.1.9,arylformamidase,5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R00988,path:map00997; path:map00999; path:map00996,1,6
+ec:2.3.1.144,anthranilate N-benzoyltransferase,5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R02453,path:map00997; path:map00999; path:map00996,1,6
+ec:2.3.1.113,anthranilate N-malonyltransferase,5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R00989,path:map00997; path:map00999; path:map00996,1,6
+ec:1.14.12.1,"anthranilate 1,2-dioxygenase (deaminating, decarboxylating)",5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R00823; rn:R00825,path:map00997; path:map00999; path:map00996,1,6
+ec:1.14.14.8,anthranilate 3-monooxygenase (FAD),5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R09517,path:map00997; path:map00999; path:map00996,1,6
+ec:2.4.2.18,anthranilate phosphoribosyltransferase,5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R01073,path:map00997; path:map00999; path:map00996,1,6
+ec:4.1.3.27,anthranilate synthase,5.979633372580812e-06,4.0528038947435e-06,anthranilate,rn:R00985; rn:R00986,path:map00997; path:map00999; path:map00996,1,6
+ec:1.14.14.178,steroid 22S-hydroxylase,5.975497259504805e-06,4.114524242011303e-06,campesterol,rn:R07445,path:map00100; path:map01100; path:map01110,1,6
+ec:4.3.2.9,gamma-glutamylcyclotransferase,5.9600299670625945e-06,3.7926818383029232e-06,5-oxoproline,rn:R02743; rn:R03749,path:map01100; path:map04382; path:map00480,1,6
+ec:4.3.2.6,gamma-L-glutamyl-butirosin B gamma-glutamyl cyclotransferase,5.9600299670625945e-06,3.7926818383029232e-06,5-oxoproline,rn:R08910,path:map01100; path:map04382; path:map00480,1,6
+ec:4.3.2.8,gamma-glutamylamine cyclotransferase,5.9600299670625945e-06,3.7926818383029232e-06,5-oxoproline,rn:R11862,path:map01100; path:map04382; path:map00480,1,6
+ec:4.3.2.7,glutathione-specific gamma-glutamylcyclotransferase,5.9600299670625945e-06,3.7926818383029232e-06,5-oxoproline,rn:R11861,path:map01100; path:map04382; path:map00480,1,6
+ec:1.13.12.3,tryptophan 2-monooxygenase,5.959661232853277e-06,4.239593332895926e-06,tryptophan,rn:R00679,path:map00997; path:map00999; path:map00996,1,6
+ec:4.1.99.1,tryptophanase,5.959661232853277e-06,4.239593332895926e-06,tryptophan,rn:R00673,path:map00997; path:map00999; path:map00996,1,6
+ec:1.14.14.156,tryptophan N-monooxygenase,5.959661232853277e-06,4.239593332895926e-06,tryptophan,rn:R08160,path:map00997; path:map00999; path:map00996,1,6
+ec:3.5.1.57,tryptophanamidase,5.959661232853277e-06,4.239593332895926e-06,tryptophan,rn:R00682,path:map00997; path:map00999; path:map00996,1,6
+ec:4.1.1.105,L-tryptophan decarboxylase,5.959661232853277e-06,4.239593332895926e-06,tryptophan,R00685: L-Tryptophan <=> Tryptamine + CO2,path:map00997; path:map00999; path:map00996,1,6
+ec:1.3.3.10,"tryptophan alpha,beta-oxidase",5.959661232853277e-06,4.239593332895926e-06,tryptophan,rn:R05317,path:map00997; path:map00999; path:map00996,1,6
+ec:2.6.1.27,tryptophan transaminase,5.959661232853277e-06,4.239593332895926e-06,tryptophan,rn:R00684,path:map00997; path:map00999; path:map00996,1,6
+ec:1.13.11.11,"tryptophan 2,3-dioxygenase",5.959661232853277e-06,4.239593332895926e-06,tryptophan,rn:R00678,path:map00997; path:map00999; path:map00996,1,6
+ec:1.4.1.19,tryptophan dehydrogenase,5.959661232853277e-06,4.239593332895926e-06,tryptophan,rn:R00676; rn:R00675,path:map00997; path:map00999; path:map00996,1,6
+ec:1.14.16.4,tryptophan 5-monooxygenase,5.959661232853277e-06,4.239593332895926e-06,tryptophan,rn:R07213; rn:R01814,path:map00997; path:map00999; path:map00996,1,6
+ec:6.1.1.2,tryptophan---tRNA ligase,5.959661232853277e-06,4.239593332895926e-06,tryptophan,rn:R03664,path:map00997; path:map00999; path:map00996,1,6
+ec:2.5.1.34,4-dimethylallyltryptophan synthase,5.959661232853277e-06,4.239593332895926e-06,tryptophan,rn:R01657,path:map00997; path:map00999; path:map00996,1,6
+ec:1.13.99.3,tryptophan 2'-dioxygenase,5.959661232853277e-06,4.239593332895926e-06,tryptophan,rn:R00681,path:map00997; path:map00999; path:map00996,1,6
+ec:3.1.4.12,sphingomyelin phosphodiesterase,5.907177229260543e-06,3.748418347071969e-06,choline phosphate,rn:R02541,path:map01100; path:map00552; path:map00564,1,6
+ec:3.6.1.53,Mn2+-dependent ADP-ribose/CDP-alcohol diphosphatase,5.907177229260543e-06,3.748418347071969e-06,choline phosphate,rn:R09538,path:map01100; path:map00552; path:map00564,1,6
+ec:2.7.7.15,choline-phosphate cytidylyltransferase,5.907177229260543e-06,3.748418347071969e-06,choline phosphate,rn:R01890,path:map01100; path:map00552; path:map00564,1,6
+ec:4.2.1.9,dihydroxy-acid dehydratase,5.82438505683308e-06,4.117092117006212e-06,3-methyl-2-oxobutyrate,rn:R01209; rn:R04441,path:map00770; path:map01230; path:map01240,1,6
+ec:1.4.1.8,valine dehydrogenase (NADP+),5.82438505683308e-06,4.117092117006212e-06,3-methyl-2-oxobutyrate,rn:R01212,path:map00770; path:map01230; path:map01240,1,6
+ec:2.3.3.13,2-isopropylmalate synthase,5.82438505683308e-06,4.117092117006212e-06,3-methyl-2-oxobutyrate,rn:R01213,path:map00770; path:map01230; path:map01240,1,6
+ec:1.4.1.23,valine dehydrogenase (NAD+),5.82438505683308e-06,4.117092117006212e-06,3-methyl-2-oxobutyrate,rn:R01434,path:map00770; path:map01230; path:map01240,1,6
+ec:2.1.2.11,3-methyl-2-oxobutanoate hydroxymethyltransferase,5.82438505683308e-06,4.117092117006212e-06,3-methyl-2-oxobutyrate,rn:R01226; rn:R01216,path:map00770; path:map01230; path:map01240,1,6
+ec:2.6.1.32,valine---3-methyl-2-oxovalerate transaminase,5.82438505683308e-06,4.117092117006212e-06,3-methyl-2-oxobutyrate,rn:R02200,path:map00770; path:map01230; path:map01240,1,6
+ec:1.1.1.84,dimethylmalate dehydrogenase,5.82438505683308e-06,4.117092117006212e-06,3-methyl-2-oxobutyrate,rn:R01211,path:map00770; path:map01230; path:map01240,1,6
+ec:4.1.2.12,2-dehydropantoate aldolase,5.82438505683308e-06,4.117092117006212e-06,3-methyl-2-oxobutyrate,rn:R01216,path:map00770; path:map01230; path:map01240,1,6
+ec:2.6.1.66,valine---pyruvate transaminase,5.82438505683308e-06,4.117092117006212e-06,3-methyl-2-oxobutyrate,rn:R01215,path:map00770; path:map01230; path:map01240,1,6
+ec:1.14.14.186,tryptamine 5-hydroxylase,5.801246888787172e-06,3.824006357044117e-06,serotonin,rn:R12659,path:map00380; path:map05207; path:map07211,1,6
+ec:2.1.1.49,amine N-methyltransferase,5.801246888787172e-06,3.824006357044117e-06,serotonin,rn:R02910,path:map00380; path:map05207; path:map07211,1,6
+ec:2.3.1.87,aralkylamine N-acetyltransferase,5.801246888787172e-06,3.824006357044117e-06,serotonin,rn:R02911,path:map00380; path:map05207; path:map07211,1,6
+ec:2.4.2.16,urate-ribonucleoside phosphorylase,5.766551873974144e-06,3.908533064429675e-06,urate,rn:R02646,path:map01100; path:map00230; path:map04976,1,6
+ec:1.7.3.3,factor-independent urate hydroxylase,5.766551873974144e-06,3.908533064429675e-06,urate,rn:R02106,path:map01100; path:map00230; path:map04976,1,6
+ec:3.5.4.32,8-oxoguanine deaminase,5.766551873974144e-06,3.908533064429675e-06,urate,rn:R09876,path:map01100; path:map00230; path:map04976,1,6
+ec:1.14.13.113,FAD-dependent urate hydroxylase,5.766551873974144e-06,3.908533064429675e-06,urate,rn:R09514,path:map01100; path:map00230; path:map04976,1,6
+ec:1.14.15.5,corticosterone 18-monooxygenase,5.727842473221453e-06,3.743404227573309e-06,corticosterone,rn:R03262,path:map04923; path:map05020; path:map01100,1,6
+ec:3.1.1.52,phosphatidylinositol deacylase,5.717263670034999e-06,4.236031862496208e-06,glycerophosphoinositol*,rn:R03360,path:map00564,1,6
+ec:1.14.99.63,beta-carotene 4-ketolase,5.706112397765347e-06,3.8820212869487885e-06,beta-cryptoxanthin,rn:R07564,path:map01110; path:map00906,1,6
+ec:1.1.2.4,D-lactate dehydrogenase (cytochrome),5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00197,path:map00997; path:map00360; path:map00900,1,6
+ec:3.1.3.60,phosphoenolpyruvate phosphatase,5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00208,path:map00997; path:map00360; path:map00900,1,6
+ec:1.2.3.3,pyruvate oxidase,5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00207,path:map00997; path:map00360; path:map00900,1,6
+ec:2.7.1.40,pyruvate kinase,5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00200,path:map00997; path:map00360; path:map00900,1,6
+ec:1.2.1.23,2-oxoaldehyde dehydrogenase (NAD+),5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00203,path:map00997; path:map00360; path:map00900,1,6
+ec:1.2.1.49,2-oxoaldehyde dehydrogenase (NADP+),5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00205,path:map00997; path:map00360; path:map00900,1,6
+ec:4.1.3.17,4-hydroxy-4-methyl-2-oxoglutarate aldolase,5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00008,path:map00997; path:map00360; path:map00900,1,6
+ec:1.2.4.1,pyruvate dehydrogenase (acetyl-transferring),5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00014,path:map00997; path:map00360; path:map00900,1,6
+ec:2.7.9.1,"pyruvate, phosphate dikinase",5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00206,path:map00997; path:map00360; path:map00900,1,6
+ec:4.3.1.13,carbamoyl-serine ammonia-lyase,5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00213,path:map00997; path:map00360; path:map00900,1,6
+ec:4.1.1.1,pyruvate decarboxylase,5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00014,path:map00997; path:map00360; path:map00900,1,6
+ec:4.3.1.15,diaminopropionate ammonia-lyase,5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00195,path:map00997; path:map00360; path:map00900,1,6
+ec:1.1.2.3,L-lactate dehydrogenase (cytochrome),5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00196,path:map00997; path:map00360; path:map00900,1,6
+ec:1.2.1.51,pyruvate dehydrogenase (NADP+),5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00210,path:map00997; path:map00360; path:map00900,1,6
+ec:1.2.1.104,pyruvate dehydrogenase system,5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00209,path:map00997; path:map00360; path:map00900,1,6
+ec:1.1.2.5,D-lactate dehydrogenase (cytochrome c-553),5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00198,path:map00997; path:map00360; path:map00900,1,6
+ec:1.2.1.22,lactaldehyde dehydrogenase,5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00203,path:map00997; path:map00360; path:map00900,1,6
+ec:1.2.3.6,pyruvate oxidase (CoA-acetylating),5.699690491638103e-06,4.386109572684977e-06,pyruvate,rn:R00211,path:map00997; path:map00360; path:map00900,1,6
+ec:1.14.18.5,sphingolipid C4-monooxygenase,5.682441767700262e-06,3.6640365242143433e-06,sphinganine,rn:R06525,path:map00600; path:map04382; path:map01100,1,6
+ec:1.1.1.102,3-dehydrosphinganine reductase,5.682441767700262e-06,3.6640365242143433e-06,sphinganine,rn:R02978,path:map00600; path:map04382; path:map01100,1,6
+ec:2.5.1.16,spermidine synthase,5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R01920,path:map02010; path:map00330; path:map01100,1,6
+ec:6.3.1.8,glutathionylspermidine synthase,5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R01917,path:map02010; path:map00330; path:map01100,1,6
+ec:1.5.3.17,non-specific polyamine oxidase,5.674010806666269e-06,3.953640350215124e-06,spermine; spermidine,rn:R09076; rn:R09077; rn:R03899,path:map00770; path:map02010; path:map00330,2,6
+ec:4.1.1.96,carboxynorspermidine decarboxylase,5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R09081,path:map02010; path:map00330; path:map01100,1,6
+ec:1.5.99.6,spermidine dehydrogenase,5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R01915; rn:R01914,path:map02010; path:map00330; path:map01100,1,6
+ec:2.5.1.79,thermospermine synthase,5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R09531,path:map02010; path:map00330; path:map01100,1,6
+ec:1.5.3.16,spermine oxidase,5.674010806666269e-06,3.953640350215124e-06,spermine; spermidine,rn:R09076,path:map00770; path:map02010; path:map00330,2,6
+ec:2.3.1.248,spermidine disinapoyl transferase,5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R11199,path:map02010; path:map00330; path:map01100,1,6
+ec:6.3.1.9,trypanothione synthase,5.674010806666269e-06,3.953640350215124e-06,spermine; spermidine,rn:R08352; rn:R01917,path:map00770; path:map02010; path:map00330,2,6
+ec:3.5.1.78,glutathionylspermidine amidase,5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R01918,path:map02010; path:map00330; path:map01100,1,6
+ec:2.5.1.45,homospermidine synthase (spermidine-specific),5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R01919,path:map02010; path:map00330; path:map01100,1,6
+ec:2.5.1.46,deoxyhypusine synthase,5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R07477; rn:R05329,path:map02010; path:map00330; path:map01100,1,6
+ec:2.5.1.22,spermine synthase,5.674010806666269e-06,3.953640350215124e-06,spermine; spermidine,rn:R02869,path:map00770; path:map02010; path:map00330,2,6
+ec:2.5.1.44,homospermidine synthase,5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R01919,path:map02010; path:map00330; path:map01100,1,6
+ec:1.5.3.14,"polyamine oxidase (propane-1,3-diamine-forming)",5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R01914,path:map02010; path:map00330; path:map01100,1,6
+ec:1.5.3.13,N1-acetylpolyamine oxidase,5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R03899,path:map02010; path:map00330; path:map01100,1,6
+ec:2.5.1.128,N4-bis(aminopropyl)spermidine synthase,5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R11159; rn:R11154,path:map02010; path:map00330; path:map01100,1,6
+ec:3.5.1.48,acetylspermidine deacetylase,5.674010806666269e-06,3.953640350215124e-06,spermidine,rn:R07300,path:map02010; path:map00330; path:map01100,1,6
+ec:3.4.11.23,PepB aminopeptidase,5.638969537815454e-06,3.5873484356554205e-06,cysteinylglycine,rn:R04951,path:map01100; path:map00480,1,6
+ec:3.4.11.2,membrane alanyl aminopeptidase,5.638969537815454e-06,3.5873484356554205e-06,cysteinylglycine,rn:R04951,path:map01100; path:map00480,1,6
+ec:3.4.11.1,leucyl aminopeptidase,5.638969537815454e-06,3.5873484356554205e-06,cysteinylglycine,rn:R04951,path:map01100; path:map00480,1,6
+ec:3.4.13.23,cysteinylglycine-S-conjugate dipeptidase,5.638969537815454e-06,3.5873484356554205e-06,cysteinylglycine,rn:R12514,path:map01100; path:map00480,1,6
+ec:4.2.1.186,3-cyano-L-homoalanine synthase,5.625871687712594e-06,3.4621944303528498e-06,2-amino-4-cyanobutanoate,rn:R13610; rn:R13609,,1,6
+ec:3.7.1.23,maleylpyruvate hydrolase,5.621698641475583e-06,3.477645377820047e-06,maleate,rn:R11257,path:map01120; path:map00650; path:map01100,1,6
+ec:4.2.1.31,maleate hydratase,5.621698641475583e-06,3.477645377820047e-06,maleate,rn:R02419,path:map01120; path:map00650; path:map01100,1,6
+ec:3.5.1.107,maleamate amidohydrolase,5.621698641475583e-06,3.477645377820047e-06,maleate,rn:R03540,path:map01120; path:map00650; path:map01100,1,6
+ec:2.7.3.1,guanidinoacetate kinase,5.609177605704875e-06,3.63568600047881e-06,guanidinoacetate,rn:R02575,path:map00260; path:map01100; path:map00330,1,6
+ec:3.9.1.1,phosphoamidase,5.609143926569263e-06,3.468017657228953e-06,creatine,rn:R01882,path:map00260; path:map01100; path:map00330,1,6
+ec:2.7.3.2,creatine kinase,5.609143926569263e-06,3.468017657228953e-06,creatine,rn:R01881,path:map00260; path:map01100; path:map00330,1,6
+ec:4.4.1.9,L-3-cyanoalanine synthase,5.5512894801545976e-06,2.887302295527968e-06,cysteine,rn:R02846,,1,6
+ec:1.14.99.38,cholesterol 25-monooxygenase,5.504178448692861e-06,3.575469896585787e-06,cholesterol,rn:R07218,path:map00996; path:map04977; path:map05217,1,6
+ec:1.14.14.25,cholesterol 24-hydroxylase,5.504178448692861e-06,3.575469896585787e-06,cholesterol,rn:R07207,path:map00996; path:map04977; path:map05217,1,6
+ec:3.1.1.13,sterol esterase,5.504178448692861e-06,3.575469896585787e-06,cholesterol,rn:R01462,path:map00996; path:map04977; path:map05217,1,6
+ec:2.3.1.73,diacylglycerol---sterol O-acyltransferase,5.504178448692861e-06,3.575469896585787e-06,cholesterol,rn:R02692,path:map00996; path:map04977; path:map05217,1,6
+ec:1.14.14.23,cholesterol 7alpha-monooxygenase,5.504178448692861e-06,3.575469896585787e-06,cholesterol,rn:R01463,path:map00996; path:map04977; path:map05217,1,6
+ec:1.14.15.15,cholestanetriol 26-monooxygenase,5.504178448692861e-06,3.575469896585787e-06,cholesterol,rn:R08505,path:map00996; path:map04977; path:map05217,1,6
+ec:2.3.1.26,sterol O-acyltransferase,5.504178448692861e-06,3.575469896585787e-06,cholesterol,rn:R01461,path:map00996; path:map04977; path:map05217,1,6
+ec:1.14.15.6,cholesterol monooxygenase (side-chain-cleaving),5.504178448692861e-06,3.575469896585787e-06,cholesterol,rn:R02724; rn:R02723; rn:R01454,path:map00996; path:map04977; path:map05217,1,6
+ec:3.2.1.104,steryl-beta-glucosidase,5.504178448692861e-06,3.575469896585787e-06,cholesterol,rn:R01460,path:map00996; path:map04977; path:map05217,1,6
+ec:1.3.1.72,Delta24-sterol reductase,5.504178448692861e-06,3.575469896585787e-06,cholesterol,rn:R01457,path:map00996; path:map04977; path:map05217,1,6
+ec:1.3.1.21,7-dehydrocholesterol reductase,5.504178448692861e-06,3.575469896585787e-06,cholesterol,rn:R01456; rn:R01451,path:map00996; path:map04977; path:map05217,1,6
+ec:1.8.4.14,L-methionine (R)-S-oxide reductase,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R02025,path:map00999; path:map04981; path:map00470,1,6
+ec:2.1.1.13,methionine synthase,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R00946,path:map00999; path:map04981; path:map00470,1,6
+ec:2.1.1.14,5-methyltetrahydropteroyltriglutamate---homocysteine S-methyltransferase,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R04405,path:map00999; path:map04981; path:map00470,1,6
+ec:3.4.13.12,Met-Xaa dipeptidase,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R00657,path:map00999; path:map04981; path:map00470,1,6
+ec:2.8.1.6,biotin synthase,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R01078,path:map00999; path:map04981; path:map00470,1,6
+ec:2.1.1.3,thetin---homocysteine S-methyltransferase,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R04153,path:map00999; path:map04981; path:map00470,1,6
+ec:5.1.1.2,methionine racemase,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R00655,path:map00999; path:map04981; path:map00470,1,6
+ec:6.1.1.10,methionine---tRNA ligase,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R03659,path:map00999; path:map04981; path:map00470,1,6
+ec:2.1.1.10,homocysteine S-methyltransferase,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R00650,path:map00999; path:map04981; path:map00470,1,6
+ec:4.1.1.57,methionine decarboxylase,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R00656,path:map00999; path:map04981; path:map00470,1,6
+ec:1.97.1.4,[formate-C-acetyltransferase]-activating enzyme,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R04710,path:map00999; path:map04981; path:map00470,1,6
+ec:4.1.99.17,phosphomethylpyrimidine synthase,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R03472,path:map00999; path:map04981; path:map00470,1,6
+ec:1.8.4.13,L-methionine (S)-S-oxide reductase,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R02025,path:map00999; path:map04981; path:map00470,1,6
+ec:2.1.1.12,methionine S-methyltransferase,5.427407438948941e-06,4.112912257699117e-06,methionine,rn:R00649,path:map00999; path:map04981; path:map00470,1,6
+ec:3.2.2.5,NAD+ glycohydrolase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R00102,path:map01240; path:map04977; path:map01100,1,6
+ec:2.4.2.30,NAD+ ADP-ribosyltransferase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R04176,path:map01240; path:map04977; path:map01100,1,6
+ec:2.4.2.36,NAD+---diphthamide ADP-ribosyltransferase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R04074,path:map01240; path:map04977; path:map01100,1,6
+ec:2.3.1.286,protein acetyllysine N-acetyltransferase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R10634; rn:R10633,path:map01240; path:map04977; path:map01100,1,6
+ec:3.2.2.6,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R10629; rn:R00102,path:map01240; path:map04977; path:map01100,1,6
+ec:2.4.99.20,2'-phospho-ADP-ribosyl cyclase/2'-phospho-cyclic-ADP-ribose transferase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R10631; rn:R00119,path:map01240; path:map04977; path:map01100,1,6
+ec:2.4.2.12,nicotinamide phosphoribosyltransferase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R01271,path:map01240; path:map04977; path:map01100,1,6
+ec:2.4.2.37,NAD+---dinitrogen-reductase ADP-D-ribosyltransferase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R03447,path:map01240; path:map04977; path:map01100,1,6
+ec:2.4.2.60,cysteine-dependent adenosine diphosphate thiazole synthase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R10685,path:map01240; path:map04977; path:map01100,1,6
+ec:2.3.1.313,NAD-dependent lipoamidase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R13186,path:map01240; path:map04977; path:map01100,1,6
+ec:2.4.2.31,NAD+---protein-arginine ADP-ribosyltransferase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R00555,path:map01240; path:map04977; path:map01100,1,6
+ec:3.5.1.19,nicotinamidase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R01268,path:map01240; path:map04977; path:map01100,1,6
+ec:3.2.2.14,NMN nucleosidase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R01270,path:map01240; path:map04977; path:map01100,1,6
+ec:2.4.2.59,sulfide-dependent adenosine diphosphate thiazole synthase,5.413173480525621e-06,3.844161786773733e-06,nicotinamide,rn:R12026,path:map01240; path:map04977; path:map01100,1,6
+ec:3.1.3.7,"3'(2'),5'-bisphosphate nucleotidase",5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00188,path:map02010; path:map02020; path:map02024,1,6
+ec:7.1.2.2,H+-transporting two-sector ATPase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00086,path:map02010; path:map02020; path:map02024,1,6
+ec:6.3.4.16,carbamoyl-phosphate synthase (ammonia),5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00149,path:map02010; path:map02020; path:map02024,1,6
+ec:3.6.1.15,nucleoside-triphosphate phosphatase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00086,path:map02010; path:map02020; path:map02024,1,6
+ec:3.1.3.108,nocturnin,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00118,path:map02010; path:map02020; path:map02024,1,6
+ec:3.1.3.17,[phosphorylase] phosphatase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00077,path:map02010; path:map02020; path:map02024,1,6
+ec:3.6.1.5,apyrase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00122; rn:R00086; rn:R00155,path:map02010; path:map02020; path:map02024,1,6
+ec:3.6.1.8,ATP diphosphatase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00086,path:map02010; path:map02020; path:map02024,1,6
+ec:4.2.1.93,ATP-dependent NAD(P)H-hydrate dehydratase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00129,path:map02010; path:map02020; path:map02024,1,6
+ec:3.6.1.6,nucleoside diphosphate phosphatase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00155,path:map02010; path:map02020; path:map02024,1,6
+ec:3.6.1.1,inorganic diphosphatase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00004,path:map02010; path:map02020; path:map02024,1,6
+ec:3.6.1.25,triphosphatase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00138,path:map02010; path:map02020; path:map02024,1,6
+ec:3.6.1.39,thymidine-triphosphatase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00159,path:map02010; path:map02020; path:map02024,1,6
+ec:3.1.3.97,"3',5'-nucleoside bisphosphate phosphatase",5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00188,path:map02010; path:map02020; path:map02024,1,6
+ec:3.1.3.16,protein-serine/threonine phosphatase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00164,path:map02010; path:map02020; path:map02024,1,6
+ec:3.6.1.14,adenosine-tetraphosphatase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00128,path:map02010; path:map02020; path:map02024,1,6
+ec:1.18.6.1,nitrogenase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R00002,path:map02010; path:map02020; path:map02024,1,6
+ec:2.7.7.53,ATP adenylyltransferase,5.391251362649483e-06,3.590427577358828e-06,phosphate,rn:R01618; rn:R00126,path:map02010; path:map02020; path:map02024,1,6
+ec:1.4.2.1,glycine dehydrogenase (cytochrome),5.3906142992541344e-06,3.4348622762771283e-06,glycine,rn:R00364,path:map02010; path:map00630; path:map01200,1,6
+ec:1.5.1.22,strombine dehydrogenase,5.3906142992541344e-06,3.4348622762771283e-06,glycine,rn:R00368,path:map02010; path:map00630; path:map01200,1,6
+ec:1.4.1.10,glycine dehydrogenase,5.3906142992541344e-06,3.4348622762771283e-06,glycine,rn:R00365,path:map02010; path:map00630; path:map01200,1,6
+ec:4.1.3.14,L-erythro-3-hydroxyaspartate aldolase,5.3906142992541344e-06,3.4348622762771283e-06,glycine,rn:R00478,path:map02010; path:map00630; path:map01200,1,6
+ec:2.3.1.29,glycine C-acetyltransferase,5.3906142992541344e-06,3.4348622762771283e-06,glycine,rn:R00371,path:map02010; path:map00630; path:map01200,1,6
+ec:6.3.2.3,glutathione synthase,5.3906142992541344e-06,3.4348622762771283e-06,glycine,rn:R00497,path:map02010; path:map00630; path:map01200,1,6
+ec:1.4.99.5,glycine dehydrogenase (cyanide-forming),5.3906142992541344e-06,3.4348622762771283e-06,glycine,rn:R00374,path:map02010; path:map00630; path:map01200,1,6
+ec:1.4.1.1,alanine dehydrogenase,5.3906142992541344e-06,3.4348622762771283e-06,glycine,rn:R00365,path:map02010; path:map00630; path:map01200,1,6
+ec:2.6.1.35,glycine---oxaloacetate transaminase,5.3906142992541344e-06,3.4348622762771283e-06,glycine,rn:R00373,path:map02010; path:map00630; path:map01200,1,6
+ec:2.3.1.13,glycine N-acyltransferase,5.3906142992541344e-06,3.4348622762771283e-06,glycine,rn:R00395,path:map02010; path:map00630; path:map01200,1,6
+ec:1.14.15.28,cholest-4-en-3-one 26-monooxygenase [(25R)-3-oxocholest-4-en-26-oate forming],5.383148225888298e-06,3.662004729942101e-06,4-cholesten-3-one,rn:R11361; rn:R11358,path:map00984; path:map01120,1,6
+ec:1.17.99.10,steroid C-25 hydroxylase,5.383148225888298e-06,3.662004729942101e-06,4-cholesten-3-one,rn:R12677,path:map00984; path:map01120,1,6
+ec:1.14.15.29,cholest-4-en-3-one 26-monooxygenase [(25S)-3-oxocholest-4-en-26-oate forming],5.383148225888298e-06,3.662004729942101e-06,4-cholesten-3-one,rn:R11357; rn:R09859,path:map00984; path:map01120,1,6
+ec:2.6.1.85,aminodeoxychorismate synthase,5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00256,path:map02010; path:map04720; path:map00630,1,6
+ec:6.3.5.1,NAD+ synthase (glutamine-hydrolysing),5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00257,path:map02010; path:map04720; path:map00630,1,6
+ec:4.3.3.6,pyridoxal 5'-phosphate synthase (glutamine hydrolysing),5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00256,path:map02010; path:map04720; path:map00630,1,6
+ec:6.3.1.2,glutamine synthetase,5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00253,path:map02010; path:map04720; path:map00630,1,6
+ec:3.5.1.2,glutaminase,5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00256,path:map02010; path:map04720; path:map00630,1,6
+ec:6.3.5.5,carbamoyl-phosphate synthase (glutamine-hydrolysing),5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00256,path:map02010; path:map04720; path:map00630,1,6
+ec:6.3.5.2,GMP synthase (glutamine-hydrolysing),5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00256,path:map02010; path:map04720; path:map00630,1,6
+ec:2.3.1.1,amino-acid N-acetyltransferase,5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00259,path:map02010; path:map04720; path:map00630,1,6
+ec:2.6.1.123,4-amino-4-deoxychorismate synthase (2-amino-4-deoxychorismate-forming),5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00256,path:map02010; path:map04720; path:map00630,1,6
+ec:6.3.5.13,lipid II isoglutaminyl synthase (glutamine-hydrolysing),5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00256,path:map02010; path:map04720; path:map00630,1,6
+ec:5.1.1.3,glutamate racemase,5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00260,path:map02010; path:map04720; path:map00630,1,6
+ec:5.4.99.1,methylaspartate mutase,5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00262,path:map02010; path:map04720; path:map00630,1,6
+ec:6.3.5.4,asparagine synthase (glutamine-hydrolysing),5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00256,path:map02010; path:map04720; path:map00630,1,6
+ec:2.7.2.11,glutamate 5-kinase,5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00239,path:map02010; path:map04720; path:map00630,1,6
+ec:4.3.2.10,imidazole glycerol-phosphate synthase,5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00256,path:map02010; path:map04720; path:map00630,1,6
+ec:3.5.1.38,glutamin-(asparagin-)ase,5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00256,path:map02010; path:map04720; path:map00630,1,6
+ec:3.5.1.87,N-carbamoyl-L-amino-acid hydrolase,5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00254,path:map02010; path:map04720; path:map00630,1,6
+ec:6.3.4.2,CTP synthase (glutamine hydrolysing),5.372012064910173e-06,3.5643269932416342e-06,glutamate,rn:R00256,path:map02010; path:map04720; path:map00630,1,6
+ec:1.2.1.8,betaine-aldehyde dehydrogenase,5.334654923451734e-06,3.3020251079067136e-06,betaine,rn:R02566; rn:R02565,path:map00670; path:map02010; path:map04981,1,6
+ec:3.1.2.33,betainyl-CoA thioesterase,5.334654923451734e-06,3.3020251079067136e-06,betaine,rn:R13307,path:map00670; path:map02010; path:map04981,1,6
+ec:1.21.4.4,betaine reductase,5.334654923451734e-06,3.3020251079067136e-06,betaine,rn:R07228,path:map00670; path:map02010; path:map04981,1,6
+ec:1.13.11.90,[1-hydroxy-2-(trimethylamino)ethyl]phosphonate dioxygenase (glycine-betaine-forming),5.334654923451734e-06,3.3020251079067136e-06,betaine,rn:R12614,path:map00670; path:map02010; path:map04981,1,6
+ec:1.4.99.2,taurine dehydrogenase,5.248638008638083e-06,3.631564924818065e-06,taurine,rn:R07167,path:map02010; path:map04080; path:map00430,1,6
+ec:4.1.1.122,L-cysteate decarboxylase,5.248638008638083e-06,3.631564924818065e-06,taurine,R01682: L-Cysteate <=> Taurine + CO2,path:map02010; path:map04080; path:map00430,1,6
+ec:2.6.1.77,taurine---pyruvate aminotransferase,5.248638008638083e-06,3.631564924818065e-06,taurine,rn:R05652,path:map02010; path:map04080; path:map00430,1,6
+ec:1.5.1.23,tauropine dehydrogenase,5.248638008638083e-06,3.631564924818065e-06,taurine,rn:R01683,path:map02010; path:map04080; path:map00430,1,6
+ec:1.14.11.17,taurine dioxygenase,5.248638008638083e-06,3.631564924818065e-06,taurine,rn:R05320,path:map02010; path:map04080; path:map00430,1,6
+ec:2.4.2.44,S-methyl-5'-thioinosine phosphorylase,5.210716089086782e-06,3.4699549605806507e-06,hypoxanthine,rn:R09668,path:map01100; path:map00230; path:map01232,1,6
+ec:3.2.2.26,futalosine hydrolase,5.210716089086782e-06,3.4699549605806507e-06,hypoxanthine,rn:R08587,path:map01100; path:map00230; path:map01232,1,6
+ec:3.2.2.12,inosinate nucleosidase,5.210716089086782e-06,3.4699549605806507e-06,hypoxanthine,rn:R01128,path:map01100; path:map00230; path:map01232,1,6
+ec:2.3.1.33,histidine N-acetyltransferase,5.194924819058301e-06,3.2167153220630188e-06,imidazole propionate,rn:R01160,path:map02010; path:map01230; path:map00340,1,6
+ec:1.14.99.52,L-cysteinyl-L-histidinylsulfoxide synthase,5.194924819058301e-06,3.2167153220630188e-06,imidazole propionate,rn:R11015,path:map02010; path:map01230; path:map00340,1,6
+ec:1.1.1.23,histidinol dehydrogenase,5.194924819058301e-06,3.2167153220630188e-06,imidazole propionate,rn:R01163; rn:R01158,path:map02010; path:map01230; path:map00340,1,6
+ec:6.1.1.21,histidine---tRNA ligase,5.194924819058301e-06,3.2167153220630188e-06,imidazole propionate,rn:R03655,path:map02010; path:map01230; path:map00340,1,6
+ec:2.6.1.38,histidine transaminase,5.194924819058301e-06,3.2167153220630188e-06,imidazole propionate,rn:R01161,path:map02010; path:map01230; path:map00340,1,6
+ec:2.1.1.44,L-histidine Nalpha-methyltransferase,5.194924819058301e-06,3.2167153220630188e-06,imidazole propionate,rn:R10523; rn:R01169,path:map02010; path:map01230; path:map00340,1,6
+ec:4.1.1.22,histidine decarboxylase,5.194924819058301e-06,3.2167153220630188e-06,imidazole propionate,rn:R01167,path:map02010; path:map01230; path:map00340,1,6
+ec:5.1.1.24,histidine racemase,5.194924819058301e-06,3.2167153220630188e-06,imidazole propionate,rn:R12313,path:map02010; path:map01230; path:map00340,1,6
+ec:1.13.11.19,cysteamine dioxygenase,5.165209263216424e-06,3.497649691036171e-06,hypotaurine,rn:R02467,path:map01100; path:map00430,1,6
+ec:3.1.2.11,acetoacetyl-CoA hydrolase,5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R01358,path:map02020; path:map01120; path:map00280,1,6
+ec:1.1.1.30,3-hydroxybutyrate dehydrogenase,5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R01361,path:map02020; path:map01120; path:map00280,1,6
+ec:2.3.1.318,3-oxoadipate:acetyl-CoA acetyltransferase,5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R13360,path:map02020; path:map01120; path:map00280,1,6
+ec:6.4.1.6,acetone carboxylase,5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R05735,path:map02020; path:map01120; path:map00280,1,6
+ec:1.1.99.24,hydroxyacid-oxoacid transhydrogenase,5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R03225,path:map02020; path:map01120; path:map00280,1,6
+ec:2.3.1.247,(5S)-5-amino-3-oxohexanoate:acetyl-CoA ethylamine transferase,5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R10564,path:map02020; path:map01120; path:map00280,1,6
+ec:4.2.1.27,acetylenecarboxylate hydratase,5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R01367,path:map02020; path:map01120; path:map00280,1,6
+ec:6.2.1.16,acetoacetate---CoA ligase,5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R01357,path:map02020; path:map01120; path:map00280,1,6
+ec:2.3.1.319,"3,5-dioxohexanoate:acetyl-CoA acetone transferase",5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R13361,path:map02020; path:map01120; path:map00280,1,6
+ec:1.8.1.5,2-oxopropyl-CoM reductase (carboxylating),5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R05713,path:map02020; path:map01120; path:map00280,1,6
+ec:2.3.1.317,3-dehydrocarnitine:acetyl-CoA trimethylamine transferase,5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R13359,path:map02020; path:map01120; path:map00280,1,6
+ec:4.1.3.4,hydroxymethylglutaryl-CoA lyase,5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R01360,path:map02020; path:map01120; path:map00280,1,6
+ec:2.8.3.9,butyrate---acetoacetate CoA-transferase,5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R01365,path:map02020; path:map01120; path:map00280,1,6
+ec:4.1.1.4,acetoacetate decarboxylase,5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R01366,path:map02020; path:map01120; path:map00280,1,6
+ec:2.8.3.8,acetate CoA-transferase,5.162314664106412e-06,3.2845593964632787e-06,acetoacetate,rn:R01359,path:map02020; path:map01120; path:map00280,1,6
+ec:1.1.3.21,glycerol-3-phosphate oxidase,5.148008237472904e-06,3.8039799838064303e-06,glycerol 3-phosphate,rn:R00846,path:map02010; path:map05231; path:map00564,1,6
+ec:2.4.1.137,sn-glycerol-3-phosphate 2-alpha-galactosyltransferase,5.148008237472904e-06,3.8039799838064303e-06,glycerol 3-phosphate,rn:R00853,path:map02010; path:map05231; path:map00564,1,6
+ec:2.4.1.96,sn-glycerol-3-phosphate 1-galactosyltransferase,5.148008237472904e-06,3.8039799838064303e-06,glycerol 3-phosphate,rn:R00854,path:map02010; path:map05231; path:map00564,1,6
+ec:1.1.1.94,glycerol-3-phosphate dehydrogenase [NAD(P)+],5.148008237472904e-06,3.8039799838064303e-06,glycerol 3-phosphate,rn:R00844; rn:R00842,path:map02010; path:map05231; path:map00564,1,6
+ec:2.7.8.5,CDP-diacylglycerol---glycerol-3-phosphate 1-phosphatidyltransferase,5.148008237472904e-06,3.8039799838064303e-06,glycerol 3-phosphate,rn:R01801,path:map02010; path:map05231; path:map00564,1,6
+ec:3.6.1.16,CDP-glycerol diphosphatase,5.148008237472904e-06,3.8039799838064303e-06,glycerol 3-phosphate,rn:R00855,path:map02010; path:map05231; path:map00564,1,6
+ec:1.1.1.8,glycerol-3-phosphate dehydrogenase (NAD+),5.148008237472904e-06,3.8039799838064303e-06,glycerol 3-phosphate,rn:R00842,path:map02010; path:map05231; path:map00564,1,6
+ec:1.1.5.3,glycerol-3-phosphate dehydrogenase,5.148008237472904e-06,3.8039799838064303e-06,glycerol 3-phosphate,rn:R00848; rn:R00849,path:map02010; path:map05231; path:map00564,1,6
+ec:2.7.7.39,glycerol-3-phosphate cytidylyltransferase,5.148008237472904e-06,3.8039799838064303e-06,glycerol 3-phosphate,rn:R00856,path:map02010; path:map05231; path:map00564,1,6
+ec:1.1.1.177,glycerol-3-phosphate 1-dehydrogenase (NADP+),5.148008237472904e-06,3.8039799838064303e-06,glycerol 3-phosphate,rn:R00845,path:map02010; path:map05231; path:map00564,1,6
+ec:2.3.1.15,glycerol-3-phosphate 1-O-acyltransferase,5.148008237472904e-06,3.8039799838064303e-06,glycerol 3-phosphate,rn:R00851,path:map02010; path:map05231; path:map00564,1,6
+ec:1.13.11.46,4-hydroxymandelate synthase,5.143337917353199e-06,3.4657564863623466e-06,4-hydroxyphenylpyruvate,rn:R05778; rn:R06632,path:map01230; path:map01240; path:map00130,1,6
+ec:2.5.1.111,4-hydroxyphenylpyruvate 3-dimethylallyltransferase,5.143337917353199e-06,3.4657564863623466e-06,4-hydroxyphenylpyruvate,rn:R06757,path:map01230; path:map01240; path:map00130,1,6
+ec:1.3.1.13,prephenate dehydrogenase (NADP+),5.143337917353199e-06,3.4657564863623466e-06,4-hydroxyphenylpyruvate,rn:R01730,path:map01230; path:map01240; path:map00130,1,6
+ec:6.4.1.10,atromentin synthase,5.143337917353199e-06,3.4657564863623466e-06,4-hydroxyphenylpyruvate,rn:R13507; rn:R13506; rn:R13505,path:map01230; path:map01240; path:map00130,1,6
+ec:4.1.1.80,4-hydroxyphenylpyruvate decarboxylase,5.143337917353199e-06,3.4657564863623466e-06,4-hydroxyphenylpyruvate,rn:R03341,path:map01230; path:map01240; path:map00130,1,6
+ec:1.3.1.12,prephenate dehydrogenase,5.143337917353199e-06,3.4657564863623466e-06,4-hydroxyphenylpyruvate,rn:R01728,path:map01230; path:map01240; path:map00130,1,6
+ec:1.1.1.279,(R)-3-hydroxyacid-ester dehydrogenase,5.137450685557513e-06,3.2893142678076453e-06,3-hydroxyhexanoate,rn:R04105,,1,6
+ec:3.5.1.62,acetylputrescine deacetylase,5.116077039844123e-06,2.935433806346325e-06,N-acetylputrescine,rn:R01156,path:map01100; path:map00330,1,6
+ec:2.3.1.57,diamine N-acetyltransferase,5.116077039844123e-06,2.935433806346325e-06,N-acetylputrescine,rn:R01154,path:map01100; path:map00330,1,6
+ec:2.8.2.18,cortisol sulfotransferase,5.111814673016721e-06,3.30189883270116e-06,cortisol,rn:R02839,path:map04960; path:map07225; path:map04080,1,6
+ec:2.3.1.27,cortisol O-acetyltransferase,5.111814673016721e-06,3.30189883270116e-06,cortisol,rn:R02837,path:map04960; path:map07225; path:map04080,1,6
+ec:1.1.1.442,20beta-hydroxysteroid dehydrogenase,5.111814673016721e-06,3.30189883270116e-06,cortisol,rn:R13605,path:map04960; path:map07225; path:map04080,1,6
+ec:1.2.1.26,"2,5-dioxovalerate dehydrogenase",5.093019214895745e-06,3.395736412049444e-06,alpha-ketoglutarate,"R00264: 2,5-Dioxopentanoate + NADP+ + H2O <=> 2-Oxoglutarate + NADPH + H+",path:map00997; path:map00630; path:map00040,1,6
+ec:2.6.1.36,L-lysine 6-transaminase,5.093019214895745e-06,3.395736412049444e-06,alpha-ketoglutarate,rn:R00457,path:map00997; path:map00630; path:map00040,1,6
+ec:2.2.1.5,2-hydroxy-3-oxoadipate synthase,5.093019214895745e-06,3.395736412049444e-06,alpha-ketoglutarate,rn:R00474,path:map00997; path:map00630; path:map00040,1,6
+ec:1.4.3.15,D-glutamate(D-aspartate) oxidase,5.093019214895745e-06,3.395736412049444e-06,alpha-ketoglutarate,rn:R00279,path:map00997; path:map00630; path:map00040,1,6
+ec:4.1.1.71,2-oxoglutarate decarboxylase,5.093019214895745e-06,3.395736412049444e-06,alpha-ketoglutarate,rn:R00272,path:map00997; path:map00630; path:map00040,1,6
+ec:2.3.3.14,homocitrate synthase,5.093019214895745e-06,3.395736412049444e-06,alpha-ketoglutarate,rn:R00271,path:map00997; path:map00630; path:map00040,1,6
+ec:1.4.3.7,D-glutamate oxidase,5.093019214895745e-06,3.395736412049444e-06,alpha-ketoglutarate,rn:R00279,path:map00997; path:map00630; path:map00040,1,6
+ec:3.2.1.45,glucosylceramidase,5.087622943039044e-06,3.247168232583054e-06,sphingosine,rn:R13178,path:map04217; path:map01100; path:map04210,1,6
+ec:2.4.1.23,sphingosine beta-galactosyltransferase,5.087622943039044e-06,3.247168232583054e-06,sphingosine,rn:R01928,path:map04217; path:map01100; path:map04210,1,6
+ec:3.2.1.46,galactosylceramidase,5.087622943039044e-06,3.247168232583054e-06,sphingosine,rn:R13179,path:map04217; path:map01100; path:map04210,1,6
+ec:2.4.1.47,N-acylsphingosine galactosyltransferase,5.087622943039044e-06,3.247168232583054e-06,sphingosine,rn:R01928,path:map04217; path:map01100; path:map04210,1,6
+ec:2.7.8.10,sphingosine cholinephosphotransferase,5.087622943039044e-06,3.247168232583054e-06,sphingosine,rn:R01929,path:map04217; path:map01100; path:map04210,1,6
+ec:2.3.1.192,glycine N-phenylacetyltransferase,5.065001263688312e-06,3.175805577616e-06,phenylacetylglycine,rn:R05841,path:map00360,1,6
+ec:2.8.2.22,aryl-sulfate sulfotransferase,5.061051164652382e-06,3.441728044216847e-06,phenol sulfate,rn:R02996,,1,6
+ec:2.8.2.1,aryl sulfotransferase,5.061051164652382e-06,3.441728044216847e-06,phenol sulfate,rn:R01242,,1,6
+ec:2.1.1.95,tocopherol C-methyltransferase,5.053982174244946e-06,3.2302819807768394e-06,alpha-tocopherol,rn:R07236,path:map01240; path:map00130; path:map04977,1,6
+ec:6.2.1.76,malonate---CoA ligase,5.04820206780774e-06,3.3225284061857466e-06,malonate,rn:R12300,path:map01212; path:map00061; path:map00240,1,6
+ec:4.1.1.88,biotin-independent malonate decarboxylase,5.04820206780774e-06,3.3225284061857466e-06,malonate,rn:R09483,path:map01212; path:map00061; path:map00240,1,6
+ec:2.8.3.3,malonate CoA-transferase,5.04820206780774e-06,3.3225284061857466e-06,malonate,rn:R00743,path:map01212; path:map00061; path:map00240,1,6
+ec:2.3.1.187,acetyl-S-ACP:malonate ACP transferase,5.04820206780774e-06,3.3225284061857466e-06,malonate,rn:R08944,path:map01212; path:map00061; path:map00240,1,6
+ec:1.2.1.15,malonate-semialdehyde dehydrogenase,5.04820206780774e-06,3.3225284061857466e-06,malonate,rn:R01607; rn:R01604,path:map01212; path:map00061; path:map00240,1,6
+ec:3.1.3.89,5'-deoxynucleotidase,5.036538367064336e-06,3.659858491624585e-06,2'-deoxyuridine,R02102: dUMP + H2O <=> Deoxyuridine + Orthophosphate,path:map00240; path:map02010; path:map01232,1,6
+ec:2.7.1.145,deoxynucleoside kinase,5.036538367064336e-06,3.659858491624585e-06,2'-deoxyuridine,rn:R02099,path:map00240; path:map02010; path:map01232,1,6
+ec:2.7.1.21,thymidine kinase,5.036538367064336e-06,3.659858491624585e-06,2'-deoxyuridine,rn:R02099,path:map00240; path:map02010; path:map01232,1,6
+ec:1.1.1.169,2-dehydropantoate 2-reductase,5.000756936830463e-06,3.1350885050809623e-06,pantoate,rn:R02472,path:map00770; path:map01110; path:map01100,1,6
+ec:2.7.1.169,pantoate kinase,5.000756936830463e-06,3.1350885050809623e-06,pantoate,rn:R09378,path:map00770; path:map01110; path:map01100,1,6
+ec:1.1.1.106,pantoate 4-dehydrogenase,5.000756936830463e-06,3.1350885050809623e-06,pantoate,rn:R02471,path:map00770; path:map01110; path:map01100,1,6
+ec:2.6.1.125,L-arginine:2-oxoglutarate transaminase,4.994936689856273e-06,3.0551498202842554e-06,2-oxoarginine*,rn:R13305,path:map00470; path:map01100; path:map00330,1,6
+ec:1.4.1.25,L-arginine dehydrogenase,4.994936689856273e-06,3.0551498202842554e-06,2-oxoarginine*,rn:R11031; rn:R11032,path:map00470; path:map01100; path:map00330,1,6
+ec:2.1.1.243,5-guanidino-2-oxopentanoate (3R)-methyltransferase,4.994936689856273e-06,3.0551498202842554e-06,2-oxoarginine*,rn:R09939,path:map00470; path:map01100; path:map00330,1,6
+ec:1.4.99.6,D-arginine dehydrogenase,4.994936689856273e-06,3.0551498202842554e-06,2-oxoarginine*,rn:R11018; rn:R11017,path:map00470; path:map01100; path:map00330,1,6
+ec:4.1.1.75,5-guanidino-2-oxopentanoate decarboxylase,4.994936689856273e-06,3.0551498202842554e-06,2-oxoarginine*,rn:R03178,path:map00470; path:map01100; path:map00330,1,6
+ec:1.4.3.25,L-arginine oxidase,4.994936689856273e-06,3.0551498202842554e-06,2-oxoarginine*,rn:R11604,path:map00470; path:map01100; path:map00330,1,6
+ec:2.6.1.84,arginine---pyruvate transaminase,4.994936689856273e-06,3.0551498202842554e-06,2-oxoarginine*,rn:R08197,path:map00470; path:map01100; path:map00330,1,6
+ec:1.2.1.54,gamma-guanidinobutyraldehyde dehydrogenase,4.9793572821139945e-06,3.3651012313039964e-06,4-guanidinobutanoate,rn:R03177,path:map01100; path:map00330,1,6
+ec:1.5.1.1,1-piperideine-2-carboxylate/1-pyrroline-2-carboxylate reductase [NAD(P)H],4.952917720562549e-06,3.0630232496621804e-06,pipecolate,rn:R02201; rn:R02203,path:map01120; path:map01064; path:map01100,1,6
+ec:1.5.1.21,1-piperideine-2-carboxylate/1-pyrroline-2-carboxylate reductase (NADPH),4.952917720562549e-06,3.0630232496621804e-06,pipecolate,rn:R02203,path:map01120; path:map01064; path:map01100,1,6
+ec:4.3.1.28,L-lysine cyclodeaminase,4.952917720562549e-06,3.0630232496621804e-06,pipecolate,rn:R10277,path:map01120; path:map01064; path:map01100,1,6
+ec:1.5.99.3,L-pipecolate dehydrogenase,4.952917720562549e-06,3.0630232496621804e-06,pipecolate,rn:R02205; rn:R02206,path:map01120; path:map01064; path:map01100,1,6
+ec:3.5.1.101,L-proline amide hydrolase,4.952917720562549e-06,3.0630232496621804e-06,pipecolate,rn:R09680,path:map01120; path:map01064; path:map01100,1,6
+ec:1.5.3.7,L-pipecolate oxidase,4.952917720562549e-06,3.0630232496621804e-06,pipecolate,rn:R02204,path:map01120; path:map01064; path:map01100,1,6
+ec:1.1.1.21,aldose reductase,4.952863125793514e-06,3.1280911782064e-06,glycerol,rn:R01036; rn:R01041,path:map04923; path:map02010; path:map00040,1,6
+ec:1.1.1.156,glycerol 2-dehydrogenase (NADP+),4.952863125793514e-06,3.1280911782064e-06,glycerol,rn:R01039,path:map04923; path:map02010; path:map00040,1,6
+ec:3.1.1.79,hormone-sensitive lipase,4.952863125793514e-06,3.1280911782064e-06,glycerol,rn:R07293,path:map04923; path:map02010; path:map00040,1,6
+ec:3.1.1.34,lipoprotein lipase,4.952863125793514e-06,3.1280911782064e-06,glycerol,rn:R01350,path:map04923; path:map02010; path:map00040,1,6
+ec:1.1.1.372,D/L-glyceraldehyde reductase,4.952863125793514e-06,3.1280911782064e-06,glycerol,rn:R01041,path:map04923; path:map02010; path:map00040,1,6
+ec:3.1.1.23,acylglycerol lipase,4.952863125793514e-06,3.1280911782064e-06,glycerol,rn:R01352; rn:R01351,path:map04923; path:map02010; path:map00040,1,6
+ec:3.1.3.19,glycerol-2-phosphatase,4.952863125793514e-06,3.1280911782064e-06,glycerol,rn:R01043,path:map04923; path:map02010; path:map00040,1,6
+ec:1.1.99.22,glycerol dehydrogenase (acceptor),4.952863125793514e-06,3.1280911782064e-06,glycerol,rn:R01045,path:map04923; path:map02010; path:map00040,1,6
+ec:2.7.1.79,diphosphate---glycerol phosphotransferase,4.952863125793514e-06,3.1280911782064e-06,glycerol,rn:R01044,path:map04923; path:map02010; path:map00040,1,6
+ec:3.1.4.43,glycerophosphoinositol inositolphosphodiesterase,4.952863125793514e-06,3.1280911782064e-06,glycerol,rn:R03331,path:map04923; path:map02010; path:map00040,1,6
+ec:1.1.1.6,glycerol dehydrogenase,4.952863125793514e-06,3.1280911782064e-06,glycerol,rn:R01034,path:map04923; path:map02010; path:map00040,1,6
+ec:1.1.1.72,glycerol dehydrogenase (NADP+),4.952863125793514e-06,3.1280911782064e-06,glycerol,rn:R01036; rn:R01041,path:map04923; path:map02010; path:map00040,1,6
+ec:4.2.1.30,glycerol dehydratase,4.952863125793514e-06,3.1280911782064e-06,glycerol,rn:R01047,path:map04923; path:map02010; path:map00040,1,6
+ec:1.14.13.148,trimethylamine monooxygenase,4.949305616896993e-06,3.154350395518235e-06,trimethylamine N-oxide,rn:R05623,path:map00680; path:map02020; path:map01100,1,6
+ec:1.7.2.3,trimethylamine-N-oxide reductase,4.949305616896993e-06,3.154350395518235e-06,trimethylamine N-oxide,rn:R02560,path:map00680; path:map02020; path:map01100,1,6
+ec:4.1.2.32,trimethylamine-oxide aldolase,4.949305616896993e-06,3.154350395518235e-06,trimethylamine N-oxide,rn:R02512,path:map00680; path:map02020; path:map01100,1,6
+ec:1.14.14.138,lithocholate 6beta-hydroxylase,4.922671977378888e-06,2.9550471233568376e-06,lithocholate,rn:R07203,path:map04976; path:map00121,1,6
+ec:1.1.1.52,3alpha-hydroxycholanate dehydrogenase (NAD+),4.922671977378888e-06,2.9550471233568376e-06,lithocholate,rn:R04139,path:map04976; path:map00121,1,6
+ec:1.1.1.392,3alpha-hydroxycholanate dehydrogenase (NADP+),4.922671977378888e-06,2.9550471233568376e-06,lithocholate,rn:R11145,path:map04976; path:map00121,1,6
+ec:1.3.7.6,phycoerythrobilin synthase,4.872606300844308e-06,3.1991100858012407e-06,biliverdin,rn:R09491,path:map01100; path:map01110; path:map00860,1,6
+ec:1.3.7.2,"15,16-dihydrobiliverdin:ferredoxin oxidoreductase",4.872606300844308e-06,3.1991100858012407e-06,biliverdin,rn:R05818,path:map01100; path:map01110; path:map00860,1,6
+ec:1.3.7.5,phycocyanobilin:ferredoxin oxidoreductase,4.872606300844308e-06,3.1991100858012407e-06,biliverdin,rn:R05817,path:map01100; path:map01110; path:map00860,1,6
+ec:1.3.7.4,phytochromobilin:ferredoxin oxidoreductase,4.872606300844308e-06,3.1991100858012407e-06,biliverdin,rn:R03678,path:map01100; path:map01110; path:map00860,1,6
+ec:1.3.1.24,biliverdin reductase,4.872606300844308e-06,3.1991100858012407e-06,biliverdin,rn:R02391; rn:R02393,path:map01100; path:map01110; path:map00860,1,6
+ec:1.3.3.5,bilirubin oxidase,4.872606300844308e-06,3.1991100858012407e-06,biliverdin,rn:R02394,path:map01100; path:map01110; path:map00860,1,6
+ec:3.5.99.1,riboflavinase,4.866578578102584e-06,2.853077967906246e-06,ribitol,rn:R01732,path:map01100; path:map00040; path:map00740,1,6
+ec:1.1.1.56,ribitol 2-dehydrogenase,4.866578578102584e-06,2.853077967906246e-06,ribitol,rn:R01895,path:map01100; path:map00040; path:map00740,1,6
+ec:1.1.2.2,mannitol dehydrogenase (cytochrome),4.866578578102584e-06,2.853077967906246e-06,ribitol,rn:R01892,path:map01100; path:map00040; path:map00740,1,6
+ec:1.21.99.4,thyroxine 5'-deiodinase,4.8307319097148405e-06,3.077696464494419e-06,thyroxine,rn:R03734,path:map04919; path:map04080; path:map04081,1,6
+ec:1.21.99.3,thyroxine 5-deiodinase,4.8307319097148405e-06,3.077696464494419e-06,thyroxine,rn:R07230,path:map04919; path:map04080; path:map04081,1,6
+ec:4.1.1.73,tartrate decarboxylase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R01751,path:map00630; path:map01200; path:map00030,1,6
+ec:1.1.1.81,hydroxypyruvate reductase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R01392; rn:R01388,path:map00630; path:map01200; path:map00030,1,6
+ec:1.1.1.79,glyoxylate reductase (NADP+),4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R01392,path:map00630; path:map01200; path:map00030,1,6
+ec:3.2.1.170,mannosylglycerate hydrolase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R12095,path:map00630; path:map01200; path:map00030,1,6
+ec:1.1.1.92,oxaloglycolate reductase (decarboxylating),4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R01749; rn:R01750,path:map00630; path:map01200; path:map00030,1,6
+ec:1.2.99.8,glyceraldehyde dehydrogenase (FAD-containing),4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R10324,path:map00630; path:map01200; path:map00030,1,6
+ec:2.4.1.268,glucosylglycerate synthase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R09665,path:map00630; path:map01200; path:map00030,1,6
+ec:2.4.1.269,mannosylglycerate synthase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R09666,path:map00630; path:map01200; path:map00030,1,6
+ec:1.2.7.5,aldehyde ferredoxin oxidoreductase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R08571,path:map00630; path:map01200; path:map00030,1,6
+ec:1.1.1.26,glyoxylate reductase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R01388,path:map00630; path:map01200; path:map00030,1,6
+ec:2.4.1.352,glucosylglycerate phosphorylase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R11959,path:map00630; path:map01200; path:map00030,1,6
+ec:1.1.1.29,glycerate dehydrogenase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R01388,path:map00630; path:map01200; path:map00030,1,6
+ec:3.1.3.38,3-phosphoglycerate phosphatase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R01511,path:map00630; path:map01200; path:map00030,1,6
+ec:1.1.1.60,2-hydroxy-3-oxopropionate reductase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R01745; rn:R01747,path:map00630; path:map01200; path:map00030,1,6
+ec:2.7.1.31,glycerate 3-kinase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R01514,path:map00630; path:map01200; path:map00030,1,6
+ec:1.2.1.89,D-glyceraldehyde dehydrogenase (NADP+),4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R10615,path:map00630; path:map01200; path:map00030,1,6
+ec:3.1.3.20,phosphoglycerate phosphatase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R01748,path:map00630; path:map01200; path:map00030,1,6
+ec:2.7.1.165,glycerate 2-kinase,4.803623288155895e-06,3.253153672887063e-06,glycerate,rn:R08572,path:map00630; path:map01200; path:map00030,1,6
+ec:2.4.1.13,sucrose synthase,4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R07256; rn:R00806,path:map02010; path:map04973; path:map02060,1,6
+ec:2.4.1.9,inulosucrase,4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R04194,path:map02010; path:map04973; path:map02060,1,6
+ec:3.2.1.10,"oligo-1,6-glucosidase",4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R00801,path:map02010; path:map04973; path:map02060,1,6
+ec:3.2.1.48,sucrose alpha-glucosidase,4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R00801; rn:R00802,path:map02010; path:map04973; path:map02060,1,6
+ec:2.7.1.211,protein-Npi-phosphohistidine---sucrose phosphotransferase,4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R00811,path:map02010; path:map04973; path:map02060,1,6
+ec:2.4.1.4,amylosucrase,4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R01823,path:map02010; path:map04973; path:map02060,1,6
+ec:1.1.99.13,glucoside 3-dehydrogenase (acceptor),4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R00807; rn:R00808,path:map02010; path:map04973; path:map02060,1,6
+ec:2.4.1.7,sucrose phosphorylase,4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R00803,path:map02010; path:map04973; path:map02060,1,6
+ec:2.4.1.5,dextransucrase,4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R02120,path:map02010; path:map04973; path:map02060,1,6
+ec:2.4.1.166,raffinose---raffinose alpha-galactosyltransferase,4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R08616; rn:R00039,path:map02010; path:map04973; path:map02060,1,6
+ec:2.4.1.125,"sucrose---1,6-alpha-glucan 3(6)-alpha-glucosyltransferase",4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R02120,path:map02010; path:map04973; path:map02060,1,6
+ec:2.4.1.10,levansucrase,4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R05140,path:map02010; path:map04973; path:map02060,1,6
+ec:3.1.3.24,sucrose-phosphate phosphatase,4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R00805,path:map02010; path:map04973; path:map02060,1,6
+ec:5.4.99.11,isomaltulose synthase,4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R00810,path:map02010; path:map04973; path:map02060,1,6
+ec:3.2.1.26,beta-fructofuranosidase,4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R00801; rn:R00802,path:map02010; path:map04973; path:map02060,1,6
+ec:2.4.1.167,sucrose 6F-alpha-galactosyltransferase,4.776962145583944e-06,2.9891271374208267e-06,sucrose,rn:R00809,path:map02010; path:map04973; path:map02060,1,6
+ec:2.3.1.31,homoserine O-acetyltransferase,4.764496538103538e-06,2.822793240077259e-06,O-acetylhomoserine,rn:R01776,path:map00270; path:map01100,1,6
+ec:1.1.1.129,L-threonate 3-dehydrogenase,4.762577808111775e-06,3.224675328532212e-06,threonate,rn:R03733,path:map01100; path:map00053,1,6
+ec:3.5.1.124,protein deglycase,4.761926846935866e-06,3.1499365242463905e-06,lactate,rn:R11562; rn:R11564; rn:R11563,,1,6
+ec:1.1.1.436,"lactate dehydrogenase (NAD+,ferredoxin)",4.761926846935866e-06,3.1499365242463905e-06,lactate,rn:R11676,,1,6
+ec:3.2.1.187,(Ara-f)3-Hyp beta-L-arabinobiosidase,4.748387122092505e-06,3.0300450177210685e-06,trans-4-hydroxyproline,rn:R10579,,1,6
+ec:4.2.1.49,urocanate hydratase,4.746533688224575e-06,3.0045161236679887e-06,trans-urocanate,rn:R02914,path:map01100; path:map04382; path:map00340,1,6
+ec:1.3.99.33,urocanate reductase,4.746533688224575e-06,3.0045161236679887e-06,trans-urocanate,rn:R10330,path:map01100; path:map04382; path:map00340,1,6
+ec:1.1.1.255,mannitol dehydrogenase,4.736762395568913e-06,3.0423564807135774e-06,mannose,rn:R07135,path:map02010; path:map04625; path:map02060,1,6
+ec:3.2.1.209,"endoplasmic reticulum Man9GlcNAc2 1,2-alpha-mannosidase",4.736762395568913e-06,3.0423564807135774e-06,mannose,rn:R06722,path:map02010; path:map04625; path:map02060,1,6
+ec:2.7.1.61,acyl-phosphate---hexose phosphotransferase,4.736762395568913e-06,3.0423564807135774e-06,mannose,rn:R08405,path:map02010; path:map04625; path:map02060,1,6
+ec:1.1.3.40,D-mannitol oxidase,4.736762395568913e-06,3.0423564807135774e-06,mannose,rn:R05698,path:map02010; path:map04625; path:map02060,1,6
+ec:3.1.4.49,dolichylphosphate-mannose phosphodiesterase,4.736762395568913e-06,3.0423564807135774e-06,mannose,rn:R01328,path:map02010; path:map04625; path:map02060,1,6
+ec:5.3.1.7,mannose isomerase,4.736762395568913e-06,3.0423564807135774e-06,mannose,rn:R00877,path:map02010; path:map04625; path:map02060,1,6
+ec:3.2.1.137,"mannan exo-1,2-1,6-alpha-mannosidase",4.736762395568913e-06,3.0423564807135774e-06,mannose,rn:R01331; rn:R06150; rn:R05816,path:map02010; path:map04625; path:map02060,1,6
+ec:3.2.1.25,beta-mannosidase,4.736762395568913e-06,3.0423564807135774e-06,mannose,rn:R01332; rn:R06207; rn:R08613,path:map02010; path:map04625; path:map02060,1,6
+ec:2.7.1.7,mannokinase,4.736762395568913e-06,3.0423564807135774e-06,mannose,rn:R01326,path:map02010; path:map04625; path:map02060,1,6
+ec:3.2.1.77,"mannan 1,2-(1,3)-alpha-mannosidase",4.736762395568913e-06,3.0423564807135774e-06,mannose,rn:R01331; rn:R06151; rn:R06150,path:map02010; path:map04625; path:map02060,1,6
+ec:3.2.1.78,"mannan endo-1,4-beta-mannosidase",4.736762395568913e-06,3.0423564807135774e-06,mannose,rn:R01332,path:map02010; path:map04625; path:map02060,1,6
+ec:2.7.1.191,protein-Npi-phosphohistidine---D-mannose phosphotransferase,4.736762395568913e-06,3.0423564807135774e-06,mannose,rn:R02630,path:map02010; path:map04625; path:map02060,1,6
+ec:3.5.4.21,creatinine deaminase,4.672079064014399e-06,3.1336197698870065e-06,creatinine,rn:R02922,path:map01100; path:map00330,1,6
+ec:1.1.1.95,phosphoglycerate dehydrogenase,4.666193246629482e-06,3.1351638255218536e-06,2-hydroxyglutarate,rn:R08198,path:map01100; path:map00650; path:map00660,1,6
+ec:2.3.3.11,2-hydroxyglutarate synthase,4.666193246629482e-06,3.1351638255218536e-06,2-hydroxyglutarate,rn:R00932,path:map01100; path:map00650; path:map00660,1,6
+ec:2.8.3.12,glutaconate CoA-transferase,4.666193246629482e-06,3.1351638255218536e-06,2-hydroxyglutarate,rn:R04000,path:map01100; path:map00650; path:map00660,1,6
+ec:3.1.2.5,hydroxymethylglutaryl-CoA hydrolase,4.600884625760171e-06,2.719019026468952e-06,3-hydroxy-3-methylglutarate,rn:R02083,,1,6
+ec:2.8.3.13,succinate---hydroxymethylglutarate CoA-transferase,4.600884625760171e-06,2.719019026468952e-06,3-hydroxy-3-methylglutarate,rn:R02084,,1,6
+ec:4.1.1.83,4-hydroxyphenylacetate decarboxylase,4.595548243395368e-06,2.9564492663268e-06,4-hydroxyphenylacetate,rn:R07312,path:map00360; path:map01120; path:map01220,1,6
+ec:1.14.13.18,4-hydroxyphenylacetate 1-monooxygenase,4.595548243395368e-06,2.9564492663268e-06,4-hydroxyphenylacetate,rn:R02514; rn:R02516,path:map00360; path:map01120; path:map01220,1,6
+ec:1.14.14.9,4-hydroxyphenylacetate 3-monooxygenase,4.595548243395368e-06,2.9564492663268e-06,4-hydroxyphenylacetate,rn:R02698,path:map00360; path:map01120; path:map01220,1,6
+ec:1.2.1.53,4-hydroxyphenylacetaldehyde dehydrogenase,4.595548243395368e-06,2.9564492663268e-06,4-hydroxyphenylacetate,R02695: 4-Hydroxyphenylacetaldehyde + NAD+ + H2O <=> 4-Hydroxyphenylacetate + NADH + H+,path:map00360; path:map01120; path:map01220,1,6
+ec:3.3.2.2,lysoplasmalogenase,4.55255910902477e-06,2.840087190685721e-06,glycerophosphoethanolamine,rn:R03415,path:map00565; path:map00564; path:map01100,1,6
+ec:3.1.1.5,lysophospholipase,4.55255910902477e-06,2.840087190685721e-06,glycerophosphoethanolamine,rn:R03416; rn:R03417,path:map00565; path:map00564; path:map01100,1,6
+ec:1.2.1.95,L-2-aminoadipate reductase,4.531401382617478e-06,2.580626576299234e-06,2-aminoadipate,rn:R11679; rn:R03098,path:map01230; path:map01120; path:map01100,1,6
+ec:6.3.2.26,N-(5-amino-5-carboxypentanoyl)-L-cysteinyl-D-valine synthase,4.531401382617478e-06,2.580626576299234e-06,2-aminoadipate,rn:R04870,path:map01230; path:map01120; path:map01100,1,6
+ec:6.3.2.43,[amino-group carrier protein]---L-2-aminoadipate ligase,4.531401382617478e-06,2.580626576299234e-06,2-aminoadipate,rn:R09775,path:map01230; path:map01120; path:map01100,1,6
+ec:2.6.1.39,2-aminoadipate transaminase,4.531401382617478e-06,2.580626576299234e-06,2-aminoadipate,rn:R01939,path:map01230; path:map01120; path:map01100,1,6
+ec:1.2.1.31,L-aminoadipate-semialdehyde dehydrogenase,4.531401382617478e-06,2.580626576299234e-06,2-aminoadipate,rn:R11232; rn:R11231; rn:R03103,path:map01230; path:map01120; path:map01100,1,6
+ec:2.3.1.164,isopenicillin-N N-acyltransferase,4.531401382617478e-06,2.580626576299234e-06,2-aminoadipate,rn:R04868; rn:R06361,path:map01230; path:map01120; path:map01100,1,6
+ec:6.3.2.42,N-acetylaspartylglutamylglutamate synthase,4.530819072062764e-06,2.851361351941049e-06,gamma-glutamylglutamate,rn:R10693; rn:R10679,path:map01100; path:map00250,1,6
+ec:3.4.17.21,glutamate carboxypeptidase II,4.530819072062764e-06,2.851361351941049e-06,gamma-glutamylglutamate,rn:R10688,path:map01100; path:map00250,1,6
+ec:2.1.2.7,D-alanine 2-hydroxymethyltransferase,4.523917076738728e-06,2.9886260387379807e-06,2-methylserine,rn:R01225,,1,6
+ec:2.4.1.121,indole-3-acetate beta-glucosyltransferase,4.523527473043743e-06,2.8329379255025453e-06,indoleacetate,rn:R03094,path:map01100; path:map00380; path:map01070,1,6
+ec:2.1.1.278,indole-3-acetate O-methyltransferase,4.523527473043743e-06,2.8329379255025453e-06,indoleacetate,rn:R10452,path:map01100; path:map00380; path:map01070,1,6
+ec:3.5.1.134,(indol-3-yl)acetyl-L-aspartate hydrolase,4.523527473043743e-06,2.8329379255025453e-06,indoleacetate,rn:R12513,path:map01100; path:map00380; path:map01070,1,6
+ec:6.2.1.75,indoleacetate---CoA ligase,4.523527473043743e-06,2.8329379255025453e-06,indoleacetate,rn:R12968,path:map01100; path:map00380; path:map01070,1,6
+ec:1.14.13.235,indole-3-acetate monooxygenase,4.523527473043743e-06,2.8329379255025453e-06,indoleacetate,rn:R11730,path:map01100; path:map00380; path:map01070,1,6
+ec:4.1.1.115,indoleacetate decarboxylase,4.523527473043743e-06,2.8329379255025453e-06,indoleacetate,rn:R12303,path:map01100; path:map00380; path:map01070,1,6
+ec:1.14.13.168,indole-3-pyruvate monooxygenase,4.523527473043743e-06,2.8329379255025453e-06,indoleacetate,rn:R10181,path:map01100; path:map00380; path:map01070,1,6
+ec:1.2.3.7,indole-3-acetaldehyde oxidase,4.523527473043743e-06,2.8329379255025453e-06,indoleacetate,rn:R02681,path:map01100; path:map00380; path:map01070,1,6
+ec:6.3.2.20,indoleacetate---lysine synthetase,4.523527473043743e-06,2.8329379255025453e-06,indoleacetate,rn:R03095,path:map01100; path:map00380; path:map01070,1,6
+ec:3.5.2.2,dihydropyrimidinase,4.518338004608522e-06,2.7633199296916342e-06,3-ureidopropionate,rn:R02269,path:map00240; path:map01100; path:map00410,1,6
+ec:2.3.3.16,citrate synthase (unknown stereospecificity),4.515837949315591e-06,2.960773099293672e-06,citrate,rn:R00351,path:map00630; path:map01200; path:map01070,1,6
+ec:6.3.2.38,N2-citryl-N6-acetyl-N6-hydroxylysine synthase,4.515837949315591e-06,2.960773099293672e-06,citrate,rn:R10090,path:map00630; path:map01200; path:map01070,1,6
+ec:6.2.1.18,citrate---CoA ligase,4.515837949315591e-06,2.960773099293672e-06,citrate,rn:R01322,path:map00630; path:map01200; path:map01070,1,6
+ec:6.3.2.54,"L-2,3-diaminopropanoate---citrate ligase",4.515837949315591e-06,2.960773099293672e-06,citrate,rn:R12308,path:map00630; path:map01200; path:map01070,1,6
+ec:2.3.3.1,citrate (Si)-synthase,4.515837949315591e-06,2.960773099293672e-06,citrate,rn:R00351,path:map00630; path:map01200; path:map01070,1,6
+ec:2.3.3.5,2-methylcitrate synthase,4.515837949315591e-06,2.960773099293672e-06,citrate,rn:R00351,path:map00630; path:map01200; path:map01070,1,6
+ec:2.8.3.10,citrate CoA-transferase,4.515837949315591e-06,2.960773099293672e-06,citrate,rn:R01323,path:map00630; path:map01200; path:map01070,1,6
+ec:2.3.3.8,ATP citrate synthase,4.515837949315591e-06,2.960773099293672e-06,citrate,rn:R00352,path:map00630; path:map01200; path:map01070,1,6
+ec:6.3.2.58,D-ornithine---citrate ligase,4.515837949315591e-06,2.960773099293672e-06,citrate,rn:R12353,path:map00630; path:map01200; path:map01070,1,6
+ec:6.3.2.57,staphyloferrin A synthase,4.515837949315591e-06,2.960773099293672e-06,citrate,rn:R12354,path:map00630; path:map01200; path:map01070,1,6
+ec:4.1.3.6,citrate (pro-3S)-lyase,4.515837949315591e-06,2.960773099293672e-06,citrate,rn:R00362,path:map00630; path:map01200; path:map01070,1,6
+ec:2.3.3.3,citrate (Re)-synthase,4.515837949315591e-06,2.960773099293672e-06,citrate,rn:R00351,path:map00630; path:map01200; path:map01070,1,6
+ec:1.14.99.57,heme oxygenase (mycobilin-producing),4.489343328000299e-06,2.8840034495766515e-06,heme,rn:R11741; rn:R11742,path:map02010; path:map00860; path:map01240,1,6
+ec:1.3.98.5,hydrogen peroxide-dependent heme synthase,4.489343328000299e-06,2.8840034495766515e-06,heme,rn:R11522; rn:R12455,path:map02010; path:map00860; path:map01240,1,6
+ec:2.1.1.342,anaerobilin synthase,4.489343328000299e-06,2.8840034495766515e-06,heme,rn:R11700,path:map02010; path:map00860; path:map01240,1,6
+ec:4.98.1.1,protoporphyrin ferrochelatase,4.489343328000299e-06,2.8840034495766515e-06,heme,rn:R00310,path:map02010; path:map00860; path:map01240,1,6
+ec:1.14.99.58,heme oxygenase (biliverdin-IX-beta and delta-forming),4.489343328000299e-06,2.8840034495766515e-06,heme,rn:R11817; rn:R11816,path:map02010; path:map00860; path:map01240,1,6
+ec:1.14.99.48,heme oxygenase (staphylobilin-producing),4.489343328000299e-06,2.8840034495766515e-06,heme,rn:R10468; rn:R10510,path:map02010; path:map00860; path:map01240,1,6
+ec:1.3.98.6,AdoMet-dependent heme synthase,4.489343328000299e-06,2.8840034495766515e-06,heme,rn:R12002,path:map02010; path:map00860; path:map01240,1,6
+ec:2.5.1.141,heme o synthase,4.489343328000299e-06,2.8840034495766515e-06,heme,rn:R07411,path:map02010; path:map00860; path:map01240,1,6
+ec:4.4.1.17,holocytochrome-c synthase,4.489343328000299e-06,2.8840034495766515e-06,heme,rn:R02480,path:map02010; path:map00860; path:map01240,1,6
+ec:5.1.1.10,amino-acid racemase,4.465522619337517e-06,2.891735346896828e-06,serine,rn:R00589,path:map02010; path:map00630; path:map01200,1,6
+ec:2.3.1.30,serine O-acetyltransferase,4.465522619337517e-06,2.891735346896828e-06,serine,rn:R00586,path:map02010; path:map00630; path:map01200,1,6
+ec:2.7.8.4,serine-phosphoethanolamine synthase,4.465522619337517e-06,2.891735346896828e-06,serine,rn:R02563,path:map02010; path:map00630; path:map01200,1,6
+ec:4.2.1.50,pyrazolylalanine synthase,4.465522619337517e-06,2.891735346896828e-06,serine,rn:R02378,path:map02010; path:map00630; path:map01200,1,6
+ec:2.7.8.8,CDP-diacylglycerol---serine O-phosphatidyltransferase,4.465522619337517e-06,2.891735346896828e-06,serine,rn:R01800,path:map02010; path:map00630; path:map01200,1,6
+ec:2.7.1.80,diphosphate---serine phosphotransferase,4.465522619337517e-06,2.891735346896828e-06,serine,rn:R00584,path:map02010; path:map00630; path:map01200,1,6
+ec:2.1.2.1,glycine hydroxymethyltransferase,4.465522619337517e-06,2.891735346896828e-06,serine,rn:R00945,path:map02010; path:map00630; path:map01200,1,6
+ec:5.1.1.18,serine racemase,4.465522619337517e-06,2.891735346896828e-06,serine,rn:R00589,path:map02010; path:map00630; path:map01200,1,6
+ec:2.3.1.50,serine C-palmitoyltransferase,4.465522619337517e-06,2.891735346896828e-06,serine,rn:R01281,path:map02010; path:map00630; path:map01200,1,6
+ec:4.3.1.17,L-serine ammonia-lyase,4.465522619337517e-06,2.891735346896828e-06,serine,R00220: L-Serine <=> Pyruvate + Ammonia; rn:R00590,path:map02010; path:map00630; path:map01200,1,6
+ec:2.6.1.51,serine---pyruvate transaminase,4.465522619337517e-06,2.891735346896828e-06,serine,rn:R00585,path:map02010; path:map00630; path:map01200,1,6
+ec:3.1.3.3,phosphoserine phosphatase,4.465522619337517e-06,2.891735346896828e-06,serine,rn:R00582,path:map02010; path:map00630; path:map01200,1,6
+ec:1.4.1.7,serine 2-dehydrogenase,4.465522619337517e-06,2.891735346896828e-06,serine,rn:R00581,path:map02010; path:map00630; path:map01200,1,6
+ec:3.13.2.4,lanthipeptide synthase,4.450737835485074e-06,2.5353356884736e-06,lanthionine,rn:R13367; rn:R13365,,1,6
+ec:1.14.13.39,nitric-oxide synthase (NADPH),4.403690834928917e-06,2.6116921652722764e-06,citrulline,rn:R00557; rn:R00111,path:map01100; path:map01110; path:map00220,1,6
+ec:3.5.3.6,arginine deiminase,4.403690834928917e-06,2.6116921652722764e-06,citrulline,rn:R00552,path:map01100; path:map01110; path:map00220,1,6
+ec:3.5.3.18,dimethylargininase,4.403690834928917e-06,2.6116921652722764e-06,citrulline,rn:R02513,path:map01100; path:map01110; path:map00220,1,6
+ec:2.1.3.3,ornithine carbamoyltransferase,4.403690834928917e-06,2.6116921652722764e-06,citrulline,rn:R01398,path:map01100; path:map01110; path:map00220,1,6
+ec:6.3.4.5,argininosuccinate synthase,4.403690834928917e-06,2.6116921652722764e-06,citrulline,rn:R01954,path:map01100; path:map01110; path:map00220,1,6
+ec:1.14.14.47,nitric-oxide synthase (flavodoxin),4.403690834928917e-06,2.6116921652722764e-06,citrulline,rn:R11711; rn:R11713,path:map01100; path:map01110; path:map00220,1,6
+ec:3.5.1.20,citrullinase,4.403690834928917e-06,2.6116921652722764e-06,citrulline,rn:R00665,path:map01100; path:map01110; path:map00220,1,6
+ec:3.5.1.16,acetylornithine deacetylase,4.403690834928917e-06,2.6116921652722764e-06,citrulline,rn:R09107,path:map01100; path:map01110; path:map00220,1,6
+ec:1.1.5.4,malate dehydrogenase (quinone),4.399554883032622e-06,2.370651343751912e-06,malate,rn:R00361; rn:R00360; rn:R01257,path:map00630; path:map01200; path:map01070,1,6
+ec:2.3.1.92,sinapoylglucose---malate O-sinapoyltransferase,4.399554883032622e-06,2.370651343751912e-06,malate,rn:R03323,path:map00630; path:map01200; path:map01070,1,6
+ec:1.1.1.37,"(S)-malate dehydrogenase (NAD+, oxaloacetate-forming)",4.399554883032622e-06,2.370651343751912e-06,malate,rn:R00342,path:map00630; path:map01200; path:map01070,1,6
+ec:1.1.1.40,malate dehydrogenase (oxaloacetate-decarboxylating) (NADP+),4.399554883032622e-06,2.370651343751912e-06,malate,rn:R00216,path:map00630; path:map01200; path:map01070,1,6
+ec:1.1.1.299,malate dehydrogenase [NAD(P)+],4.399554883032622e-06,2.370651343751912e-06,malate,rn:R00342; rn:R00343,path:map00630; path:map01200; path:map01070,1,6
+ec:1.1.99.7,lactate---malate transhydrogenase,4.399554883032622e-06,2.370651343751912e-06,malate,rn:R01447,path:map00630; path:map01200; path:map01070,1,6
+ec:3.1.2.30,(3S)-malyl-CoA thioesterase,4.399554883032622e-06,2.370651343751912e-06,malate,rn:R10612,path:map00630; path:map01200; path:map01070,1,6
+ec:6.2.1.9,malate---CoA ligase,4.399554883032622e-06,2.370651343751912e-06,malate,rn:R01256,path:map00630; path:map01200; path:map01070,1,6
+ec:4.1.1.101,malolactic enzyme,4.399554883032622e-06,2.370651343751912e-06,malate,rn:R11074,path:map00630; path:map01200; path:map01070,1,6
+ec:2.3.3.9,malate synthase,4.399554883032622e-06,2.370651343751912e-06,malate,rn:R00472,path:map00630; path:map01200; path:map01070,1,6
+ec:1.1.1.82,malate dehydrogenase (NADP+),4.399554883032622e-06,2.370651343751912e-06,malate,rn:R00343,path:map00630; path:map01200; path:map01070,1,6
+ec:2.7.1.33,pantothenate kinase,4.386039531139935e-06,2.5859152365061e-06,pantothenate,rn:R03018,path:map00770; path:map01240; path:map04977,1,6
+ec:3.5.1.92,pantetheine hydrolase,4.386039531139935e-06,2.5859152365061e-06,pantothenate,rn:R02973,path:map00770; path:map01240; path:map04977,1,6
+ec:1.14.11.39,L-asparagine hydroxylase,4.380680421703879e-06,2.4583246008230955e-06,hydroxyasparagine**,rn:R10446,,1,6
+ec:4.2.99.12,carboxymethyloxysuccinate lyase,4.374168656686501e-06,2.479830787072882e-06,fumarate,rn:R01336,path:map00360; path:map01200; path:map00650,1,6
+ec:3.7.1.5,acylpyruvate hydrolase,4.374168656686501e-06,2.479830787072882e-06,fumarate,rn:R01085,path:map00360; path:map01200; path:map00650,1,6
+ec:4.3.2.2,adenylosuccinate lyase,4.374168656686501e-06,2.479830787072882e-06,fumarate,rn:R12851; rn:R01083; rn:R04559,path:map00360; path:map01200; path:map00650,1,6
+ec:1.3.4.1,fumarate reductase (CoM/CoB),4.374168656686501e-06,2.479830787072882e-06,fumarate,rn:R10660,path:map00360; path:map01200; path:map00650,1,6
+ec:3.7.1.20,3-fumarylpyruvate hydrolase,4.374168656686501e-06,2.479830787072882e-06,fumarate,rn:R01085,path:map00360; path:map01200; path:map00650,1,6
+ec:6.3.2.46,"fumarate---(S)-2,3-diaminopropanoate ligase",4.374168656686501e-06,2.479830787072882e-06,fumarate,rn:R10940,path:map00360; path:map01200; path:map00650,1,6
+ec:1.3.5.1,succinate dehydrogenase,4.374168656686501e-06,2.479830787072882e-06,fumarate,rn:R02164,path:map00360; path:map01200; path:map00650,1,6
+ec:3.7.1.14,"2-hydroxy-6-oxonona-2,4-dienedioate hydrolase",4.374168656686501e-06,2.479830787072882e-06,fumarate,rn:R06789,path:map00360; path:map01200; path:map00650,1,6
+ec:4.3.2.1,argininosuccinate lyase,4.374168656686501e-06,2.479830787072882e-06,fumarate,rn:R01086,path:map00360; path:map01200; path:map00650,1,6
+ec:4.1.99.11,benzylsuccinate synthase,4.374168656686501e-06,2.479830787072882e-06,fumarate,rn:R05598,path:map00360; path:map01200; path:map00650,1,6
+ec:4.3.1.1,aspartate ammonia-lyase,4.374168656686501e-06,2.479830787072882e-06,fumarate,rn:R00490,path:map00360; path:map01200; path:map00650,1,6
+ec:4.2.1.172,trans-4-hydroxy-L-proline dehydratase,4.346014532668002e-06,2.878383934550435e-06,S-1-pyrroline-5-carboxylate,rn:R11819,path:map01230; path:map00330; path:map00332,1,6
+ec:1.5.5.2,proline dehydrogenase,4.346014532668002e-06,2.878383934550435e-06,S-1-pyrroline-5-carboxylate,rn:R01253,path:map01230; path:map00330; path:map00332,1,6
+ec:1.5.1.2,pyrroline-5-carboxylate reductase,4.346014532668002e-06,2.878383934550435e-06,S-1-pyrroline-5-carboxylate,rn:R01248; rn:R01251,path:map01230; path:map00330; path:map00332,1,6
+ec:1.1.1.159,7alpha-hydroxysteroid dehydrogenase,4.321370383802364e-06,2.575218121483473e-06,cholate,rn:R02792,path:map01100; path:map00121; path:map04976,1,6
+ec:1.1.1.176,12alpha-hydroxysteroid dehydrogenase,4.321370383802364e-06,2.575218121483473e-06,cholate,rn:R02793,path:map01100; path:map00121; path:map04976,1,6
+ec:2.3.1.91,sinapoylglucose---choline O-sinapoyltransferase,4.302916447439808e-06,2.6401634494927326e-06,choline,rn:R03075,path:map00670; path:map02010; path:map04981,1,6
+ec:3.1.1.7,acetylcholinesterase,4.302916447439808e-06,2.6401634494927326e-06,choline,rn:R01026,path:map00670; path:map02010; path:map04981,1,6
+ec:1.1.99.1,choline dehydrogenase,4.302916447439808e-06,2.6401634494927326e-06,choline,rn:R01025,path:map00670; path:map02010; path:map04981,1,6
+ec:3.1.4.41,sphingomyelin phosphodiesterase D,4.302916447439808e-06,2.6401634494927326e-06,choline,rn:R02542,path:map00670; path:map02010; path:map04981,1,6
+ec:3.1.6.6,choline-sulfatase,4.302916447439808e-06,2.6401634494927326e-06,choline,rn:R01028,path:map00670; path:map02010; path:map04981,1,6
+ec:1.14.15.7,choline monooxygenase,4.302916447439808e-06,2.6401634494927326e-06,choline,rn:R05739; rn:R07409,path:map00670; path:map02010; path:map04981,1,6
+ec:3.1.1.8,cholinesterase,4.302916447439808e-06,2.6401634494927326e-06,choline,rn:R01029; rn:R01026,path:map00670; path:map02010; path:map04981,1,6
+ec:2.8.2.6,choline sulfotransferase,4.302916447439808e-06,2.6401634494927326e-06,choline,rn:R01027,path:map00670; path:map02010; path:map04981,1,6
+ec:3.1.1.49,sinapine esterase,4.302916447439808e-06,2.6401634494927326e-06,choline,rn:R02381,path:map00670; path:map02010; path:map04981,1,6
+ec:2.7.8.24,phosphatidylcholine synthase,4.302916447439808e-06,2.6401634494927326e-06,choline,rn:R05794,path:map00670; path:map02010; path:map04981,1,6
+ec:2.3.1.6,choline O-acetyltransferase,4.302916447439808e-06,2.6401634494927326e-06,choline,rn:R01023,path:map00670; path:map02010; path:map04981,1,6
+ec:3.1.4.4,phospholipase D,4.302916447439808e-06,2.6401634494927326e-06,choline,rn:R01310,path:map00670; path:map02010; path:map04981,1,6
+ec:4.2.1.11,phosphopyruvate hydratase,4.29567605794609e-06,2.3836103579328824e-06,erythronate*,rn:R04206,,1,6
+ec:1.14.16.1,phenylalanine 4-monooxygenase,4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R01795,path:map00997; path:map00999; path:map00360,1,6
+ec:1.14.18.1,tyrosinase,4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R02078; rn:R00731; rn:R00031,path:map00997; path:map00999; path:map00360,1,6
+ec:6.3.2.24,tyrosine---arginine ligase,4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R00735,path:map00997; path:map00999; path:map00360,1,6
+ec:6.1.1.1,tyrosine---tRNA ligase,4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R02918,path:map00997; path:map00999; path:map00360,1,6
+ec:4.3.1.25,phenylalanine/tyrosine ammonia-lyase,4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R00737,path:map00997; path:map00999; path:map00360,1,6
+ec:5.4.3.6,"tyrosine 2,3-aminomutase",4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R00739,path:map00997; path:map00999; path:map00360,1,6
+ec:1.14.14.36,tyrosine N-monooxygenase,4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R00730,path:map00997; path:map00999; path:map00360,1,6
+ec:1.3.1.43,arogenate dehydrogenase,4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R00732,path:map00997; path:map00999; path:map00360,1,6
+ec:1.14.16.2,tyrosine 3-monooxygenase,4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R01815,path:map00997; path:map00999; path:map00360,1,6
+ec:4.1.99.2,tyrosine phenol-lyase,4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R00728,path:map00997; path:map00999; path:map00360,1,6
+ec:1.10.3.1,catechol oxidase,4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R02078; rn:R00031,path:map00997; path:map00999; path:map00360,1,6
+ec:4.1.1.25,tyrosine decarboxylase,4.260621601105736e-06,2.4678738016602044e-06,tyrosine,R00736: L-Tyrosine <=> Tyramine + CO2,path:map00997; path:map00999; path:map00360,1,6
+ec:1.3.1.78,arogenate dehydrogenase (NADP+),4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R00733,path:map00997; path:map00999; path:map00360,1,6
+ec:6.3.2.25,tubulin---tyrosine ligase,4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R04730,path:map00997; path:map00999; path:map00360,1,6
+ec:4.3.1.23,tyrosine ammonia-lyase,4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R00737,path:map00997; path:map00999; path:map00360,1,6
+ec:1.3.1.79,arogenate dehydrogenase [NAD(P)+],4.260621601105736e-06,2.4678738016602044e-06,tyrosine,rn:R00733; rn:R00732,path:map00997; path:map00999; path:map00360,1,6
+ec:4.2.1.176,L-lyxonate dehydratase,4.210879890278298e-06,2.345107203369985e-06,lyxonate,rn:R12761,path:map01100; path:map00053; path:map00040,1,6
+ec:3.2.1.56,glucuronosyl-disulfoglucosamine glucuronidase,4.202666292401871e-06,2.1648305083830123e-06,glucuronate,rn:R06143; rn:R04512,path:map00040; path:map01240; path:map01100,1,6
+ec:3.1.1.19,uronolactonase,4.202666292401871e-06,2.1648305083830123e-06,glucuronate,rn:R01484; rn:R01483,path:map00040; path:map01240; path:map01100,1,6
+ec:3.2.1.139,alpha-glucuronidase,4.202666292401871e-06,2.1648305083830123e-06,glucuronate,rn:R01480,path:map00040; path:map01240; path:map01100,1,6
+ec:1.1.1.203,uronate dehydrogenase,4.202666292401871e-06,2.1648305083830123e-06,glucuronate,rn:R10842,path:map00040; path:map01240; path:map01100,1,6
+ec:2.7.1.43,glucuronokinase,4.202666292401871e-06,2.1648305083830123e-06,glucuronate,rn:R01476,path:map00040; path:map01240; path:map01100,1,6
+ec:3.2.1.31,beta-glucuronidase,4.202666292401871e-06,2.1648305083830123e-06,glucuronate,rn:R08260; rn:R07818; rn:R10830,path:map00040; path:map01240; path:map01100,1,6
+ec:5.3.1.12,glucuronate isomerase,4.202666292401871e-06,2.1648305083830123e-06,glucuronate,rn:R01482,path:map00040; path:map01240; path:map01100,1,6
+ec:3.2.1.167,baicalin-beta-D-glucuronidase,4.202666292401871e-06,2.1648305083830123e-06,glucuronate,rn:R09533,path:map00040; path:map01240; path:map01100,1,6
+ec:3.1.2.17,(S)-methylmalonyl-CoA hydrolase,4.161606467682098e-06,2.4292014119371366e-06,ethylmalonate,rn:R02764,path:map00240; path:map00640; path:map00280,1,6
+ec:2.3.1.79,maltose O-acetyltransferase,4.149339251014729e-06,2.299184302570756e-06,maltose,rn:R01556,path:map02010; path:map04973; path:map02060,1,6
+ec:2.7.1.208,protein-Npi-phosphohistidine---maltose phosphotransferase,4.149339251014729e-06,2.299184302570756e-06,maltose,rn:R04111,path:map02010; path:map04973; path:map02060,1,6
+ec:3.1.3.90,maltose 6'-phosphate phosphatase,4.149339251014729e-06,2.299184302570756e-06,maltose,rn:R10486,path:map02010; path:map04973; path:map02060,1,6
+ec:5.4.99.16,maltose alpha-D-glucosyltransferase,4.149339251014729e-06,2.299184302570756e-06,maltose,rn:R01557,path:map02010; path:map04973; path:map02060,1,6
+ec:2.4.1.139,maltose synthase,4.149339251014729e-06,2.299184302570756e-06,maltose,rn:R00957,path:map02010; path:map04973; path:map02060,1,6
+ec:2.7.1.175,maltokinase,4.149339251014729e-06,2.299184302570756e-06,maltose,rn:R09945,path:map02010; path:map04973; path:map02060,1,6
+ec:2.4.1.25,4-alpha-glucanotransferase,4.149339251014729e-06,2.299184302570756e-06,maltose,rn:R05196,path:map02010; path:map04973; path:map02060,1,6
+ec:2.4.1.8,maltose phosphorylase,4.149339251014729e-06,2.299184302570756e-06,maltose,rn:R01555,path:map02010; path:map04973; path:map02060,1,6
+ec:3.2.1.2,beta-amylase,4.149339251014729e-06,2.299184302570756e-06,maltose,rn:R02112; rn:R11262,path:map02010; path:map04973; path:map02060,1,6
+ec:3.2.1.133,"glucan 1,4-alpha-maltohydrolase",4.149339251014729e-06,2.299184302570756e-06,maltose,rn:R02112; rn:R11262,path:map02010; path:map04973; path:map02060,1,6
+ec:3.2.1.1,alpha-amylase,4.149339251014729e-06,2.299184302570756e-06,maltose,rn:R02112; rn:R11262,path:map02010; path:map04973; path:map02060,1,6
+ec:4.2.1.69,cyanamide hydratase,4.138066494683454e-06,2.174055475884854e-06,urea,rn:R00778,path:map02010; path:map00330; path:map01120,1,6
+ec:3.5.3.16,methylguanidinase,4.138066494683454e-06,2.174055475884854e-06,urea,rn:R01589,path:map02010; path:map00330; path:map01120,1,6
+ec:3.5.3.4,allantoicase,4.138066494683454e-06,2.174055475884854e-06,urea,rn:R02422,path:map02010; path:map00330; path:map01120,1,6
+ec:3.5.3.22,proclavaminate amidinohydrolase,4.138066494683454e-06,2.174055475884854e-06,urea,rn:R05357,path:map02010; path:map00330; path:map01120,1,6
+ec:3.5.3.20,diguanidinobutanase,4.138066494683454e-06,2.174055475884854e-06,urea,rn:R01418,path:map02010; path:map00330; path:map01120,1,6
+ec:3.5.3.11,agmatinase,4.138066494683454e-06,2.174055475884854e-06,urea,rn:R01157,path:map02010; path:map00330; path:map01120,1,6
+ec:3.5.3.1,arginase,4.138066494683454e-06,2.174055475884854e-06,urea,rn:R00551,path:map02010; path:map00330; path:map01120,1,6
+ec:4.3.2.3,ureidoglycolate lyase,4.138066494683454e-06,2.174055475884854e-06,urea,rn:R00776,path:map02010; path:map00330; path:map01120,1,6
+ec:3.5.3.10,D-arginase,4.138066494683454e-06,2.174055475884854e-06,urea,rn:R02458,path:map02010; path:map00330; path:map01120,1,6
+ec:6.3.4.6,urea carboxylase,4.138066494683454e-06,2.174055475884854e-06,urea,rn:R00774,path:map02010; path:map00330; path:map01120,1,6
+ec:3.5.1.5,urease,4.138066494683454e-06,2.174055475884854e-06,urea,rn:R00131,path:map02010; path:map00330; path:map01120,1,6
+ec:2.8.2.4,estrone sulfotransferase,4.125588683592498e-06,2.307906180524607e-06,estrone 3-sulfate,rn:R02350,path:map01100; path:map04976; path:map00140,1,6
+ec:2.8.2.15,steroid sulfotransferase,4.125588683592498e-06,2.307906180524607e-06,estrone 3-sulfate,rn:R02350,path:map01100; path:map04976; path:map00140,1,6
+ec:1.2.1.16,succinate-semialdehyde dehydrogenase [NAD(P)+],4.114083604643419e-06,2.1269650696387183e-06,succinate,rn:R00713; rn:R00714,path:map00360; path:map00630; path:map01200,1,6
+ec:4.1.3.30,methylisocitrate lyase,4.114083604643419e-06,2.1269650696387183e-06,succinate,rn:R00409,path:map00360; path:map00630; path:map01200,1,6
+ec:3.1.2.13,S-succinylglutathione hydrolase,4.114083604643419e-06,2.1269650696387183e-06,succinate,rn:R00499,path:map00360; path:map00630; path:map01200,1,6
+ec:3.5.1.96,succinylglutamate desuccinylase,4.114083604643419e-06,2.1269650696387183e-06,succinate,rn:R00411,path:map00360; path:map00630; path:map01200,1,6
+ec:6.2.1.4,succinate---CoA ligase (GDP-forming),4.114083604643419e-06,2.1269650696387183e-06,succinate,rn:R00727; rn:R00432,path:map00360; path:map00630; path:map01200,1,6
+ec:6.2.1.5,succinate---CoA ligase (ADP-forming),4.114083604643419e-06,2.1269650696387183e-06,succinate,rn:R00405,path:map00360; path:map00630; path:map01200,1,6
+ec:3.1.2.3,succinyl-CoA hydrolase,4.114083604643419e-06,2.1269650696387183e-06,succinate,rn:R00407,path:map00360; path:map00630; path:map01200,1,6
+ec:2.8.3.2,oxalate CoA-transferase,4.114083604643419e-06,2.1269650696387183e-06,succinate,rn:R01559,path:map00360; path:map00630; path:map01200,1,6
+ec:1.14.11.57,L-proline trans-4-hydroxylase,4.114083604643419e-06,2.1269650696387183e-06,succinate,rn:R01252,path:map00360; path:map00630; path:map01200,1,6
+ec:1.14.11.6,thymine dioxygenase,4.114083604643419e-06,2.1269650696387183e-06,succinate,rn:R01412,path:map00360; path:map00630; path:map01200,1,6
+ec:1.14.11.2,procollagen-proline 4-dioxygenase,4.114083604643419e-06,2.1269650696387183e-06,succinate,rn:R01252,path:map00360; path:map00630; path:map01200,1,6
+ec:1.2.1.24,succinate-semialdehyde dehydrogenase (NAD+),4.114083604643419e-06,2.1269650696387183e-06,succinate,rn:R00713,path:map00360; path:map00630; path:map01200,1,6
+ec:1.2.1.79,succinate-semialdehyde dehydrogenase (NADP+),4.114083604643419e-06,2.1269650696387183e-06,succinate,rn:R00714,path:map00360; path:map00630; path:map01200,1,6
+ec:2.1.3.8,lysine carbamoyltransferase,4.108169619215374e-06,1.986146720064169e-06,homocitrulline,rn:R01396,,1,6
+ec:6.3.3.6,carbapenam-3-carboxylate synthase,4.056807745596971e-06,2.4556083119454184e-06,N-methylproline,rn:R10556,path:map01100; path:map01110; path:map00332,1,6
+ec:3.1.2.4,3-hydroxyisobutyryl-CoA hydrolase,4.029454024215387e-06,2.114460780785622e-06,3-hydroxyisobutyrate,rn:R03352,,1,6
+ec:1.1.1.31,3-hydroxyisobutyrate dehydrogenase,4.029454024215387e-06,2.114460780785622e-06,3-hydroxyisobutyrate,rn:R02047,,1,6
+ec:2.3.1.103,sinapoylglucose---sinapoylglucose O-sinapoyltransferase,4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00063,path:map02010; path:map00074; path:map00521,1,6
+ec:2.7.1.42,riboflavin phosphotransferase,4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00550,path:map02010; path:map00074; path:map00521,1,6
+ec:3.2.1.74,"glucan 1,4-beta-glucosidase",4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00306,path:map02010; path:map00074; path:map00521,1,6
+ec:3.1.3.10,glucose-1-phosphatase,4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00304,path:map02010; path:map00074; path:map00521,1,6
+ec:1.1.5.9,"glucose 1-dehydrogenase (FAD, quinone)",4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00305,path:map02010; path:map00074; path:map00521,1,6
+ec:1.1.1.118,glucose 1-dehydrogenase (NAD+),4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00300,path:map02010; path:map00074; path:map00521,1,6
+ec:1.1.1.119,glucose 1-dehydrogenase (NADP+),4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00301,path:map02010; path:map00074; path:map00521,1,6
+ec:1.1.3.10,pyranose oxidase,4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00302,path:map02010; path:map00074; path:map00521,1,6
+ec:3.1.6.3,glycosulfatase,4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00534,path:map02010; path:map00074; path:map00521,1,6
+ec:2.4.1.22,lactose synthase,4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00503,path:map02010; path:map00074; path:map00521,1,6
+ec:3.2.1.21,beta-glucosidase,4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00306,path:map02010; path:map00074; path:map00521,1,6
+ec:3.2.1.58,"glucan 1,3-beta-glucosidase",4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00308,path:map02010; path:map00074; path:map00521,1,6
+ec:3.1.3.58,sugar-terminal-phosphatase,4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00303,path:map02010; path:map00074; path:map00521,1,6
+ec:2.7.1.2,glucokinase,4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00299,path:map02010; path:map00074; path:map00521,1,6
+ec:3.1.1.33,6-acetylglucose deacetylase,4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00327,path:map02010; path:map00074; path:map00521,1,6
+ec:3.2.1.39,"glucan endo-1,3-beta-D-glucosidase",4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00308,path:map02010; path:map00074; path:map00521,1,6
+ec:3.1.3.9,glucose-6-phosphatase,4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00303,path:map02010; path:map00074; path:map00521,1,6
+ec:3.2.1.42,GDP-glucosidase,4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00337,path:map02010; path:map00074; path:map00521,1,6
+ec:3.2.1.28,"alpha,alpha-trehalase",4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00010,path:map02010; path:map00074; path:map00521,1,6
+ec:1.1.1.121,aldose 1-dehydrogenase (NAD+),4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00300,path:map02010; path:map00074; path:map00521,1,6
+ec:2.3.1.90,beta-glucogallin O-galloyltransferase,4.010147715698491e-06,2.196483559534244e-06,glucose,rn:R00049,path:map02010; path:map00074; path:map00521,1,6
+ec:2.6.1.117,L-glutamine---4-(methylsulfanyl)-2-oxobutanoate aminotransferase,3.9722821032795e-06,2.216470382175112e-06,alpha-ketoglutaramate*,rn:R12507,path:map01100; path:map00250,1,6
+ec:2.6.1.15,glutamine---pyruvate transaminase,3.9722821032795e-06,2.216470382175112e-06,alpha-ketoglutaramate*,rn:R00576,path:map01100; path:map00250,1,6
+ec:2.6.1.101,"L-glutamine:3-amino-2,3-dideoxy-scyllo-inosose aminotransferase",3.9722821032795e-06,2.216470382175112e-06,alpha-ketoglutaramate*,rn:R08891,path:map01100; path:map00250,1,6
+ec:2.6.1.50,glutamine---scyllo-inositol transaminase,3.9722821032795e-06,2.216470382175112e-06,alpha-ketoglutaramate*,rn:R02781,path:map01100; path:map00250,1,6
+ec:2.6.1.100,L-glutamine:2-deoxy-scyllo-inosose aminotransferase,3.9722821032795e-06,2.216470382175112e-06,alpha-ketoglutaramate*,rn:R08890,path:map01100; path:map00250,1,6
+ec:3.1.1.111,phosphatidylserine sn-1 acylhydrolase,3.893164947226328e-06,2.027552576535826e-06,glycerophosphoserine*,rn:R12537,,1,6
+ec:2.4.2.9,uracil phosphoribosyltransferase,3.888751210802656e-06,2.4044045025398783e-06,uracil,rn:R00966,path:map00770; path:map00240; path:map01100,1,6
+ec:4.2.1.70,pseudouridylate synthase,3.888751210802656e-06,2.4044045025398783e-06,uracil,rn:R01055,path:map00770; path:map00240; path:map01100,1,6
+ec:4.1.1.66,uracil-5-carboxylate decarboxylase,3.888751210802656e-06,2.4044045025398783e-06,uracil,rn:R00973,path:map00770; path:map00240; path:map01100,1,6
+ec:2.5.1.53,uracilylalanine synthase,3.888751210802656e-06,2.4044045025398783e-06,uracil,rn:R03131,path:map00770; path:map00240; path:map01100,1,6
+ec:1.14.99.46,pyrimidine oxygenase,3.888751210802656e-06,2.4044045025398783e-06,uracil,rn:R12545; rn:R12544; rn:R09936,path:map00770; path:map00240; path:map01100,1,6
+ec:1.17.99.4,uracil/thymine dehydrogenase,3.888751210802656e-06,2.4044045025398783e-06,uracil,rn:R00976,path:map00770; path:map00240; path:map01100,1,6
+ec:1.3.1.2,dihydropyrimidine dehydrogenase (NADP+),3.888751210802656e-06,2.4044045025398783e-06,uracil,rn:R00978,path:map00770; path:map00240; path:map01100,1,6
+ec:1.3.1.1,dihydropyrimidine dehydrogenase (NAD+),3.888751210802656e-06,2.4044045025398783e-06,uracil,rn:R00977,path:map00770; path:map00240; path:map01100,1,6
+ec:1.3.3.7,dihydrouracil oxidase,3.888751210802656e-06,2.4044045025398783e-06,uracil,rn:R00975,path:map00770; path:map00240; path:map01100,1,6
+ec:3.5.1.63,4-acetamidobutyrate deacetylase,3.864043701706601e-06,2.2576625939027785e-06,4-acetamidobutanoate,rn:R01987,path:map01100; path:map00330,1,6
+ec:2.4.2.19,nicotinate-nucleotide diphosphorylase (carboxylating),3.863482394911094e-06,2.374336431186334e-06,quinolinate,rn:R03348,path:map00380; path:map01240; path:map01064,1,6
+ec:2.5.1.72,quinolinate synthase,3.863482394911094e-06,2.374336431186334e-06,quinolinate,rn:R04292,path:map00380; path:map01240; path:map01064,1,6
+ec:1.1.99.42,4-pyridoxic acid dehydrogenase,3.7811786253593857e-06,2.179538715128887e-06,pyridoxate,rn:R02993,path:map00750; path:map01100; path:map01120,1,6
+ec:3.1.1.27,4-pyridoxolactonase,3.7811786253593857e-06,2.179538715128887e-06,pyridoxate,rn:R02992,path:map00750; path:map01100; path:map01120,1,6
+ec:1.1.3.9,galactose oxidase,3.7650016510098e-06,2.2405491382262257e-06,galactonate,rn:R01098,path:map01100; path:map00052; path:map01120,1,6
+ec:4.2.1.140,gluconate/galactonate dehydratase,3.7650016510098e-06,2.2405491382262257e-06,galactonate,rn:R01538; rn:R03033,path:map01100; path:map00052; path:map01120,1,6
+ec:4.2.1.6,galactonate dehydratase,3.7650016510098e-06,2.2405491382262257e-06,galactonate,rn:R03033,path:map01100; path:map00052; path:map01120,1,6
+ec:1.21.4.3,sarcosine reductase,3.696489762997696e-06,1.788391286229728e-06,sarcosine,rn:R07227,path:map00260; path:map00670; path:map01100,1,6
+ec:3.5.1.59,N-carbamoylsarcosine amidase,3.696489762997696e-06,1.788391286229728e-06,sarcosine,rn:R01563,path:map00260; path:map00670; path:map01100,1,6
+ec:1.5.3.24,"sarcosine oxidase (5,10-methylenetetrahydrofolate-forming)",3.696489762997696e-06,1.788391286229728e-06,sarcosine,rn:R12967,path:map00260; path:map00670; path:map01100,1,6
+ec:1.14.99.2,"kynurenine 7,8-hydroxylase",3.604694105339721e-06,1.8028283519886e-06,kynurenate,rn:R03441; rn:R03440; rn:R03439,path:map01100; path:map00380,1,6
+ec:1.3.99.18,quinaldate 4-oxidoreductase,3.604694105339721e-06,1.8028283519886e-06,kynurenate,rn:R03687,path:map01100; path:map00380,1,6
+ec:2.6.1.19,4-aminobutyrate---2-oxoglutarate transaminase,3.5814317406894248e-06,2.0418038056482646e-06,beta-alanine,rn:R00908,path:map00770; path:map01240; path:map04080,1,6
+ec:4.1.1.11,aspartate 1-decarboxylase,3.5814317406894248e-06,2.0418038056482646e-06,beta-alanine,R00489: L-Aspartate <=> beta-Alanine + CO2,path:map00770; path:map01240; path:map04080,1,6
+ec:6.3.2.23,homoglutathione synthase,3.5814317406894248e-06,2.0418038056482646e-06,beta-alanine,rn:R02741,path:map00770; path:map01240; path:map04080,1,6
+ec:1.5.1.26,beta-alanopine dehydrogenase,3.5814317406894248e-06,2.0418038056482646e-06,beta-alanine,rn:R00906,path:map00770; path:map01240; path:map04080,1,6
+ec:1.2.1.19,aminobutyraldehyde dehydrogenase,3.5814317406894248e-06,2.0418038056482646e-06,beta-alanine,R00904: 3-Aminopropanal + NAD+ + H2O <=> beta-Alanine + NADH + H+,path:map00770; path:map01240; path:map04080,1,6
+ec:2.6.1.18,beta-alanine---pyruvate transaminase,3.5814317406894248e-06,2.0418038056482646e-06,beta-alanine,rn:R00907,path:map00770; path:map01240; path:map04080,1,6
+ec:2.6.1.120,beta-alanine---2-oxoglutarate transaminase,3.5814317406894248e-06,2.0418038056482646e-06,beta-alanine,rn:R00908,path:map00770; path:map01240; path:map04080,1,6
+ec:3.5.2.3,dihydroorotase,3.554158908578303e-06,1.941374187996116e-06,dihydroorotate,rn:R01993,path:map00240; path:map01100; path:map01240,1,6
+ec:4.1.1.23,orotidine-5'-phosphate decarboxylase,3.409620438384824e-06,1.8375759843253817e-06,orotidine,rn:R00965,path:map00240; path:map01100; path:map01240,1,6
+ec:2.1.1.4,acetylserotonin O-methyltransferase,3.2973811494585448e-06,1.7251825133574204e-06,5-hydroxyindoleacetate,rn:R04905,path:map01100; path:map00380; path:map04726,1,6
+ec:2.1.1.40,inositol 1-methyltransferase,3.2774887649146265e-06,1.443515751429328e-06,myo-inositol,rn:R01188,path:map02010; path:map01120; path:map00521,1,6
+ec:2.1.1.129,inositol 4-methyltransferase,3.2774887649146265e-06,1.443515751429328e-06,myo-inositol,rn:R01190,path:map02010; path:map01120; path:map00521,1,6
+ec:2.3.1.72,indoleacetylglucose---inositol O-acyltransferase,3.2774887649146265e-06,1.443515751429328e-06,myo-inositol,rn:R04333,path:map02010; path:map01120; path:map00521,1,6
+ec:2.7.1.64,inositol 3-kinase,3.2774887649146265e-06,1.443515751429328e-06,myo-inositol,rn:R07279,path:map02010; path:map01120; path:map00521,1,6
+ec:3.1.3.25,inositol-phosphate phosphatase,3.2774887649146265e-06,1.443515751429328e-06,myo-inositol,rn:R01185; rn:R01187; rn:R01186,path:map02010; path:map01120; path:map00521,1,6
+ec:2.4.1.123,inositol 3-alpha-galactosyltransferase,3.2774887649146265e-06,1.443515751429328e-06,myo-inositol,rn:R01192; rn:R06214,path:map02010; path:map01120; path:map00521,1,6
+ec:2.4.1.67,galactinol---raffinose galactosyltransferase,3.2774887649146265e-06,1.443515751429328e-06,myo-inositol,rn:R03418; rn:R06042,path:map02010; path:map01120; path:map00521,1,6
+ec:2.1.1.39,inositol 3-methyltransferase,3.2774887649146265e-06,1.443515751429328e-06,myo-inositol,rn:R01189,path:map02010; path:map01120; path:map00521,1,6
+ec:1.1.1.18,inositol 2-dehydrogenase,3.2774887649146265e-06,1.443515751429328e-06,myo-inositol,rn:R01183,path:map02010; path:map01120; path:map00521,1,6
+ec:2.7.8.11,CDP-diacylglycerol---inositol 3-phosphatidyltransferase,3.2774887649146265e-06,1.443515751429328e-06,myo-inositol,rn:R01802,path:map02010; path:map01120; path:map00521,1,6
+ec:1.1.1.115,ribose 1-dehydrogenase (NADP+),3.241628787344744e-06,1.5402061428589686e-06,ribonate,rn:R01079,,1,6
+ec:2.1.1.158,7-methylxanthosine synthase,3.221937415577016e-06,1.4652829893977535e-06,xanthosine,rn:R07917,path:map02010; path:map00230; path:map00232,1,6
+ec:2.6.1.30,pyridoxamine---pyruvate transaminase,3.059547243481712e-06,1.3395268632907737e-06,pyridoxal,rn:R01712,path:map01120; path:map01240; path:map04977,1,6
+ec:1.1.3.12,pyridoxine 4-oxidase,3.059547243481712e-06,1.3395268632907737e-06,pyridoxal,rn:R01711,path:map01120; path:map01240; path:map04977,1,6
+ec:1.1.1.65,pyridoxine 4-dehydrogenase,3.059547243481712e-06,1.3395268632907737e-06,pyridoxal,rn:R01708,path:map01120; path:map01240; path:map04977,1,6
+ec:2.6.1.54,pyridoxamine-phosphate transaminase,3.059547243481712e-06,1.3395268632907737e-06,pyridoxal,rn:R05839,path:map01120; path:map01240; path:map04977,1,6
+ec:2.6.1.31,pyridoxamine---oxaloacetate transaminase,3.059547243481712e-06,1.3395268632907737e-06,pyridoxal,rn:R01713,path:map01120; path:map01240; path:map04977,1,6
+ec:1.1.1.107,pyridoxal 4-dehydrogenase,3.059547243481712e-06,1.3395268632907737e-06,pyridoxal,rn:R01707,path:map01120; path:map01240; path:map04977,1,6
+ec:2.7.1.35,pyridoxal kinase,3.059547243481712e-06,1.3395268632907737e-06,pyridoxal,rn:R00174,path:map01120; path:map01240; path:map04977,1,6
+ec:1.4.3.5,pyridoxal 5'-phosphate synthase,3.059547243481712e-06,1.3395268632907737e-06,pyridoxal,rn:R01710; rn:R01711,path:map01120; path:map01240; path:map04977,1,6
+ec:2.7.1.83,pseudouridine kinase,3.056771529049748e-06,1.3616547330988388e-06,pseudouridine,rn:R03315,path:map00240; path:map01100,1,6
+ec:3.1.3.96,pseudouridine 5'-phosphatase,3.056771529049748e-06,1.3616547330988388e-06,pseudouridine,rn:R11180,path:map00240; path:map01100,1,6
+ec:1.1.1.45,L-gulonate 3-dehydrogenase,2.9345237350283013e-06,1.3651961460025937e-06,gulonate*,rn:R02640,path:map01100; path:map00053; path:map00040,1,6
+ec:3.1.1.17,gluconolactonase,2.9345237350283013e-06,1.3651961460025937e-06,gulonate*,rn:R02933,path:map01100; path:map00053; path:map00040,1,6
+ec:1.1.1.380,L-gulonate 5-dehydrogenase,2.9345237350283013e-06,1.3651961460025937e-06,gulonate*,rn:R10848,path:map01100; path:map00053; path:map00040,1,6
+ec:2.5.1.56,N-acetylneuraminate synthase,2.925500608524518e-06,1.505847373846191e-06,N-acetylneuraminate,rn:R01804,path:map01100; path:map00541; path:map01250,1,6
+ec:3.2.1.18,exo-alpha-sialidase,2.925500608524518e-06,1.505847373846191e-06,N-acetylneuraminate,rn:R05998; rn:R03491; rn:R06147,path:map01100; path:map00541; path:map01250,1,6
+ec:3.1.3.29,N-acylneuraminate-9-phosphatase,2.925500608524518e-06,1.505847373846191e-06,N-acetylneuraminate,rn:R01805,path:map01100; path:map00541; path:map01250,1,6
+ec:4.1.3.3,N-acetylneuraminate lyase,2.925500608524518e-06,1.505847373846191e-06,N-acetylneuraminate,rn:R01811,path:map01100; path:map00541; path:map01250,1,6
+ec:2.7.7.43,N-acylneuraminate cytidylyltransferase,2.925500608524518e-06,1.505847373846191e-06,N-acetylneuraminate,rn:R01117,path:map01100; path:map00541; path:map01250,1,6
+ec:1.14.18.2,CMP-N-acetylneuraminate monooxygenase,2.925500608524518e-06,1.505847373846191e-06,N-acetylneuraminate,rn:R01803,path:map01100; path:map00541; path:map01250,1,6
+ec:3.1.1.53,sialate O-acetylesterase,2.925500608524518e-06,1.505847373846191e-06,N-acetylneuraminate,rn:R01810; rn:R08600,path:map01100; path:map00541; path:map01250,1,6
+ec:2.3.1.44,N-acetylneuraminate 4-O-acetyltransferase,2.925500608524518e-06,1.505847373846191e-06,N-acetylneuraminate,rn:R01806,path:map01100; path:map00541; path:map01250,1,6

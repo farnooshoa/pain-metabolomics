@@ -1,0 +1,112 @@
+# =====================================================
+# Patient data — DO NOT COMMIT (HIPAA / IRB)
+# =====================================================
+starting_template.csv
+starting_template_with_hc.xlsx
+starting template_processed.xlsx
+KEGG_Ruiheng.xlsx
+L8000*.xlsx
+"L8000 Normalized with POS without background.xlsx"
+data/raw/
+
+# =====================================================
+# Caches and re-generatable artifacts
+# =====================================================
+**/kegg_cache/
+**/aliases_cache.json
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# =====================================================
+# Intermediate / exploratory pipeline outputs
+# (kept on disk locally but not in git)
+# =====================================================
+pain_hetero_pipeline/out_hetero/
+pain_hetero_pipeline/out_hetero_all/
+pain_hetero_pipeline/out_hetero_all_fixed/
+pain_hetero_pipeline/out_hetero_endogenous/
+pain_hetero_pipeline/out_hetero_hc/
+
+# =====================================================
+# Legacy v1.0 (pre-2026-04) — superseded by v2.0
+# =====================================================
+analyze_sample_metabolite.py
+baselines.py
+config.py
+convert_to_word.py
+create_comparison_figure.py
+create_comprehensive_figures.py
+data.py
+enzyme_validation_pipeline.py
+ENZYME_VALIDATION_SUMMARY.md
+extract_adjacency_matrix.py
+extract_pathway_adjacency.py
+graph_build.py
+lookup_pathway_names.py
+meta_gnn_stability.py
+run_all.py
+run_hetero_307.py
+run_hetero_outliers.py
+run_stage1.py
+run_stage2.py
+selected_proteins_307.txt
+show_sample_metabolite_example.py
+validate_outliers.py
+visualize_outlier_embeddings.py
+visualize_validation_results.py
+viz_adjacency_matrix.py
+viz_figure_aim2_final.py
+viz_figure_aim2.py
+viz_figure_aim2_v2.py
+viz_graph_clean.py
+viz_graph_network.py
+viz_hetero_graph.py
+viz_pathway_subnetwork.py
+viz.py
+ANALYSIS_REPORT.docx
+checkpoints/
+data/
+figures/
+figures_for_review/
+gnn_diagnostics/
+gnn_output_adversarial/
+gnn_outputs/
+gnn_outputs_enhanced/
+gnn_viz/
+knockouts/
+logs/
+tables/
+outputs_l8000_meta_gnn/
+outputs_patient_meta_gnn/
+README.md.old
+/requirements.txt
+metrics.py
+models.py
+pain_gnn_adversarial.py
+pain_gnn_diagnostics.py
+pain_gnn_enhanced.py
+pain_gnn_pipeline.py
+protein_anomaly_detection.py
+
+# =====================================================
+# Build / package artifacts
+# =====================================================
+*.tar.gz
+*.zip
+*.egg-info/
+build/
+dist/
+
+# =====================================================
+# OS / editor
+# =====================================================
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+.claude/

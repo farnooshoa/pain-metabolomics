@@ -1,0 +1,5 @@
+target,n_pos,n_neg,auc_mean,auc_std
+pain_HighVsLow,26,10,0.8375,0.14123709380565244
+group_PHNvsHZHL,12,24,0.9375,0.09547032697824667
+severity_SevereVsOther,14,22,1.0,0.0
+age_oldVsYoung,18,18,1.0,0.0

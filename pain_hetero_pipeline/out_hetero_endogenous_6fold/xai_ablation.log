@@ -1,0 +1,217 @@
+2026-04-16 15:01:17,063 - INFO - Device: cuda
+2026-04-16 15:01:18,148 - INFO - Loaded Excel file: starting_template.csv
+2026-04-16 15:01:18,148 - INFO - Raw data shape: (48, 1602)
+2026-04-16 15:01:18,150 - INFO - Filtered samples: 36 (High: 26, Low: 10)
+2026-04-16 15:01:18,150 - INFO - Groups found: Counter({'HZ_HL': 24, 'PHN': 12})
+2026-04-16 15:01:18,152 - INFO - Excluding pain score column from features: 'Pain Score'
+2026-04-16 15:01:18,392 - INFO - Identified 1592 metabolite columns
+2026-04-16 15:01:18,686 - INFO - Excluded 268 xenobiotic metabolites, 1324 endogenous remaining
+2026-04-16 15:01:18,686 - INFO - Excluded xenobiotics (first 10): ['gluconate', 'phytanate', 'salicylate', 'cotinine', 'caffeine', 'methyl indole-3-acetate', 'fluoxetine', '4-acetamidophenol', 'naproxen', 'ibuprofen']
+2026-04-16 15:01:18,686 - INFO - Excluded 305 unidentified X- metabolites, 1019 identified endogenous remaining
+2026-04-16 15:01:18,704 - INFO - Graph: 36 samples, 1019 metabolites, 966 enzymes
+2026-04-16 15:01:21,002 - INFO - Graph: 36 samples, 1019 metabolites, 966 enzymes
+2026-04-16 15:01:22,422 - INFO - Graph: 36 samples, 1019 metabolites, 966 enzymes
+2026-04-16 15:01:23,659 - INFO - Graph: 36 samples, 1019 metabolites, 966 enzymes
+2026-04-16 15:01:25,024 - INFO - Graph: 36 samples, 1019 metabolites, 966 enzymes
+2026-04-16 15:01:27,008 - INFO - Graph: 36 samples, 1019 metabolites, 966 enzymes
+2026-04-16 15:01:28,201 - INFO - K=  0 [remove-top]    AUC=0.838±0.141  (n_mets=1019) elapsed=0.2m
+2026-04-16 15:01:28,208 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:29,797 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:31,194 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:32,391 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:33,780 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:35,773 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:36,968 - INFO - K= 10 [remove-top]    AUC=0.858±0.154  (n_mets=1009) elapsed=0.3m
+2026-04-16 15:01:36,974 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:38,563 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:39,961 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:41,158 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:42,553 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:44,337 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:45,544 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:46,747 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:47,743 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:49,530 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:51,315 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:52,524 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:53,732 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:54,940 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:56,946 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:58,585 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:01:59,835 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:01,846 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:03,232 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:04,784 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:06,181 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:07,603 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:09,714 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:11,731 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:13,794 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:15,244 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:16,754 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:18,111 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:19,657 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:21,543 - INFO - Graph: 36 samples, 1009 metabolites, 966 enzymes
+2026-04-16 15:02:22,748 - INFO - K= 10 [remove-random]  AUC=0.766±0.046 (over 5 reps) elapsed=1.1m
+2026-04-16 15:02:22,755 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:24,375 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:26,183 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:27,396 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:28,605 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:30,428 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:31,614 - INFO - K= 30 [remove-top]    AUC=0.817±0.124  (n_mets=989) elapsed=1.2m
+2026-04-16 15:02:31,620 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:33,226 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:34,638 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:35,834 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:37,432 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:40,040 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:41,833 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:43,388 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:44,733 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:47,287 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:50,209 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:52,411 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:54,228 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:55,994 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:02:58,771 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:00,722 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:02,330 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:05,365 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:07,145 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:09,042 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:10,790 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:12,580 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:14,947 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:17,271 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:19,925 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:21,555 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:23,344 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:25,208 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:26,728 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:28,798 - INFO - Graph: 36 samples, 989 metabolites, 966 enzymes
+2026-04-16 15:03:30,353 - INFO - K= 30 [remove-random]  AUC=0.749±0.067 (over 5 reps) elapsed=2.2m
+2026-04-16 15:03:30,360 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:32,526 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:34,907 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:36,550 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:38,135 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:40,741 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:42,630 - INFO - K= 50 [remove-top]    AUC=0.817±0.124  (n_mets=969) elapsed=2.4m
+2026-04-16 15:03:42,638 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:44,997 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:47,540 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:49,204 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:50,866 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:53,551 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:55,374 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:57,209 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:03:58,782 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:01,198 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:03,882 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:05,713 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:07,278 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:08,931 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:11,580 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:13,379 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:15,439 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:18,288 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:20,162 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:21,897 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:23,602 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:25,405 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:27,761 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:30,226 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:32,955 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:34,559 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:36,177 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:37,939 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:39,848 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:41,814 - INFO - Graph: 36 samples, 969 metabolites, 966 enzymes
+2026-04-16 15:04:43,673 - INFO - K= 50 [remove-random]  AUC=0.766±0.046 (over 5 reps) elapsed=3.4m
+2026-04-16 15:04:43,682 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:04:46,081 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:04:48,744 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:04:50,595 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:04:52,457 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:04:54,890 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:04:56,721 - INFO - K=100 [remove-top]    AUC=0.817±0.124  (n_mets=919) elapsed=3.6m
+2026-04-16 15:04:56,730 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:04:59,046 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:01,317 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:02,962 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:04,620 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:07,288 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:09,089 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:10,826 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:12,121 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:14,490 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:17,123 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:18,752 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:20,402 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:22,014 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:24,570 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:26,644 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:28,416 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:31,535 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:33,407 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:35,037 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:36,677 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:38,493 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:41,043 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:43,361 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:45,999 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:47,646 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:49,238 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:50,882 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:52,581 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:54,423 - INFO - Graph: 36 samples, 919 metabolites, 966 enzymes
+2026-04-16 15:05:56,294 - INFO - K=100 [remove-random]  AUC=0.745±0.062 (over 5 reps) elapsed=4.6m
+2026-04-16 15:05:56,301 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:05:58,616 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:01,228 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:02,966 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:04,732 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:07,246 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:08,957 - INFO - K=200 [remove-top]    AUC=0.838±0.141  (n_mets=819) elapsed=4.8m
+2026-04-16 15:06:08,964 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:11,337 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:13,671 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:15,244 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:16,822 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:19,211 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:20,749 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:22,306 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:23,539 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:25,728 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:27,982 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:29,472 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:31,024 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:32,616 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:35,093 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:36,589 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:38,194 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:40,733 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:42,405 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:43,902 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:45,506 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:46,978 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:49,319 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:51,625 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:54,091 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:55,676 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:57,291 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:06:58,903 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:07:00,409 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:07:02,759 - INFO - Graph: 36 samples, 819 metabolites, 966 enzymes
+2026-04-16 15:07:04,353 - INFO - K=200 [remove-random]  AUC=0.766±0.044 (over 5 reps) elapsed=5.8m
+2026-04-16 15:07:04,360 - INFO - 
+=== ABLATION SUMMARY ===
+2026-04-16 15:07:04,363 - INFO -      k  auc_remove_top  auc_remove_random_mean  auc_remove_random_std  auc_delta_vs_baseline
+0    0        0.837500                     NaN                    NaN               0.000000
+1   10        0.858333                0.765833               0.046428               0.020833
+2   30        0.816667                0.749167               0.066999              -0.020833
+3   50        0.816667                0.765833               0.046428              -0.020833
+4  100        0.816667                0.745000               0.061824              -0.020833
+5  200        0.837500                0.765833               0.043732               0.000000
+2026-04-16 15:07:04,363 - INFO - All results: pain_hetero_pipeline/out_hetero_endogenous_6fold
